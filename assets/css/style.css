@@ -403,24 +403,77 @@ template {
   display: none; }
 
 h1 {
-  font-size: 4em; }
+  font-size: 2.625rem; }
 
-header {
-  height: 7.5rem;
-  background: #5c6b78;
-  background: -webkit-linear-gradient(top, #5c6b78 0%, #505a66 100%);
+a {
+  color: #fff;
+  transition: color 0.3s ease; }
+
+.main-container {
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 960px;
   width: 100%; }
 
+.header-container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background: #566370;
+  /* For browsers that do not support gradients */
+  background: linear-gradient(#505a66, #5c6b78);
+  /* For Safari 5.1 to 6.0 */
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#505a66, #5c6b78);
+  /* For Firefox 3.6 to 15 */
+  height: 120px; }
+
+header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 44px 0 0 0; }
+
 .logo {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   margin: 0;
   word-spacing: -0.16666666666666666666666666666667em;
-  font-size: 2.625rem;
   font-family: 'Langdon', 'impact', 'arial', sans-serif;
   font-weight: normal;
   text-transform: uppercase;
   color: #fff; }
+  .logo a {
+    text-decoration: none; }
   .logo span {
     display: inline-block;
     -webkit-transform: translateY(-0.1em);
     -ms-transform: translateY(-0.1em);
     transform: translateY(-0.1em); }
+
+nav {
+  font-size: 1rem;
+  font-family: 'segoe ui';
+  text-transform: lowercase;
+  color: #fff;
+  margin: 10px 0 0 0; }
+  nav a {
+    text-decoration: none;
+    color: #99b6ce; }
+    nav a:hover {
+      color: #fff; }
+  nav .current {
+    color: #fff; }
+  nav ul {
+    margin: 0;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none; }
+  nav li {
+    padding: 0 14px; }
