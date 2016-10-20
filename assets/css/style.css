@@ -479,9 +479,8 @@ header {
     transform: translateY(-0.1em); }
 
 nav {
-  font-size: 1rem;
-  font-family: 'segoe ui';
-  text-transform: lowercase;
+  font-size: 0.875rem;
+  font-family: 'Segoe UI';
   color: #fff;
   margin: 10px 0 0 0; }
   nav a {
@@ -506,14 +505,25 @@ nav {
   box-sizing: border-box;
   padding: 0.1875em 0.5em;
   margin: 0;
-  border: 2px dotted #99b6ce;
+  border: 2px dotted #828d99;
   margin: -30px auto 0 auto;
   background-color: #56626f; }
+
+.textblock {
+  font-family: 'Freight Text Pro Light';
+  width: 70%;
+  padding: 0 0.5em 0 0;
+  border-right: 2px dotted #828d99; }
 
 .about-wrapper {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 100%;
   border-top: 2px dotted #99b6ce;
+  margin: 100px 0 0 0;
+  border-top: 2px dotted #828d99;
   margin: 100px 0 0 0; }
