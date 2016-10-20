@@ -1,7 +1,19 @@
 body {
   font-size: 100%;
+  position: relative;
   color: $defaultfontcol;
   font-smoothing: antialiased;
   font-family: 'Freight Text Pro';
   line-height: 1.2;
+  background: linear-gradient(#4b535e, #829fb5);  
+}
+
+.bg-image {
+  position: absolute;
+  height: 25vw;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('/assets/img/body_bg.png');
+  background-size: cover;
 }
