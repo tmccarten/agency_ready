@@ -62,5 +62,10 @@ nav {
 
   li {
     padding: 0 14px;
+
+    &:last-child {
+      padding: 0 0 0 14px;
+    }
+
   }
 }

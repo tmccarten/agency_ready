@@ -2,10 +2,10 @@ body {
   font-size: 100%;
   position: relative;
   color: $defaultfontcol;
-  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
   font-family: 'Freight Text Pro';
   line-height: 1.2;
-  background: linear-gradient(#4b535e, #829fb5);  
+  background: linear-gradient(#4b535e, #829fb5);
 }
 
 .bg-image {
