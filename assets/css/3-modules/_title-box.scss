@@ -2,7 +2,8 @@
   box-sizing: border-box;
   padding: 0.1875em 0.5em;
   margin: 0;
-  border: 2px dotted $navlinkcol;
+  border: 2px dotted $dottedbordercol;
   margin: -30px auto 0 auto;
-  background-color: #56626f;
+  background-color: #56626f;  
+  //box-shadow: 3px 3px 0px 0px rgba(59,67,76,0.44);
 }

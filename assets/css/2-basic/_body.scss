@@ -1,10 +1,15 @@
+html {
+  height: 100%;
+}
+
 body {
-  font-size: 100%;
-  position: relative;
+  font-size: 1.4375rem;
+  //position: relative;
   color: $defaultfontcol;
   -webkit-font-smoothing: antialiased;
   font-family: 'Freight Text Pro';
   line-height: 1.2;
+  height: 100%;
   background: linear-gradient(#4b535e, #829fb5);
 }
 
