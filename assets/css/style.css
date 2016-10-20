@@ -413,11 +413,9 @@ a {
   transition: color 0.3s ease; }
 
 body {
-  font-size: 100%;
-  position: relative;
   color: #fff;
-  -webkit-font-smoothing: antialiased;
   font-family: 'Freight Text Pro';
+  font-size: 1.25rem;
   line-height: 1.2;
   background: linear-gradient(#4b535e, #829fb5); }
 
@@ -511,7 +509,7 @@ nav {
 
 .textblock {
   font-family: 'Freight Text Pro Light';
-  width: 70%;
+  width: 66.666666666666666666666666666667%;
   padding: 0 0.5em 0 0;
   border-right: 2px dotted #828d99; }
 
