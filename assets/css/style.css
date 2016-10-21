@@ -417,10 +417,11 @@ body {
   font-family: 'Freight Text Pro';
   font-size: 1.25rem;
   line-height: 1.2;
-  background: linear-gradient(#4b535e, #829fb5); }
+  background: linear-gradient(#4b535e, #829fb5) fixed; }
 
 .bg-image {
   position: absolute;
+  opacity: 0.5;
   height: 25vw;
   right: 0;
   bottom: 0;
@@ -433,7 +434,7 @@ body {
   padding: 0 1rem;
   max-width: 960px;
   width: 100%;
-  height: 100vh; }
+  height: auto; }
 
 .header-container {
   display: -webkit-flex;
@@ -521,7 +522,5 @@ nav {
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
-  border-top: 2px dotted #99b6ce;
-  margin: 100px 0 0 0;
   border-top: 2px dotted #828d99;
   margin: 100px 0 0 0; }
