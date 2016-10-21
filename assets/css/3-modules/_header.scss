@@ -8,13 +8,15 @@
   background: -o-linear-gradient(#505a66, #5c6b78); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(#505a66, #5c6b78); /* For Firefox 3.6 to 15 */
   height: 120px;
+  margin: 0 0 65px 0;
 }
 
 .main-header {
   display: flex;
   align-items: center;
   margin: 44px 0 0 0;
-  width: 60%;
+  width: 100%;
+  max-width: 960px;
 }
 
 .logo {
