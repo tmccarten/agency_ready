@@ -413,20 +413,21 @@ a {
   transition: color 0.3s ease; }
 
 html {
-  height: 100%; }
+  height: auto; }
 
 body {
-  font-size: 1.4375rem;
+  font-size: 1.25rem;
   color: #fff;
   -webkit-font-smoothing: antialiased;
   font-family: 'Freight Text Pro';
   line-height: 1.2;
-  height: 100%;
   background: linear-gradient(#4b535e, #829fb5); }
 
-.bg-image {
+body::before {
+  content: "";
+  opacity: 0.3;
   position: absolute;
-  height: 25vw;
+  height: 30vw;
   right: 0;
   bottom: 0;
   left: 0;
@@ -512,25 +513,41 @@ nav {
     nav li:last-child {
       padding: 0 0 0 14px; }
 
-.title-box {
-  box-sizing: border-box;
-  padding: 0.1875em 0.5em;
-  margin: 0;
-  border: 2px dotted #828d99;
-  margin: -30px auto 0 auto;
-  background-color: #56626f; }
-
-.textblock {
-  font-family: 'Freight Text Pro Light';
-  width: 70%;
-  padding: 0 0.5em 0 0;
-  border-right: 2px dotted #828d99; }
-
-.about-title {
+.title {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
-  max-width: 960px;
   width: 100%;
   border-top: 2px dotted #828d99; }
+
+.title.large {
+  max-width: 960px; }
+
+.title.small {
+  max-width: 100%; }
+
+.title-box {
+  box-sizing: border-box;
+  padding: 0.1875em 0.5em;
+  border: 2px dotted #828d99;
+  background-color: #56626f;
+  box-shadow: 3px 3px 0px 0px rgba(59, 67, 76, 0.44); }
+
+.title-box.large {
+  margin: -30px auto 0 auto; }
+
+.title-box.small {
+  font-size: 1.625rem;
+  margin: -26px auto 0 auto; }
+
+.textblock {
+  font-family: 'Freight Text Pro';
+  font-weight: lighter;
+  width: 65%;
+  padding: 0 0.5em 0 0;
+  border-right: 2px dotted #828d99; }
+
+.findme {
+  padding: 2rem 0 0 0;
+  width: 35%; }

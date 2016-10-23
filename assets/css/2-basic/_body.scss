@@ -1,21 +1,22 @@
 html {
-  height: 100%;
+  height: auto;
 }
 
 body {
-  font-size: 1.4375rem;
+  font-size: 1.25rem;
   //position: relative;
   color: $defaultfontcol;
   -webkit-font-smoothing: antialiased;
   font-family: 'Freight Text Pro';
   line-height: 1.2;
-  height: 100%;
   background: linear-gradient(#4b535e, #829fb5);
 }
 
-.bg-image {
+body::before {
+  content: "";
+  opacity: 0.3;
   position: absolute;
-  height: 25vw;
+  height: 30vw;
   right: 0;
   bottom: 0;
   left: 0;
