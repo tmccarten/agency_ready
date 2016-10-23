@@ -532,15 +532,15 @@ nav {
 .title-box {
   box-sizing: border-box;
   padding: 0.1875em 0.5em;
-  border: 2px dotted #828d99;
-  background-color: #56626f;
-  box-shadow: 3px 3px 0px 0px rgba(59, 67, 76, 0.44); }
+  border: 2px dotted #828d99; }
 
 .title-box.large {
-  margin: -30px auto 0 auto; }
+  margin: -30px auto 0 auto;
+  background-color: #56626f; }
 
 .title-box.small {
   font-size: 1.625rem;
+  background-color: #586673;
   margin: -26px auto 0 auto; }
 
 .textblock {
