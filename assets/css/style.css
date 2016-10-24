@@ -420,11 +420,13 @@ body {
   color: #fff;
   font-family: 'Freight Text Pro';
   line-height: 1.2;
-  background: linear-gradient(#4b535e, #829fb5); }
+  background: linear-gradient(#4b535e, #829fb5);
+  background: -webkit-linear-gradient(#4b535e, #829fb5);
+  /* For Safari 5.1 to 6.0 */ }
 
 body::before {
   content: "";
-  opacity: 0.3;
+  opacity: 0.2;
   position: absolute;
   height: 30vw;
   right: 0;
@@ -452,13 +454,7 @@ body::before {
   -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
-  background: #566370;
-  /* For browsers that do not support gradients */
-  background: linear-gradient(#505a66, #5c6b78);
-  /* For Safari 5.1 to 6.0 */
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#505a66, #5c6b78);
-  /* For Firefox 3.6 to 15 */
+  background: #57626f;
   height: 120px;
   margin: 0 0 65px 0; }
 
@@ -469,7 +465,7 @@ body::before {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  margin: 44px 0 0 0;
+  margin: 24px 0 0 0;
   width: 100%;
   max-width: 960px;
   padding: 0 1rem; }
@@ -521,7 +517,7 @@ nav {
   display: flex;
   margin: 0 auto;
   width: 100%;
-  border-top: 2px dotted #828d99; }
+  border-top: 2px dotted #bebebe; }
 
 .title.large {
   max-width: 960px; }
@@ -532,7 +528,7 @@ nav {
 .title-box {
   box-sizing: border-box;
   padding: 0.1875em 0.5em;
-  border: 2px dotted #828d99; }
+  border: 2px dotted #bebebe; }
 
 .title-box.large {
   margin: -30px auto 0 auto;
@@ -540,7 +536,7 @@ nav {
 
 .title-box.small {
   font-size: 1.625rem;
-  background-color: #586673;
+  background-color: #596774;
   margin: -26px auto 0 auto; }
 
 .textblock {
@@ -548,8 +544,24 @@ nav {
   font-weight: lighter;
   width: 65%;
   padding: 0 0.5em 0 0;
-  border-right: 2px dotted #828d99; }
+  border-right: 2px dotted #bebebe; }
 
 .findme {
-  padding: 2rem 0 0 0;
-  width: 35%; }
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 35%;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  padding: 5% 0 0 0; }
+  .findme img {
+    padding: 5.952380952380952380952380952381%;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    margin: 0 auto 10% auto;
+    max-width: 100%;
+    height: auto; }

@@ -2,11 +2,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  background: #566370; /* For browsers that do not support gradients */
-  background: linear-gradient(#505a66, #5c6b78);
-  background: -webkit-linear-gradient(#505a66, #5c6b78); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#505a66, #5c6b78); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#505a66, #5c6b78); /* For Firefox 3.6 to 15 */
+  background: #57626f;
   height: 120px;
   margin: 0 0 65px 0;
 }
@@ -14,7 +10,7 @@
 .main-header {
   display: flex;
   align-items: center;
-  margin: 44px 0 0 0;
+  margin: 24px 0 0 0;
   width: 100%;
   max-width: 960px;
   padding: 0 1rem;

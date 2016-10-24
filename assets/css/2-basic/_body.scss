@@ -7,12 +7,12 @@ body {
   color: $defaultfontcol;
   font-family: 'Freight Text Pro';
   line-height: 1.2;
-  background: linear-gradient(#4b535e, #829fb5);
+  @include filter-gradient($primarygradient);
 }
 
 body::before {
   content: "";
-  opacity: 0.3;
+  opacity: 0.2;
   position: absolute;
   height: 30vw;
   right: 0;
