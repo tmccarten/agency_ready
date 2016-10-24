@@ -6,7 +6,7 @@
 }
 
 .title.large {
-  max-width: 960px;
+  max-width: $maxwidth;
 }
 
 .title.small {
@@ -22,11 +22,11 @@
 
 .title-box.large {
   margin: -30px auto 0 auto;
-  background-color: #56626f;
+  background-color: $primarybackgroundcol;
 }
 
 .title-box.small {
   font-size: 1.625rem;
-  background-color: #596774;
+  background-color: $primarybackgroundcol;
   margin: -26px auto 0 auto;
 }

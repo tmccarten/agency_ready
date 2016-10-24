@@ -420,9 +420,7 @@ body {
   color: #fff;
   font-family: 'Freight Text Pro';
   line-height: 1.2;
-  background: linear-gradient(#4b535e, #829fb5);
-  background: -webkit-linear-gradient(#4b535e, #829fb5);
-  /* For Safari 5.1 to 6.0 */ }
+  background-color: #4b535e; }
 
 body::before {
   content: "";
@@ -489,19 +487,23 @@ body::before {
     transform: translateY(-0.1em); }
 
 nav {
-  font-size: 0.875rem;
-  font-family: 'Segoe UI';
+  font-size: 1.2rem;
+  font-family: 'Freight Text Pro';
+  font-weight: bold;
   color: #fff;
   margin: 10px 0 0 0; }
   nav a {
     text-decoration: none;
-    color: #99b6ce; }
-    nav a:hover {
-      color: #fff; }
-  nav .current {
     color: #fff; }
+    nav a:hover {
+      color: #fff;
+      border-bottom: 1px dotted white; }
+  nav .current {
+    color: #fff;
+    border-bottom: 1px dotted white; }
   nav ul {
     margin: 0;
+    padding: 0;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -532,19 +534,19 @@ nav {
 
 .title-box.large {
   margin: -30px auto 0 auto;
-  background-color: #56626f; }
+  background-color: #4b535e; }
 
 .title-box.small {
   font-size: 1.625rem;
-  background-color: #596774;
+  background-color: #4b535e;
   margin: -26px auto 0 auto; }
 
 .textblock {
   font-family: 'Freight Text Pro';
   font-weight: lighter;
-  width: 65%;
-  padding: 0 0.5em 0 0;
-  border-right: 2px dotted #bebebe; }
+  width: 65.41666666666667%;
+  min-height: 50vh;
+  padding: 0 0.5em 0 0; }
 
 .findme {
   display: -webkit-flex;
@@ -553,15 +555,32 @@ nav {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 35%;
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
-  padding: 5% 0 0 0; }
+  padding: 5% 0 0 0;
+  border-left: 2px dotted #bebebe; }
   .findme img {
-    padding: 5.952380952380952380952380952381%;
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
-    margin: 0 auto 10% auto;
+    margin: 1rem auto;
     max-width: 100%;
     height: auto; }
+
+.socialmedia {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .socialmedia img {
+    padding: 0 1rem; }

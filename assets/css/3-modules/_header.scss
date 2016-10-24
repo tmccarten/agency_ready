@@ -12,7 +12,7 @@
   align-items: center;
   margin: 24px 0 0 0;
   width: 100%;
-  max-width: 960px;
+  max-width: $maxwidth;
   padding: 0 1rem;
 }
 
@@ -36,8 +36,9 @@
 }
 
 nav {
-  font-size: 0.875rem;
-  font-family: 'Segoe UI';
+  font-size: 1.2rem;
+  font-family: 'Freight Text Pro';
+  font-weight: bold;
   //text-transform: uppercase;
   color: #fff;
   margin: 10px 0 0 0;
@@ -48,15 +49,20 @@ nav {
 
     &:hover {
       color: $defaultfontcol;
+      //border-top: 1px dotted white;
+      border-bottom: 1px dotted white;
     }
   }
 
   .current {
-    color: $defaultfontcol;
+     color: $defaultfontcol;
+     //border-top: 1px dotted white;
+     border-bottom: 1px dotted white;
   }
 
   ul {
     margin: 0;
+    padding: 0;
     display: flex;
     list-style-type: none;
   }
