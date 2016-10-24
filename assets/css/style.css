@@ -128,7 +128,7 @@ strong {
  */
 b,
 strong {
-  font-weight: bolder; }
+  font-weight: bold; }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -416,9 +416,9 @@ html {
   height: auto; }
 
 body {
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: #fff;
-  font-family: 'Freight Text Pro';
+  font-family: "Merriweather";
   line-height: 1.2;
   background-color: #4b535e; }
 
@@ -487,31 +487,27 @@ body::before {
     transform: translateY(-0.1em); }
 
 nav {
-  font-size: 1.2rem;
-  font-family: 'Freight Text Pro';
-  font-weight: bold;
+  font-size: 1rem;
+  font-family: "Merriweather";
   color: #fff;
-  margin: 10px 0 0 0; }
+  margin: 10px 0 0 0px; }
   nav a {
     text-decoration: none;
     color: #fff; }
-    nav a:hover {
+    nav a:hover, nav a.current {
       color: #fff;
-      border-bottom: 1px dotted white; }
-  nav .current {
-    color: #fff;
-    border-bottom: 1px dotted white; }
-  nav ul {
-    margin: 0;
-    padding: 0;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    list-style-type: none; }
+      border-bottom: 2px solid white; }
   nav li {
-    padding: 0 14px; }
-    nav li:last-child {
-      padding: 0 0 0 14px; }
+    padding: 0;
+    margin: 0 1rem 0 0; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none; }
 
 .title {
   display: -webkit-flex;
@@ -542,10 +538,9 @@ nav {
   margin: -26px auto 0 auto; }
 
 .textblock {
-  font-family: 'Freight Text Pro';
-  font-weight: lighter;
   width: 65.41666666666667%;
-  min-height: 50vh;
+  font-family: 'EB Garamond';
+  font-size: 1.25rem;
   padding: 0 0.5em 0 0; }
 
 .findme {
@@ -563,10 +558,12 @@ nav {
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
-  padding: 5% 1rem 0 1rem;
+  padding: 0 1rem 0 1rem;
   border-left: 2px dotted #bebebe; }
   .findme img {
-    margin: 1rem auto;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    margin: 0 auto 3rem auto;
     max-width: 100%;
     height: auto; }
 
@@ -580,8 +577,7 @@ nav {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  padding: 0.5rem 0;
-  border-top: 2px dotted #bebebe;
   border-bottom: 2px dotted #bebebe; }
   .socialmedia img {
-    padding: 0 1rem; }
+    padding: 0 1rem;
+    margin: 2em auto 2.5em auto; }

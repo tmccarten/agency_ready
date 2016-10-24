@@ -36,43 +36,33 @@
 }
 
 nav {
-  font-size: 1.2rem;
-  font-family: 'Freight Text Pro';
-  font-weight: bold;
+  font-size: 1rem;
+  font-family: $primaryfontfamily;
+  //font-weight: bold;
   //text-transform: uppercase;
-  color: #fff;
-  margin: 10px 0 0 0;
+  color: #fff;  
+  margin: 10px 0 0 0px;
 
   a {
     text-decoration: none;
     color: $navlinkcol;
 
-    &:hover {
+    &:hover, &.current {
       color: $defaultfontcol;
-      //border-top: 1px dotted white;
-      border-bottom: 1px dotted white;
+      //border-top: 1px solid white;
+      border-bottom: 2px solid white;
     }
-  }
-
-  .current {
-     color: $defaultfontcol;
-     //border-top: 1px dotted white;
-     border-bottom: 1px dotted white;
-  }
-
-  ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    list-style-type: none;
   }
 
   li {
-    padding: 0 14px;
-
-    &:last-child {
-      padding: 0 0 0 14px;
-    }
-
+    padding: 0;
+    margin: 0 1rem 0 0;
   }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
 }

@@ -3,9 +3,9 @@ html {
 }
 
 body {
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: $defaultfontcol;
-  font-family: 'Freight Text Pro';
+  font-family: $primaryfontfamily;
   line-height: 1.2;
   //@include filter-gradient($primarygradient);
   background-color: $primarybackgroundcol;
