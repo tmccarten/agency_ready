@@ -1,17 +1,18 @@
 .findme {
   display: flex;
+  box-sizing: border-box;
   flex-direction: column;
   justify-content: center;
   //flex-flow: column-reverse;
   width: 35%;
   align-self: flex-start;
-  padding: 5% 0 0 0;
+  padding: 5% 1rem 0 1rem;
   border-left: 2px dotted $secondarybordercol;
   //border-right: 2px dotted $secondarybordercol;
 
   img {
     //padding: 5.952380952380952380952380952381%;
-    filter: grayscale(1);
+    //filter: sepia(0.75);
     margin: 1rem auto;
     max-width: 100%;
     height: auto;
@@ -21,8 +22,11 @@
 .socialmedia {
   display: flex;
   justify-content: center;
-  margin: 0 auto;
+  //margin: 0 auto;
   flex-wrap: wrap;
+  padding: 0.5rem 0;
+  border-top: 2px dotted $secondarybordercol;
+  border-bottom: 2px dotted $secondarybordercol;
 
   img {
     padding: 0 1rem;
