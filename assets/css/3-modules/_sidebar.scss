@@ -5,17 +5,22 @@
   justify-content: center;
   //flex-flow: column-reverse;
   width: 35%;
-  align-self: flex-start;
   padding: 0 1rem 0 1rem;
   border-left: 2px dotted $secondarybordercol;
   //border-right: 2px dotted $secondarybordercol;
 
   img {
-    filter: grayscale(1);
+    //filter: grayscale(1);
     margin: 0 auto 3rem auto;
     max-width: 100%;
     height: auto;
+    border: 2px solid white;
   }
+
+  a {
+    margin: 0 auto;
+  }
+
 }
 
 .socialmedia {
@@ -27,7 +32,9 @@
   border-bottom: 2px dotted $secondarybordercol;
 
   img {
+    border: none;
     padding: 0 1rem;
     margin: 2em auto 2.5em auto;
+
   }
 }
