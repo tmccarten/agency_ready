@@ -419,7 +419,9 @@ html {
   height: auto; }
 
 body {
+  height: auto;
   font-size: 1.25rem;
+  margin: 0 0 1rem 0;
   color: #fff;
   font-family: "Roboto";
   line-height: 1.2;
@@ -428,8 +430,8 @@ body {
 body::before {
   content: "";
   opacity: 0.2;
-  position: absolute;
-  height: 30vw;
+  position: fixed;
+  height: 40vw;
   right: 0;
   bottom: 0;
   left: 0;
