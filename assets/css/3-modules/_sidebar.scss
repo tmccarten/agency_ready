@@ -1,4 +1,4 @@
-.findme {
+.sidebar {
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
@@ -10,7 +10,7 @@
   //border-right: 2px dotted $secondarybordercol;
 
   img {
-    //filter: grayscale(1);
+    filter: grayscale(1);
     margin: 0 auto 3rem auto;
     max-width: 100%;
     height: auto;
@@ -23,18 +23,52 @@
 
 }
 
-.socialmedia {
+.sidebar-block {
   display: flex;
   justify-content: center;
-  //margin: 0 auto;
+  margin: 0 0 1rem 0;
   flex-wrap: wrap;
-  //border-top: 2px dotted $secondarybordercol;
-  border-bottom: 2px dotted $secondarybordercol;
 
   img {
     border: none;
-    padding: 0 1rem;
-    margin: 2em auto 2.5em auto;
-
+    padding: 0;
+    margin: 1em;
   }
+}
+
+.socialicons {
+flex-wrap: wrap;
+margin: 1em auto 1.2em auto;
+justify-content: center;
+}
+
+.sidebar-links {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1rem;
+  //text-transform: uppercase;
+  margin: 1em 0 0 0;
+
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    border-bottom: 1px dotted white;
+    border-top: 1px dotted white;
+    //font-weight: bold;
+    //border-radius: 1em;
+    margin: 1em 0 0 0;
+    padding: 0.5em 5em;
+    background-color: transparent;
+    color: white;
+
+    &:hover {
+      background-color: white;
+      color: $primarybackgroundcol;
+    }
+    }
+
 }

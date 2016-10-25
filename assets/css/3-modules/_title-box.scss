@@ -3,13 +3,14 @@
   margin: 0 auto;
   width: 100%;
   border-top: 2px dotted $primarybordercol;
+  font-family: $secondaryfontfamily;
 }
 
 .title.large {
   max-width: $maxwidth;
 }
 
-.title.small {
+.title.medium, .title.small {
   max-width: 100%;
 }
 
@@ -25,8 +26,14 @@
   background-color: $primarybackgroundcol;
 }
 
-.title-box.small {
+.title-box.medium {
   font-size: 1.625rem;
   background-color: $primarybackgroundcol;
   margin: -26px auto 0 auto;
+}
+
+.title-box.small {
+  font-size: 1.375rem;
+  background-color: $primarybackgroundcol;
+  margin: -24px auto 0 auto;
 }
