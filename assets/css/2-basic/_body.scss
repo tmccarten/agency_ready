@@ -10,17 +10,19 @@ html {
 
 body {
   font-size: 1.25rem;
+  height: 100%;
   color: $defaultfontcol;
   font-family: $primaryfontfamily;
   line-height: 1.2;
   //@include filter-gradient($primarygradient);
   background-color: $primarybackgroundcol;
+
 }
 
 body::before {
   content: "";
   opacity: 0.3;
-  position: absolute;
+  position: fixed;
   height: 50vw;
   right: 0;
   bottom: 0;
@@ -28,5 +30,4 @@ body::before {
   z-index: -1;
   background-image: url('/assets/img/body_bg.png');
   background-size: cover;
-  background-position: fixed;
 }

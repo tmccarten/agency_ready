@@ -430,6 +430,7 @@ html {
 
 body {
   font-size: 1.25rem;
+  height: 100%;
   color: #fff;
   font-family: "Roboto";
   line-height: 1.2;
@@ -438,15 +439,14 @@ body {
 body::before {
   content: "";
   opacity: 0.3;
-  position: absolute;
+  position: fixed;
   height: 50vw;
   right: 0;
   bottom: 0;
   left: 0;
   z-index: -1;
   background-image: url("/assets/img/body_bg.png");
-  background-size: cover;
-  background-position: fixed; }
+  background-size: cover; }
 
 .wrapper {
   display: -webkit-flex;
@@ -649,3 +649,11 @@ ul {
     .sidebar-links a:hover {
       background-color: white;
       color: #4b535e; }
+
+footer {
+  width: 960px;
+  font-family: "Merriweather";
+  border-top: 2px dotted white;
+  padding: 1rem;
+  margin: 2rem auto;
+  max-width: 100%; }
