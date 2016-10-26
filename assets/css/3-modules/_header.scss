@@ -9,6 +9,7 @@
 
 .main-header {
   display: flex;
+  box-sizing: content-box;
   align-items: center;
   margin: 24px 0 0 0;
   width: 100%;
@@ -24,6 +25,8 @@
   font-weight: normal;
   text-transform: uppercase;
   color: #fff;
+  width: 64.79166666666667%;
+  //text-shadow: 1px 1px $primarybackgroundcol;
 
   a {
     text-decoration: none;
@@ -36,27 +39,33 @@
 }
 
 nav {
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-family: $secondaryfontfamily;
   //font-weight: bold;
   //text-transform: uppercase;
   color: #fff;
-  margin: 10px 0 0 0px;
+  margin: 0.625em 1.4em 0 0px;
 
   a {
     text-decoration: none;
     color: $navlinkcol;
+    padding: 0 0 0.1em 0;
+    //text-shadow: 1px 1px black;
 
     &:hover, &.current {
       color: $defaultfontcol;
       //border-top: 1px solid white;
-      border-bottom: 1px dotted white;
+      border-bottom: 0.0555555555555556em dotted white;
     }
   }
 
   li {
     padding: 0;
     margin: 0 1.575rem 0 0;
+
+    &:last-child {
+      margin: 0;
+    }
   }
 }
 
