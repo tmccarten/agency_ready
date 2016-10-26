@@ -438,13 +438,8 @@ html {
   opacity: 1; }
 
 body {
-  height: auto;
   font-size: 1.25rem;
-<<<<<<< HEAD
-  margin: 0 0 1rem 0;
-=======
   height: 100%;
->>>>>>> origin/different-containers-structure
   color: #fff;
   font-family: "Roboto";
   line-height: 1.2;
@@ -452,15 +447,9 @@ body {
 
 body::before {
   content: "";
-<<<<<<< HEAD
-  opacity: 0.2;
-  position: fixed;
-  height: 40vw;
-=======
   opacity: 0.25;
   position: fixed;
   height: 600px;
->>>>>>> origin/different-containers-structure
   right: 0;
   bottom: 0;
   left: 0;
@@ -601,17 +590,10 @@ ul {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-<<<<<<< HEAD
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 35.925%;
-=======
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
   width: 35.20833333333333%;
->>>>>>> origin/different-containers-structure
   padding: 0 1rem 0 1rem;
   border-left: 2px dotted #bebebe; }
   .sidebar img {

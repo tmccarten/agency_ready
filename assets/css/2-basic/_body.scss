@@ -13,13 +13,8 @@ html {
 }
 
 body {
-  height: auto;
   font-size: 1.25rem;
-<<<<<<< HEAD
-  margin: 0 0 1rem 0;
-=======
   height: 100%;
->>>>>>> origin/different-containers-structure
   color: $defaultfontcol;
   font-family: $primaryfontfamily;
   line-height: 1.2;
@@ -30,20 +25,13 @@ body {
 
 body::before {
   content: "";
-<<<<<<< HEAD
-  opacity: 0.2;
-  position: fixed;
-  height: 40vw;
-=======
   opacity: 0.25;
   position: fixed;
   height: 600px;
->>>>>>> origin/different-containers-structure
   right: 0;
   bottom: 0;
   left: 0;
   z-index: -1;
   background-image: url('/assets/img/body_bg.png');
   background-size: cover;
-  //background-position: center bottom;
 }
