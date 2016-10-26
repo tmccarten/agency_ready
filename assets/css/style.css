@@ -418,6 +418,16 @@ a {
 html {
   height: auto; }
 
+::-moz-selection {
+  background-color: gray;
+  color: white;
+  opacity: 1; }
+
+::selection {
+  background-color: gray;
+  color: white;
+  opacity: 1; }
+
 body {
   font-size: 1.25rem;
   color: #fff;
@@ -427,15 +437,16 @@ body {
 
 body::before {
   content: "";
-  opacity: 0.2;
+  opacity: 0.3;
   position: absolute;
-  height: 30vw;
+  height: 50vw;
   right: 0;
   bottom: 0;
   left: 0;
   z-index: -1;
   background-image: url("/assets/img/body_bg.png");
-  background-size: cover; }
+  background-size: cover;
+  background-position: fixed; }
 
 .wrapper {
   display: -webkit-flex;
@@ -491,10 +502,10 @@ body::before {
     transform: translateY(-0.1em); }
 
 nav {
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-family: "Merriweather";
   color: #fff;
-  margin: 10px 0 0 0px; }
+  margin: 0.625em 1em 0 0px; }
   nav a {
     text-decoration: none;
     color: #fff; }
@@ -504,6 +515,8 @@ nav {
   nav li {
     padding: 0;
     margin: 0 1.575rem 0 0; }
+    nav li:last-child {
+      margin: 0; }
 
 ul {
   margin: 0;

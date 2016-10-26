@@ -2,6 +2,12 @@ html {
   height: auto;
 }
 
+::selection {
+  background-color: gray;
+  color: white;
+  opacity: 1;
+}
+
 body {
   font-size: 1.25rem;
   color: $defaultfontcol;
@@ -13,13 +19,14 @@ body {
 
 body::before {
   content: "";
-  opacity: 0.2;
+  opacity: 0.3;
   position: absolute;
-  height: 30vw;
+  height: 50vw;
   right: 0;
   bottom: 0;
   left: 0;
   z-index: -1;
   background-image: url('/assets/img/body_bg.png');
   background-size: cover;
+  background-position: fixed;
 }
