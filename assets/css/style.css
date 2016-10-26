@@ -441,7 +441,7 @@ body {
 
 body::before {
   content: "";
-  opacity: 0.3;
+  opacity: 0.25;
   position: fixed;
   height: 600px;
   right: 0;
@@ -461,13 +461,13 @@ body::before {
 
 .page-wrapper {
   padding: 0 1rem;
-  min-height: 100%;
-  margin-bottom: -2rem; }
+  min-height: 100%; }
 
 .page-wrapper:after {
   content: "";
   display: block;
-  height: 2rem; }
+  height: 100%;
+  margin: 2rem auto 0 auto; }
 
 .main-header-container {
   display: -webkit-flex;
@@ -503,7 +503,8 @@ body::before {
   font-family: 'Langdon', 'impact', 'arial', sans-serif;
   font-weight: normal;
   text-transform: uppercase;
-  color: #fff; }
+  color: #fff;
+  width: 64.79166666666667%; }
   .logo a {
     text-decoration: none; }
   .logo span {
@@ -516,13 +517,14 @@ nav {
   font-size: 1.125rem;
   font-family: "Merriweather";
   color: #fff;
-  margin: 0.625em 1em 0 0px; }
+  margin: 0.625em 1.4em 0 0px; }
   nav a {
     text-decoration: none;
-    color: #fff; }
+    color: #fff;
+    padding: 0 0 0.1em 0; }
     nav a:hover, nav a.current {
       color: #fff;
-      border-bottom: 1px dotted white; }
+      border-bottom: 0.0555555555555556em dotted white; }
   nav li {
     padding: 0;
     margin: 0 1.575rem 0 0; }
@@ -556,20 +558,17 @@ ul {
   box-sizing: border-box;
   padding: 0.1875em 0.5em;
   border: 2px dotted #bebebe;
-  box-shadow: 0.1em 0.1em 0 0 rgba(59, 67, 76, 0.45); }
+  background-color: #4b535e; }
 
 .title-box.large {
-  margin: -30px auto 0 auto;
-  background-color: #4b535e; }
+  margin: -30px auto 0 auto; }
 
 .title-box.medium {
   font-size: 1.625rem;
-  background-color: #4b535e;
   margin: -26px auto 0 auto; }
 
 .title-box.small {
   font-size: 1.375rem;
-  background-color: #4b535e;
   margin: -24px auto 0 auto; }
 
 .textblock {
@@ -585,9 +584,9 @@ ul {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   width: 35.20833333333333%;
   padding: 0 1rem 0 1rem;
   border-left: 2px dotted #bebebe; }
@@ -661,12 +660,24 @@ ul {
       background-color: white;
       color: #4b535e; }
 
+.footer-container {
+  width: 100%;
+  height: 3.3125rem;
+  background-color: #4b535e;
+  margin: 0; }
+
 footer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 960px;
   font-family: "Merriweather";
-  font-size: 1rem;
-  border-top: 2px dotted white;
-  padding: 1rem;
-  margin: 2rem auto;
+  font-size: 0.875rem;
   max-width: 100%;
-  height: 2rem; }
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: content-box; }
