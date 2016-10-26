@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   height: auto;
 }
@@ -23,7 +27,7 @@ body::before {
   content: "";
   opacity: 0.3;
   position: fixed;
-  height: 50vw;
+  height: 600px;
   right: 0;
   bottom: 0;
   left: 0;

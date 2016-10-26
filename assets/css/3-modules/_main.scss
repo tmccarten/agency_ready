@@ -2,9 +2,17 @@
   display: flex;
   margin: 0 auto;
   max-width: $maxwidth;
-  width: 100%;  
+  width: 100%;
 }
 
 .page-wrapper {
   padding: 0 1rem;
+  min-height: 100%;
+  margin-bottom: -2rem;
+}
+
+.page-wrapper:after {
+  content: "";
+  display: block;
+  height: 2rem;
 }
