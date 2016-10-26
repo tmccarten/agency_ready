@@ -5,7 +5,7 @@
   //flex-flow: column-reverse;
   width: 35.20833333333333%;
   padding: 0 1rem 0 1rem;
-  border-left: 2px dotted $secondarybordercol;
+  border-left: 2px dotted lighten($primarybackgroundcol, 10);
   //border-right: 2px dotted $secondarybordercol;
 
   img {

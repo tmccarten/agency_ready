@@ -2,7 +2,7 @@
   display: flex;
   margin: 0 auto;
   width: 100%;
-  border-top: 2px dotted $primarybordercol;
+  border-top: 2px dotted lighten($primarybackgroundcol, 12);
   font-family: $secondaryfontfamily;
 }
 
@@ -17,14 +17,13 @@
 .title-box {
   box-sizing: border-box;
   padding: 0.1875em 0.5em;
-  border: 2px dotted $primarybordercol;
-  background-color: $primarybackgroundcol
+  border: 2px dotted lighten($primarybackgroundcol, 12);
+  background-color: $primarybackgroundcol;
   //box-shadow: 0.1em 0.1em 0 0 rgba(59,67,76,0.45);
 }
 
 .title-box.large {
   margin: -30px auto 0 auto;
-  ;
 }
 
 .title-box.medium {
