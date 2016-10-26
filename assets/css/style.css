@@ -686,3 +686,11 @@ footer {
   margin: 0 auto;
   padding: 0 1rem;
   box-sizing: content-box; }
+
+@media screen and (max-width: 867px) {
+  .title-box.large {
+    font-size: 1.6125rem; }
+  .socialicons {
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap; } }
