@@ -1,3 +1,14 @@
 $defaultfontcol: #fff;
-$navlinkcol: #99b6ce;
-$dottedbordercol: #828d99;
+$navlinkcol: #fff;
+$primarybordercol: #bebebe;
+$secondarybordercol: #bebebe;
+$primarygradient: #4b535e, #829fb5;
+$primarybackgroundcol: #455a77;
+$maxwidth: 960px;
+$primaryfontfamily: 'Roboto';
+$secondaryfontfamily: 'Merriweather';
+
+@mixin filter-gradient($primarygradient) {
+background: linear-gradient($primarygradient);
+background: -webkit-linear-gradient($primarygradient); /* For Safari 5.1 to 6.0 */
+}

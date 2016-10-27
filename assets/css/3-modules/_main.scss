@@ -1,7 +1,21 @@
-.main-container {
-  margin: 0 auto;
+.page-wrapper {
   padding: 0 1rem;
-  max-width: 960px;
+  min-height: 100%;
+  max-width: $maxwidth;
+  margin: 0 auto;
+  box-sizing: content-box;
+  //margin-bottom: -1rem;
+}
+
+.page-wrapper:after {
+  content: "";
+  display: block;
+  height: 100%;
+  margin: 2rem auto 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  margin: 0 auto;
   width: 100%;
-  height: auto;
 }

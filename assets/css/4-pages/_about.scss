@@ -1,7 +1,10 @@
-.about-wrapper {
-  display: flex;
-  flex-direction: column;
-  width: 100%;  
-  border-top: 2px dotted $dottedbordercol;
-  margin: 100px 0 0 0;
+@media screen and (max-width: 867px) {
+
+  .title-box.large {
+    font-size: 1.6125rem;
+  }
+
+  .socialicons {
+    flex-wrap: nowrap;
+  }
 }

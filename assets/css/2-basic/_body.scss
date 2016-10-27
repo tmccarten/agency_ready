@@ -1,19 +1,37 @@
-
-body {
-  color: $defaultfontcol;
-  font-family: 'Freight Text Pro';
-  font-size: 1.25rem;
-  line-height: 1.2;
-  background: linear-gradient(#4b535e, #829fb5) fixed;
+* {
+  box-sizing: border-box;
 }
 
-.bg-image {
-  position: absolute;
-  opacity: 0.5;
-  height: 25vw;
+html {
+  height: auto;
+}
+
+::selection {
+  background-color: #858590;
+  color: white;
+  opacity: 1;
+}
+
+body {
+  font-size: 1.125rem;
+  height: 100%;
+  color: $defaultfontcol;
+  font-family: $primaryfontfamily;
+  line-height: 1.4;
+  //@include filter-gradient($primarygradient);
+  background-color: $primarybackgroundcol;
+
+}
+
+body::before {
+  content: "";
+  opacity: 0.25;
+  position: fixed;
+  height: 600px;
   right: 0;
   bottom: 0;
   left: 0;
+  z-index: -1;
   background-image: url('/assets/img/body_bg.png');
   background-size: cover;
 }

@@ -1,18 +1,20 @@
-.header-container {
+.main-header-container {
   display: flex;
+  justify-content: center;
   width: 100%;
-  background: #566370; /* For browsers that do not support gradients */
-  background: linear-gradient(#505a66, #5c6b78);
-  background: -webkit-linear-gradient(#505a66, #5c6b78); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#505a66, #5c6b78); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#505a66, #5c6b78); /* For Firefox 3.6 to 15 */
+  background-color: lighten($primarybackgroundcol, 7);
   height: 120px;
+  margin: 0 0 65px 0;
 }
 
-header {
+.main-header {
   display: flex;
+  box-sizing: content-box;
   align-items: center;
-  margin: 44px 0 0 0;
+  margin: 24px 0 0 0;
+  width: 100%;
+  max-width: $maxwidth;
+  padding: 0 1rem;
 }
 
 .logo {
@@ -23,6 +25,8 @@ header {
   font-weight: normal;
   text-transform: uppercase;
   color: #fff;
+  width: 64.79166666666667%;
+  //text-shadow: 1px 1px $primarybackgroundcol;
 
   a {
     text-decoration: none;
@@ -35,37 +39,39 @@ header {
 }
 
 nav {
-  font-size: 0.875rem;
-  font-family: 'Segoe UI';
-  //text-transform: lowercase;
+  font-size: 1.125rem;
+  font-family: $secondaryfontfamily;
+  //font-weight: bold;
+  //text-transform: uppercase;
   color: #fff;
-  margin: 10px 0 0 0;
+  margin: 0.625em 1.4em 0 0px;
 
   a {
     text-decoration: none;
     color: $navlinkcol;
+    padding: 0 0 0.1em 0;
+    //text-shadow: 1px 1px black;
 
-    &:hover {
+    &:hover, &.current {
       color: $defaultfontcol;
+      //border-top: 1px solid white;
+      border-bottom: 0.0555555555555556em dotted white;
     }
-  }
-
-  .current {
-    color: $defaultfontcol;
-  }
-
-  ul {
-    margin: 0;
-    display: flex;
-    list-style-type: none;
   }
 
   li {
-    padding: 0 14px;
+    padding: 0;
+    margin: 0 1.575rem 0 0;
 
     &:last-child {
-      padding: 0 0 0 14px;
+      margin: 0;
     }
-
   }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
 }
