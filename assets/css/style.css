@@ -425,7 +425,8 @@ a {
   box-sizing: border-box; }
 
 html {
-  height: auto; }
+  height: auto;
+  overflow-y: scroll; }
 
 ::-moz-selection {
   background-color: #858590;
