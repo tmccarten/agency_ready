@@ -428,21 +428,21 @@ html {
   height: auto; }
 
 ::-moz-selection {
-  background-color: gray;
+  background-color: #858590;
   color: white;
   opacity: 1; }
 
 ::selection {
-  background-color: gray;
+  background-color: #858590;
   color: white;
   opacity: 1; }
 
 body {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   height: 100%;
   color: #fff;
   font-family: "Roboto";
-  line-height: 1.2;
+  line-height: 1.4;
   background-color: #455a77; }
 
 body::before {
@@ -461,7 +461,8 @@ body::before {
   padding: 0 1rem;
   min-height: 100%;
   max-width: 960px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  box-sizing: content-box; }
 
 .page-wrapper:after {
   content: "";
@@ -550,7 +551,6 @@ ul {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 auto;
   width: 100%;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -582,7 +582,6 @@ ul {
 .textblock {
   width: 64.79166666666667%;
   font-weight: 300;
-  font-size: 1.25rem;
   padding: 0 1em 0 0; }
 
 .sidebar {
@@ -596,7 +595,7 @@ ul {
   -ms-flex-pack: start;
   justify-content: flex-start;
   width: 35.20833333333333%;
-  padding: 0 1rem 0 1rem;
+  padding: 0rem 1rem 0 1rem;
   border-left: 2px dotted #587297; }
   .sidebar img {
     -webkit-filter: grayscale(1);
@@ -608,6 +607,14 @@ ul {
     border: 2px solid white; }
   .sidebar a {
     margin: 0 auto; }
+
+.sidebar.blog {
+  padding: 3rem 1rem 0 1rem; }
+  .sidebar.blog a {
+    display: block;
+    padding: 0.5em 0; }
+  .sidebar.blog ol {
+    padding: 0; }
 
 .sidebar-block {
   display: -webkit-flex;
@@ -659,14 +666,21 @@ ul {
     -ms-flex-pack: center;
     justify-content: center;
     border-bottom: 1px dotted white;
-    border-top: 1px dotted white;
     margin: 1em 0 0 0;
     padding: 0.5em 5em;
     background-color: transparent;
     color: white; }
     .sidebar-links a:hover {
-      background-color: white;
-      color: #455a77; }
+      border-bottom: 1px solid white; }
+
+.sidebar-links.blog {
+  display: block;
+  text-align: left;
+  width: 100%; }
+  .sidebar-links.blog ol {
+    padding: 0 0 0 1em; }
+  .sidebar-links.blog a {
+    border-top: none; }
 
 .footer-container {
   width: 100%;

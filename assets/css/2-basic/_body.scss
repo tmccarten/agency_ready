@@ -7,17 +7,17 @@ html {
 }
 
 ::selection {
-  background-color: gray;
+  background-color: #858590;
   color: white;
   opacity: 1;
 }
 
 body {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   height: 100%;
   color: $defaultfontcol;
   font-family: $primaryfontfamily;
-  line-height: 1.2;
+  line-height: 1.4;
   //@include filter-gradient($primarygradient);
   background-color: $primarybackgroundcol;
 

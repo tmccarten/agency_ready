@@ -4,7 +4,8 @@
   justify-content: flex-start;
   //flex-flow: column-reverse;
   width: 35.20833333333333%;
-  padding: 0 1rem 0 1rem;
+  //margin: 3rem 0 0 0;
+  padding: 0rem 1rem 0 1rem;
   border-left: 2px dotted lighten($primarybackgroundcol, 10);
   //border-right: 2px dotted $secondarybordercol;
 
@@ -19,6 +20,20 @@
 
   a {
     margin: 0 auto;
+  }
+
+}
+
+.sidebar.blog {
+  padding: 3rem 1rem 0 1rem;
+
+  a {
+    display: block;
+    padding: 0.5em 0;
+  }
+
+  ol {
+    padding: 0;
   }
 
 }
@@ -57,7 +72,7 @@ justify-content: center;
     text-decoration: none;
     justify-content: center;
     border-bottom: 1px dotted white;
-    border-top: 1px dotted white;
+    //border-top: 1px dotted white;
     //font-weight: bold;
     //border-radius: 1em;
     margin: 1em 0 0 0;
@@ -66,9 +81,22 @@ justify-content: center;
     color: white;
 
     &:hover {
-      background-color: white;
-      color: $primarybackgroundcol;
+      border-bottom: 1px solid white;
     }
     }
 
+}
+
+.sidebar-links.blog {
+  display: block;
+  text-align: left;
+  width: 100%;
+
+  ol {
+    padding: 0 0 0 1em;
+  }
+
+  a {
+    border-top: none;
+  }
 }
