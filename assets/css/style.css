@@ -606,12 +606,12 @@ ul {
   .sidebar a {
     margin: 0 auto; }
 
-.sidebar.blog {
-  padding: 3rem 1rem 0 1rem; }
-  .sidebar.blog a {
+.sidebar.sunken {
+  padding: 1.675rem 1rem 0 1rem; }
+  .sidebar.sunken a {
     display: block;
     padding: 0.5em 0; }
-  .sidebar.blog ol {
+  .sidebar.sunken ol {
     padding: 0; }
 
 .sidebar-block {
