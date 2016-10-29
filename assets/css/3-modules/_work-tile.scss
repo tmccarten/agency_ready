@@ -1,0 +1,31 @@
+.work-tile {
+  width: 231px;
+  height: 231px;
+  margin: 12px 12px 0 0;
+  background-color: lighten($primarybackgroundcol, 7);
+
+  &:nth-child(4n) {
+    margin: 12px 0 0 0;
+  }
+
+  &:hover {
+    background-color: lighten($primarybackgroundcol, 15)
+  }
+
+}
+
+@media screen and (max-width: 990px) {
+
+  .wrapper.work {
+    width: auto;
+  }
+
+  .work-tile {
+
+  &:nth-child(4n) {
+    margin: 12px 12px 0 0;
+  }
+
+}
+
+}

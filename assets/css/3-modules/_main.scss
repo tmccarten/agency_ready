@@ -5,11 +5,13 @@
   margin: 0 auto;
   box-sizing: content-box;
   //margin-bottom: -1rem;
+  min-height: 75vh;
 }
 
 .wrapper {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   margin: 0 auto;
   width: 100%;
-  min-height: 75vh;
 }
