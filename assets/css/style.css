@@ -464,7 +464,7 @@ body::before {
   padding: 0 1rem;
   min-height: 100%;
   max-width: 960px;
-  margin: 0 auto;
+  margin: 0 auto 1rem auto;
   box-sizing: content-box;
   min-height: 75vh; }
 
@@ -599,51 +599,37 @@ ul {
   -ms-flex-pack: start;
   justify-content: flex-start;
   width: 35.20833333333333%;
-  padding: 0rem 1rem 0 1rem;
+  padding: 1.675rem 1rem 0 1rem;
   border-left: 2px dotted #587297; }
   .sidebar img {
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
-    margin: 0 auto 3rem auto;
     box-sizing: content-box;
     max-width: 100%;
     height: auto;
+    margin: 0 0 1em 0;
     border: 2px solid white; }
   .sidebar a {
     margin: 0 auto; }
 
-.sidebar.sunken {
-  padding: 1.675rem 1rem 0 1rem; }
-  .sidebar.sunken a {
-    display: block;
-    padding: 0.5em 0; }
-  .sidebar.sunken ol {
-    padding: 0; }
-
-.sidebar-block {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+.sidebar.about {
+  padding: 0rem 1rem 0 1rem;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
-  justify-content: center;
-  margin: 0 0 1rem 0;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap; }
-  .sidebar-block img {
-    border: none;
-    padding: 0;
-    margin: 1em; }
+  justify-content: center; }
 
 .socialicons {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin: 1em auto 1.2em auto;
+  margin: 1em auto 1.7em auto;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center; }
+  .socialicons img {
+    border: none;
+    padding: 0;
+    margin: 1em; }
 
 .sidebar-links {
   display: -webkit-flex;
@@ -657,7 +643,8 @@ ul {
   -ms-flex-direction: column;
   flex-direction: column;
   font-size: 1rem;
-  margin: 1em 0 0 0; }
+  margin: 1em 0 0 0;
+  padding: 0 2em; }
   .sidebar-links a {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -669,22 +656,32 @@ ul {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    border-bottom: 1px dotted white;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 1em;
     margin: 1em 0 0 0;
-    padding: 0.5em 5em;
-    background-color: transparent;
+    padding: 0.5em;
     color: white; }
     .sidebar-links a:hover {
-      border-bottom: 1px solid white; }
+      background-color: white;
+      color: #455a77; }
 
-.sidebar-links.blog {
+.sidebar-posts {
   display: block;
   text-align: left;
-  width: 100%; }
-  .sidebar-links.blog ol {
+  width: 100%;
+  font-size: 1rem;
+  margin: 1em 0 0 0; }
+  .sidebar-posts ol {
     padding: 0 0 0 1em; }
-  .sidebar-links.blog a {
-    border-top: none; }
+  .sidebar-posts a {
+    display: block;
+    text-decoration: none;
+    margin: 1em 0 0 0;
+    padding: 0.5em 0;
+    border-bottom: 1px dotted white; }
+    .sidebar-posts a:hover {
+      border-bottom: 1px solid white; }
 
 .footer-container {
   display: -webkit-flex;
@@ -710,7 +707,8 @@ footer {
   max-width: 960px;
   font-family: "Merriweather";
   font-size: 0.875rem;
-  box-sizing: content-box; }
+  box-sizing: content-box;
+  padding: 0 1rem; }
   footer span {
     text-align: right; }
 
@@ -730,16 +728,32 @@ footer {
   .work-tile:nth-child(4n) {
     margin: 12px 12px 0 0; } }
 
-@media screen and (max-width: 867px) {
-  .title-box.large {
-    font-size: 1.6125rem; }
-  .socialicons {
-    -webkit-flex-wrap: nowrap;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap; } }
+@media screen and (max-width: 980px) {
+  .wrapper.about {
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse; }
+  .sidebar.about {
+    margin: 0 auto;
+    width: auto;
+    padding: 2rem 0;
+    border-left: none;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+    .sidebar.about img {
+      margin: 0 1em 0 0; }
+      .sidebar.about img:last-child {
+        margin: 0; }
+  .textblock.about {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 602px;
+    width: 100%;
+    border-top: 2px dotted #587297; } }
 
 .wrapper.work {
-  margin: 0.9375rem 0 0 0; }
+  margin: 0.9375rem 0; }
 
 @media screen and (max-width: 1008px) {
   .wrapper.work {

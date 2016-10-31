@@ -1,10 +1,30 @@
-@media screen and (max-width: 867px) {
+@media screen and (max-width: 980px) {
 
-  .title-box.large {
-    font-size: 1.6125rem;
+  .wrapper.about {
+    flex-direction: column-reverse;
   }
 
-  .socialicons {
-    flex-wrap: nowrap;
+  .sidebar.about {
+    margin: 0 auto;
+    width: auto;
+    padding: 2rem 0;
+    border-left: none;
+    flex-direction: row;
+
+    img {
+      margin: 0 1em 0 0;
+
+      &:last-child {
+        margin: 0;
+      }
+    }
   }
+
+  .textblock.about {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 602px;
+    width: 100%;
+    border-top: 2px dotted lighten($primarybackgroundcol, 10);
+}
 }
