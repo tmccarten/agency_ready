@@ -28,3 +28,23 @@
     border-top: 2px dotted lighten($primarybackgroundcol, 10);
 }
 }
+
+@media screen and (max-width: $phonebreakpoint) {
+
+  .wrapper.about {
+    flex-direction: column;
+  }
+
+  .sidebar.about {
+    flex-direction: column;
+
+    img {
+      margin: 0 0 1em 0;
+    }
+  }
+
+  .textblock.about {
+    border-top: none;
+    border-bottom: 2px dotted lighten($primarybackgroundcol, 10);
+  }
+}

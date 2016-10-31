@@ -31,3 +31,9 @@
 .title-box.small {
   font-size: 1.375rem;
 }
+
+@media screen and (max-width: $phonebreakpoint) {
+  .title-box.large {
+    font-size: 1.625rem;
+  }
+}
