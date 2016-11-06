@@ -444,7 +444,7 @@ body {
   color: #fff;
   font-family: "Roboto";
   line-height: 1.4;
-  background-color: #455a77;
+  background-color: #3e3e3e;
   position: relative;
   padding-bottom: 53px; }
 
@@ -489,7 +489,7 @@ body::before {
   -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
-  background-color: #526b8e;
+  background-color: #505050;
   height: 120px;
   margin: 0 0 65px 0; }
 
@@ -518,6 +518,7 @@ body::before {
   color: #fff;
   width: 64.79166666666667%; }
   .logo a {
+    text-shadow: 2px 2px black;
     text-decoration: none; }
   .logo span {
     display: inline-block;
@@ -579,13 +580,13 @@ ul {
   -ms-flex: 1;
   flex: 1;
   width: 100%;
-  border-top: 2px dotted #5b779e; }
+  border-top: 2px dotted #5d5d5d; }
 
 .title-box {
   box-sizing: border-box;
   padding: 0.1875em 0.5em;
   margin: -0.875em 0 0 0;
-  border: 2px dotted #5b779e; }
+  border: 2px dotted #5d5d5d; }
 
 .title-box.large {
   font-size: 1.875rem; }
@@ -617,10 +618,8 @@ ul {
   justify-content: flex-start;
   width: 35.20833333333333%;
   padding: 1.675rem 1rem 0 1rem;
-  border-left: 2px dotted #587297; }
+  border-left: 2px dotted #585858; }
   .sidebar img {
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1);
     box-sizing: content-box;
     max-width: 100%;
     height: auto;
@@ -681,7 +680,7 @@ ul {
     color: white; }
     .sidebar-links a:hover {
       background-color: white;
-      color: #455a77; }
+      color: #3e3e3e; }
 
 .sidebar-posts {
   display: block;
@@ -712,7 +711,7 @@ ul {
   justify-content: center;
   width: 100%;
   height: 53px;
-  background-color: #526b8e;
+  background-color: #505050;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -733,11 +732,11 @@ footer {
   width: 231px;
   height: 231px;
   margin: 12px 12px 0 0;
-  background-color: #526b8e; }
+  background-color: #505050; }
   .work-tile:nth-child(4n) {
     margin: 12px 0 0 0; }
   .work-tile:hover {
-    background-color: #647fa5; }
+    background-color: #646464; }
 
 @media screen and (max-width: 990px) {
   .wrapper.work {
@@ -767,7 +766,7 @@ footer {
     padding: 0;
     max-width: 602px;
     width: 100%;
-    border-top: 2px dotted #587297; } }
+    border-top: 2px dotted #585858; } }
 
 @media screen and (max-width: 670px) {
   .wrapper.about {
@@ -782,7 +781,7 @@ footer {
       margin: 0 0 1em 0; }
   .textblock.about {
     border-top: none;
-    border-bottom: 2px dotted #587297; } }
+    border-bottom: 2px dotted #585858; } }
 
 .wrapper.work {
   margin: 0.9375rem 0; }
