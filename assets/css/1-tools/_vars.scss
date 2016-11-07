@@ -14,3 +14,11 @@ $breakpoint2: 370px;
 background: linear-gradient($primarygradient);
 background: -webkit-linear-gradient($primarygradient); /* For Safari 5.1 to 6.0 */
 }
+
+@mixin visually-hidden() {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px; width: 1px;
+  margin: -1px; padding: 0; border: 0;
+}

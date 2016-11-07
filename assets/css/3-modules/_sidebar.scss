@@ -30,15 +30,14 @@
 }
 
 .socialicons {
-flex-wrap: wrap;
 margin: 1em auto 1.7em auto;
 justify-content: center;
 
-img {
-  border: none;
-  padding: 0;
-  margin: 1em;
-}
+  img {
+    border: none;
+    padding: 0;
+    margin: 1em;
+  }
 }
 
 .sidebar-links {
@@ -93,5 +92,16 @@ img {
       border-bottom: 1px solid white;
 
     }
+  }
+}
+
+@media screen and (max-width: $breakpoint1) {
+
+  .sidebar {
+    max-width: 37.625rem;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    border-left: none;
   }
 }
