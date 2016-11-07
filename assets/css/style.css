@@ -516,8 +516,7 @@ body::before {
   color: #fff;
   width: 64.79166666666667%; }
   .logo a {
-    text-decoration: none;
-    text-shadow: 2px 2px black; }
+    text-decoration: none; }
   .logo span {
     display: inline-block;
     -webkit-transform: translateY(-0.1em);
@@ -528,7 +527,7 @@ nav {
   font-size: 1.125rem;
   font-family: "Merriweather";
   color: #fff;
-  margin: 0.625em 0 0 0; }
+  margin: 0; }
   nav a {
     text-decoration: none;
     color: #fff;
@@ -598,10 +597,10 @@ ul {
   border: 2px dotted #5b779e; }
 
 .title-box.large {
-  font-size: 1.875rem; }
+  font-size: 1.75rem; }
 
 .title-box.medium {
-  font-size: 1.625rem; }
+  font-size: 1.5rem; }
 
 .title-box.small {
   font-size: 1.375rem; }
