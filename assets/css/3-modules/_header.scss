@@ -28,7 +28,7 @@
 
   a {
     text-decoration: none;
-    font-size: 3rem;
+    text-shadow: 2px 2px black;
   }
 
   span {
@@ -43,7 +43,7 @@ nav {
   //font-weight: bold;
   //text-transform: uppercase;
   color: #fff;
-  //margin: 0.625em 0 0 0;
+  margin: 0.625em 0 0 0;
 
   a {
     text-decoration: none;
@@ -53,6 +53,7 @@ nav {
 
     &:hover, &.current {
       color: $defaultfontcol;
+      //border-top: 1px solid white;
       border-bottom: 0.1111111111111112em solid white;
     }
   }
