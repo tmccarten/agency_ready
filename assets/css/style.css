@@ -517,7 +517,7 @@ body::before {
   width: 64.79166666666667%; }
   .logo a {
     text-decoration: none;
-    text-shadow: 2px 2px black; }
+    font-size: 3rem; }
   .logo span {
     display: inline-block;
     -webkit-transform: translateY(-0.1em);
@@ -527,8 +527,7 @@ body::before {
 nav {
   font-size: 1.125rem;
   font-family: "Merriweather";
-  color: #fff;
-  margin: 0.625em 0 0 0; }
+  color: #fff; }
   nav a {
     text-decoration: none;
     color: #fff;
