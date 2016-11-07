@@ -2,7 +2,13 @@
   width: 231px;
   height: 231px;
   margin: 12px 12px 0 0;
-  background-color: lighten($primarybackgroundcol, 7);
+  //background-color: lighten($primarybackgroundcol, 7);
+  border: 2px dotted lighten($primarybackgroundcol, 12);
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 
   &:nth-child(4n) {
     margin: 12px 0 0 0;
