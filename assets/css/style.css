@@ -464,6 +464,10 @@ body::before {
   background-image: url("/assets/img/body_bg.png");
   background-size: cover; }
 
+@media screen and (max-width: 26.25rem) {
+  body {
+    font-size: 1rem; } }
+
 .page-wrapper {
   padding: 0 1rem;
   min-height: 100%;
