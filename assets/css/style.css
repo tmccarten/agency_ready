@@ -409,7 +409,7 @@ template {
   display: none; }
 
 h1 {
-  font-size: 2.625rem; }
+  font-size: 2.875rem; }
 
 h2 {
   font-size: 1.875rem; }
@@ -550,7 +550,7 @@ ul {
   display: flex;
   list-style-type: none; }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 750px) {
   .main-header-container {
     height: auto; }
   .main-header {
@@ -606,7 +606,7 @@ ul {
 .title-box.small {
   font-size: 1.375rem; }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 750px) {
   .title-box.large {
     font-size: 1.325rem; } }
 
@@ -774,7 +774,7 @@ footer {
     width: 100%;
     border-top: 2px dotted #587297; } }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 750px) {
   .wrapper.about {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
