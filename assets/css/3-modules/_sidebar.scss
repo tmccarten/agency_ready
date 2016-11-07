@@ -86,9 +86,9 @@ justify-content: center;
     text-decoration: none;
     margin: 1em 0 0 0;
     padding: 0.5em 0;
-    border-bottom: 1px dotted white;
+    border-bottom: 1px dashed white;
 
-    &:hover {
+    &.current, &:hover {
       border-bottom: 1px solid white;
 
     }

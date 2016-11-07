@@ -48,14 +48,19 @@ nav {
   a {
     text-decoration: none;
     color: $navlinkcol;
-    padding: 0 0 0.1em 0;
-    //text-shadow: 1px 1px black;
+    padding: 0 0 0.2em 0;
 
-    &:hover, &.current {
-      color: $defaultfontcol;
-      //border-top: 1px solid white;
+    &.current {
       border-bottom: 0.1111111111111112em solid white;
+      &:hover {
+        border-bottom: 0.1111111111111112em solid white;
+      }
     }
+
+    &:hover {
+      border-bottom: 0.1111111111111112em dotted white;
+    }
+
   }
 
   li {

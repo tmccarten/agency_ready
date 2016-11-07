@@ -5,4 +5,9 @@
 
 a {
   color: $defaultfontcol;
-}
+  text-decoration: underline;
+
+  &:hover {
+      color: $defaultfontcol;
+    }
+  }
