@@ -7,7 +7,8 @@ $primarybackgroundcol: #455a77;
 $maxwidth: 960px;
 $primaryfontfamily: 'Roboto';
 $secondaryfontfamily: 'Merriweather';
-$phonebreakpoint: 670px;
+$breakpoint1: 710px;
+$breakpoint2: 370px;
 
 @mixin filter-gradient($primarygradient) {
 background: linear-gradient($primarygradient);

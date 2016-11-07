@@ -23,7 +23,7 @@ body {
   background-color: $primarybackgroundcol;
   position: relative;
   padding-bottom: 53px;
-
+  min-width: 320px;
 }
 
 body::before {

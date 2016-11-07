@@ -13,19 +13,3 @@
   }
 
 }
-
-@media screen and (max-width: 990px) {
-
-  .wrapper.work {
-    width: auto;
-  }
-
-  .work-tile {
-
-  &:nth-child(4n) {
-    margin: 12px 12px 0 0;
-  }
-
-}
-
-}
