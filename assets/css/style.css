@@ -703,9 +703,8 @@ ul {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    border: 1px solid white;
+    border: 1px dashed white;
     font-weight: bold;
-    border-radius: 1em;
     margin: 1em 0 0 0;
     padding: 0.5em;
     color: white; }
