@@ -604,13 +604,13 @@ ul {
   -ms-flex: 1;
   flex: 1;
   width: 100%;
-  border-top: 2px dotted #5b779e; }
+  border-top: 2px dotted #5f7490; }
 
 .title-box {
   box-sizing: border-box;
   padding: 0.1875em 0.5em;
   margin: -0.875em 0 0 0;
-  border: 2px dotted #5b779e; }
+  border: 2px dotted #5f7490; }
 
 .title-box.large {
   font-size: 1.75rem; }
@@ -640,7 +640,7 @@ ul {
     padding: 1rem 0;
     max-width: 37.625rem;
     width: 100%;
-    border-bottom: 2px dotted #587297; } }
+    border-bottom: 2px dotted #5f7490; } }
 
 .sidebar {
   display: -webkit-flex;
@@ -654,7 +654,7 @@ ul {
   justify-content: flex-start;
   width: 35.20833333333333%;
   padding: 1.675rem 1rem 0 1rem;
-  border-left: 2px dotted #587297; }
+  border-left: 2px dotted #5f7490; }
   .sidebar img {
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
@@ -772,7 +772,7 @@ footer {
   width: 231px;
   height: 231px;
   margin: 12px 12px 0 0;
-  border: 2px dotted #5b779e; }
+  border: 2px dotted #5f7490; }
   .work-tile img {
     max-width: 100%;
     height: auto; }

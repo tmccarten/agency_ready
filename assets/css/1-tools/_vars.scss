@@ -9,6 +9,7 @@ $primaryfontfamily: 'Roboto';
 $secondaryfontfamily: 'Merriweather';
 $breakpoint1: 750px;
 $breakpoint2: 370px;
+$border-color: mix(lighten($primarybackgroundcol, 20), desaturate($primarybackgroundcol, 6));
 
 @mixin filter-gradient($primarygradient) {
 background: linear-gradient($primarygradient);
