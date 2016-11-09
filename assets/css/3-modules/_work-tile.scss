@@ -34,3 +34,13 @@
 
 }
 }
+
+@media screen and (max-width: $breakpoint2) {
+
+  .work-tile {
+
+    img {
+      max-width: none;
+    }
+  }
+}

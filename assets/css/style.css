@@ -780,6 +780,10 @@ footer {
     .work-tile:nth-child(4n) {
       margin: 12px 0 0 0; } }
 
+@media screen and (max-width: 370px) {
+  .work-tile img {
+    max-width: none; } }
+
 @media screen and (max-width: 750px) {
   .sidebar.about {
     margin: 0 auto;
