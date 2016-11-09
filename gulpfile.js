@@ -18,7 +18,7 @@ gulp.task('sass', function() {
 });
 
 gulp.task('watch', ['browserSync', 'sass'],  function(){
-  gulp.watch('assets/css/**/*.scss', ['sass', 'mmq']);
+  gulp.watch('assets/css/**/*.scss', ['sass']);
   // Reloads the browser whenever HTML or JS files change
   gulp.watch('./*.html', browserSync.reload);
   //gulp.watch('assets/js/**/*.js', browserSync.reload);
@@ -37,5 +37,5 @@ gulp.task('mmq', function () {
     .pipe(mmq({
       log: true
     }))
-    .pipe(gulp.dest('assets/css/'));
+    .pipe(gulp.dest('assets/css/beautify'));
 });
