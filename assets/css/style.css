@@ -761,15 +761,19 @@ footer {
 .work-tile {
   width: 231px;
   height: 231px;
-  margin: 12px 12px 0 0;
-  border: 2px dotted #2c4b6d; }
+  margin: 12px 12px 0 0; }
   .work-tile img {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
     max-width: 100%;
     height: auto; }
+    .work-tile img:hover {
+      -webkit-filter: grayscale(0);
+      filter: grayscale(0); }
   .work-tile:nth-child(4n) {
     margin: 12px 0 0 0; }
   .work-tile:hover {
-    background-color: #315882; }
+    background-color: #2c4b6d; }
 
 @media screen and (max-width: 534px) {
   .work-tile {

@@ -2,12 +2,16 @@
   width: 231px;
   height: 231px;
   margin: 12px 12px 0 0;
-  //background-color: lighten($primarybackgroundcol, 7);
-  border: 2px dotted $border-color;
+  //border: 2px dotted $border-color;
 
   img {
+    filter: grayscale(1);
     max-width: 100%;
     height: auto;
+
+    &:hover {
+      filter: grayscale(0);
+    }
   }
 
   &:nth-child(4n) {
@@ -15,7 +19,8 @@
   }
 
   &:hover {
-    background-color: lighten($primarybackgroundcol, 15)
+    background-color: $border-color;
+    //border: 2px solid white;
   }
 
 }
