@@ -19,7 +19,7 @@ body {
   color: $defaultfontcol;
   font-family: $primaryfontfamily;
   line-height: 1.4;
-  //@include filter-gradient($primarygradient);
+  @include filter-gradient($primarygradient);
   background-color: $primarybackgroundcol;
   position: relative;
   padding-bottom: 53px;

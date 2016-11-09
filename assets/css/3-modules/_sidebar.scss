@@ -15,7 +15,7 @@
     max-width: 100%;
     height: auto;
     margin: 0 0 1em 0;
-    border: 1px solid white;
+    //border: 2px solid white;
   }
 
   a {
@@ -41,26 +41,21 @@
 }
 
 .sidebar-links {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  flex-direction: column;
   font-size: 1rem;
-  //text-transform: uppercase;
   margin: 1em 0 0 0;
   padding: 0 2em;
 
   a {
     display: flex;
-    align-items: center;
     text-decoration: none;
     justify-content: center;
     border: 1px dashed white;
     font-weight: bold;
     //border-radius: 1em;
-    margin: 1em 0 0 0;
+    margin: 1em auto 0 auto;
     padding: 0.5em;
     color: white;
+    max-width: 13em;
 
     &:hover {
       background-color: white;
