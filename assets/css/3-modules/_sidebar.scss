@@ -11,11 +11,12 @@
 
   img {
     filter: grayscale(1);
+    clip-path: polygon(20% 0, 0 20%, 0 100%, 80% 99%, 100% 83%, 100% 0);
     box-sizing: content-box;
     max-width: 100%;
     height: auto;
     margin: 0 0 1em 0;
-    //border: 2px solid white;
+    border: 1px solid white;
   }
 
   a {
