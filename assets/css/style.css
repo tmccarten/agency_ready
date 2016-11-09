@@ -762,11 +762,9 @@ footer {
   padding: 0 1rem; }
 
 .work-tile {
-  box-sizing: content-box;
-  width: 229px;
-  height: 229px;
-  margin: 12px 12px 0 0;
-  border: 1px dotted #3e5c75; }
+  width: 231px;
+  height: 231px;
+  margin: 12px 12px 0 0; }
   .work-tile img {
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
