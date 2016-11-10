@@ -29,8 +29,8 @@ gulp.task('connect-sync', function() {
 gulp.task('watch', ['connect-sync', 'sass'],  function(){
   gulp.watch('assets/css/**/*.scss', ['sass']);
   // Reloads the browser whenever HTML or JS files change
-  gulp.watch('./*.html', browserSync.reload);
-  gulp.watch('**/*.php', browserSync.reload);
+  gulp.watch('./**/*.html', browserSync.reload);
+  gulp.watch('./**/*.php', browserSync.reload);
   gulp.watch('assets/js/**/*.js', browserSync.reload);
 })
 
