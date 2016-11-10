@@ -1,6 +1,8 @@
 <!DOCTYPE HTML>
 <html>
   <head>
+    <?php $activePage = "About"; ?>
+    
     <meta charset="utf-8">
     <title>About - Thomas McCarten Portfolio</title>
     <meta name="description" content="">
@@ -14,20 +16,7 @@
 
 <body>
 
-    <div class="main-header-container">
-      <header class="main-header">
-       <h1 class="logo">
-         <a href="index.html">Thomas M<span>c</span>Carten</a></h1>
-      <nav>
-         <ul>
-           <li><a href="index.html">Home</a></li>
-           <li><a href="blog.html">Blog</a></li>
-           <li><a href="about.html" class="current">About</a></li>
-           <li><a href="contact.html">Contact</a></li>
-         </ul>
-      </nav>
-     </header>
-    </div>
+    <?php include 'assets/includes/header.php';?>
 
     <main class="page-wrapper">
 
