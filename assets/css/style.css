@@ -506,7 +506,7 @@ body::before {
   -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
-  background-color: #2a4153;
+  background-color: #30495d;
   height: 120px;
   margin: 0 0 65px 0; }
 
@@ -607,28 +607,31 @@ ul {
   -ms-flex: 1;
   flex: 1;
   width: 100%;
-  border-top: 2px dotted #3e5c75; }
+  border-top: 2px dotted #3e5c75;
+  box-shadow: 0.1em 0.1em 0.1em 0 #2b4255;
+  height: 2px; }
 
 .title-box {
   box-sizing: border-box;
   padding: 0.1875em 0.5em;
   margin: -0.875em 0 0 0;
-  border: 2px dotted #3e5c75; }
+  border: 2px dotted #3e5c75;
+  box-shadow: 0.1em 0.1em 0.05em 0 #2b4255; }
 
 .title-box.large {
-  font-size: 1.75rem; }
+  font-size: 1.5625rem; }
 
 .title-box.medium {
-  font-size: 1.5rem; }
+  font-size: 1.4375rem; }
 
 .title-box.small {
-  font-size: 1.375rem; }
+  font-size: 1.3125rem; }
 
 @media screen and (max-width: 750px) {
   .title-box.large {
-    font-size: 1.5rem; }
+    font-size: 1.4375rem; }
   .title-box.medium {
-    font-size: 1.375rem; }
+    font-size: 1.3125rem; }
   .title-box.small {
     font-size: 1.25rem; } }
 
@@ -657,17 +660,8 @@ ul {
   justify-content: flex-start;
   width: 35.20833333333333%;
   padding: 1.675rem 1rem 0 1rem;
-  border-left: 2px dotted #3e5c75; }
-  .sidebar img {
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1);
-    -webkit-clip-path: polygon(20% 0, 0 20%, 0 100%, 80% 99%, 100% 83%, 100% 0);
-    clip-path: polygon(20% 0, 0 20%, 0 100%, 80% 99%, 100% 83%, 100% 0);
-    box-sizing: content-box;
-    max-width: 100%;
-    height: auto;
-    margin: 0 0 1em 0;
-    border: 1px solid white; }
+  border-left: 2px dotted #3e5c75;
+  border-right: 2px dotted #3e5c75; }
   .sidebar a {
     margin: 0 auto; }
 
@@ -676,6 +670,14 @@ ul {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center; }
+  .sidebar.about img {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    box-sizing: content-box;
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 1em 0;
+    border: 1px solid white; }
 
 .socialicons {
   margin: 1em auto 1.7em auto;
@@ -683,7 +685,6 @@ ul {
   -ms-flex-pack: center;
   justify-content: center; }
   .socialicons img {
-    border: none;
     padding: 0;
     margin: 1em; }
 
@@ -701,6 +702,7 @@ ul {
     justify-content: center;
     border: 1px dashed white;
     font-weight: bold;
+    border-radius: 1em;
     margin: 1em auto 0 auto;
     padding: 0.5em;
     color: white;
@@ -732,7 +734,8 @@ ul {
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    border-left: none; } }
+    border-left: none;
+    border-right: none; } }
 
 .footer-container {
   display: -webkit-flex;
@@ -746,7 +749,7 @@ ul {
   justify-content: center;
   width: 100%;
   height: 53px;
-  background-color: #304a5f;
+  background-color: #30495d;
   position: absolute;
   bottom: 0;
   left: 0;
