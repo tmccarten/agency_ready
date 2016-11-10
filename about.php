@@ -2,7 +2,7 @@
 <html>
   <head>
     <?php $activePage = "About"; ?>
-    
+
     <meta charset="utf-8">
     <title>About - Thomas McCarten Portfolio</title>
     <meta name="description" content="">
@@ -47,10 +47,8 @@
       </div>
     </main>
 
-<div class="footer-container">
-  <footer>
-    &copy; Thomas McCarten | 2016 | All rights reserved.
-  </footer>
+<?php include 'assets/includes/footer.php';?>
+
 </div>
 
 </body>

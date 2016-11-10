@@ -60,11 +60,7 @@
 
     </main>
 
-<div class="footer-container">
-    <footer>
-      &copy; Thomas McCarten | 2016 | All rights reserved.
-    </footer>
-</div>
+<?php include 'assets/includes/footer.php';?>
 
 
 </body>
