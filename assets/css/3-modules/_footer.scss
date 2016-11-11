@@ -22,3 +22,10 @@ footer {
   box-sizing: content-box;
   padding: 0 1rem;
 }
+
+@media screen and (max-width: $breakpoint1) {
+
+footer {
+  font-size: 0.6875rem;
+}
+}

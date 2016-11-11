@@ -529,7 +529,6 @@ body::before {
   font-family: 'Langdon Regular', 'impact', 'arial', sans-serif;
   font-weight: normal;
   text-transform: uppercase;
-  color: #fff;
   width: 64.79166666666667%; }
   .logo a {
     text-decoration: none; }
@@ -580,7 +579,19 @@ ul {
     font-size: 2.85rem;
     width: auto; }
   nav {
-    margin: 1rem 0; }
+    margin: 1rem 0;
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    nav ul {
+      width: inherit;
+      -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; }
     nav li {
       margin: 0 1.575em 0 0; } }
 
@@ -589,8 +600,10 @@ ul {
     background-color: transparent; }
   .logo {
     font-size: 2.625rem; }
-  nav li {
-    margin: 0 1em 0 0; } }
+  nav {
+    width: auto; }
+    nav li {
+      margin: 0 1em 0 0; } }
 
 .title {
   display: -webkit-flex;
@@ -763,6 +776,10 @@ footer {
   font-size: 0.875rem;
   box-sizing: content-box;
   padding: 0 1rem; }
+
+@media screen and (max-width: 750px) {
+  footer {
+    font-size: 0.6875rem; } }
 
 .work-tile {
   width: 231px;
