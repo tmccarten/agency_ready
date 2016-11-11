@@ -800,13 +800,20 @@ footer {
     width: auto;
     padding: 2rem 0;
     border-left: none;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+    .sidebar.about img {
+      height: 100%;
+      max-width: 50%; } }
+
+@media screen and (max-width: 420px) {
+  .sidebar.about {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column; }
     .sidebar.about img {
-      margin: 0 0 1em 0; }
-      .sidebar.about img:last-child {
-        margin: 0; } }
+      max-width: 100%; } }
 
 @media screen and (max-width: 750px) {
   .wrapper.blog {
