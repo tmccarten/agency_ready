@@ -447,10 +447,10 @@ body {
   color: #fff;
   font-family: "Roboto";
   line-height: 1.4;
-  background: linear-gradient(#2b4255, #3e5c75);
-  background: -webkit-linear-gradient(#2b4255, #3e5c75);
+  background: linear-gradient(#1c3b54, #2a5679);
+  background: -webkit-linear-gradient(#1c3b54, #2a5679);
   /* For Safari 5.1 to 6.0 */
-  background-color: #2b4255;
+  background-color: #1c3b54;
   position: relative;
   padding-bottom: 53px;
   min-width: 320px; }
@@ -506,7 +506,7 @@ body::before {
   -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
-  background-color: #30495d;
+  background-color: #1f425d;
   height: 120px;
   margin: 0 0 65px 0; }
 
@@ -607,16 +607,16 @@ ul {
   -ms-flex: 1;
   flex: 1;
   width: 100%;
-  border-top: 2px dotted #3e5c75;
-  box-shadow: 0.1em 0.1em 0.1em 0 #2b4255;
+  border-top: 2px dotted #2a5679;
+  box-shadow: 0.1em 0.1em 0.1em 0 #1c3b54;
   height: 2px; }
 
 .title-box {
   box-sizing: border-box;
   padding: 0.1875em 0.5em;
   margin: -0.875em 0 0 0;
-  border: 2px dotted #3e5c75;
-  box-shadow: 0.1em 0.1em 0.05em 0 #2b4255; }
+  border: 2px dotted #2a5679;
+  box-shadow: 0.1em 0.1em 0.05em 0 #1c3b54; }
 
 .title-box.large {
   font-size: 1.5625rem; }
@@ -646,7 +646,7 @@ ul {
     padding: 1rem 0;
     max-width: 37.625rem;
     width: 100%;
-    border-bottom: 2px dotted #3e5c75; } }
+    border-bottom: 2px dotted #2a5679; } }
 
 .sidebar {
   display: -webkit-flex;
@@ -660,8 +660,8 @@ ul {
   justify-content: flex-start;
   width: 35.20833333333333%;
   padding: 1.675rem 1rem 0 1rem;
-  border-left: 2px dotted #3e5c75;
-  border-right: 2px dotted #3e5c75; }
+  border-left: 2px dotted #2a5679;
+  border-right: 2px dotted #2a5679; }
   .sidebar a {
     margin: 0 auto; }
 
@@ -709,7 +709,7 @@ ul {
     max-width: 13em; }
     .sidebar-links a:hover {
       background-color: white;
-      color: #2b4255; }
+      color: #1c3b54; }
 
 .sidebar-posts {
   display: block;
@@ -749,7 +749,7 @@ ul {
   justify-content: center;
   width: 100%;
   height: 53px;
-  background-color: #30495d;
+  background-color: #1f425d;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -779,7 +779,7 @@ footer {
   .work-tile:nth-child(4n) {
     margin: 12px 0 0 0; }
   .work-tile:hover {
-    background-color: #3e5c75; }
+    background-color: #2a5679; }
 
 @media screen and (max-width: 534px) {
   .work-tile {
