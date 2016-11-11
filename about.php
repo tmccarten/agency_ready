@@ -27,7 +27,7 @@
     </div>
 
       <div class="wrapper about">
-        <section class="textblock about">
+        <article class="textblock about">
           <p>Hello, I’m <b>Tom</b>...</p>
           <p>...a 28 year old front-end web developer based in Manchester, England.</p>
 
@@ -37,7 +37,7 @@
 
           <p>Currently getting to grips with SASS, Gulp and Github in order to speed up and improve my workflow and design processes.</p>
 
-        </section>
+        </article>
 
         <aside class="sidebar about">
 

@@ -26,7 +26,7 @@
     </div>
 
       <div class="wrapper blog">
-        <section class="textblock">
+        <article class="textblock">
           <h3>The Digital Industry</h3>
           <p>The UK’s digital tech industries are expanding and evolving at a rate that shows no sign of slowing. Between 2011 and 2014 UK digital tech industries had a job creation rate 2.8 times faster than the rest of the economy, with 1.56m people employed in digital tech occupations [citation]. Translated into turnover that’s £161bn, a 32% faster growth rate than the rest of the economy and an average salary 36% higher than the national average [citation]. Needless to say, it’s all good news for people, like myself, hoping to forge a career in the digital tech industry.</p>
 
@@ -38,7 +38,7 @@
 
           <p>The UK’s digital tech industries are expanding and evolving at a rate that shows no sign of slowing. Between 2011 and 2014 UK digital tech industries had a job creation rate 2.8 times faster than the rest of the economy, with 1.56m people employed in digital tech occupations [citation]. Translated into turnover that’s £161bn, a 32% faster growth rate than the rest of the economy and an average salary 36% higher than the national average [citation]. Needless to say, it’s all good news for people, like myself, hoping to forge a career in the digital tech industry.</p>
 
-        </section>
+        </article>
 
         <aside class="sidebar">
 

@@ -537,7 +537,9 @@ body::before {
   font-family: 'Langdon Regular', 'impact', 'arial', sans-serif;
   font-weight: normal;
   text-transform: uppercase;
-  width: 64.79166666666667%; }
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1; }
   .logo a {
     text-decoration: none; }
   .logo span {
