@@ -1,7 +1,7 @@
 <div class="main-header-container">
   <header class="main-header">
    <h1 class="logo">
-     <a href="../index.php">Thomas M<span>c</span>Carten</a></h1>
+     <a href="../index.php"><img src="assets/img/logo.svg" width="280" height="165"</a></h1>
   <nav>
      <ul>
        <li><a href="../index.php" <?php if ($activePage == "Home") {?> class="current" <?php } ?>> Home</a></li>
