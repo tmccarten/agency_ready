@@ -6,6 +6,10 @@
   font-family: $secondaryfontfamily;
 }
 
+.title.main {
+  display: none;
+}
+
 .title-border-left, .title-border-right {
   flex: 1;
   width: 100%;
@@ -35,6 +39,11 @@
 }
 
 @media screen and (max-width: $breakpoint1) {
+
+  .title.main {
+    display: flex;
+  }
+
   .title-box.large {
     font-size: 1.4375rem;
   }

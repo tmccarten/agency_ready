@@ -475,7 +475,7 @@ body::before {
   padding: 0 1rem;
   min-height: 100%;
   max-width: 960px;
-  margin: 165px auto 1rem auto;
+  margin: 200px auto 1rem auto;
   box-sizing: content-box;
   min-height: 75vh; }
 
@@ -513,8 +513,8 @@ body::before {
   justify-content: center;
   width: 100%;
   background-color: #1f425d;
-  height: 100px;
   position: fixed;
+  height: 200px;
   top: 0;
   z-index: 3; }
 
@@ -526,7 +526,7 @@ body::before {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  margin: 24px 0 0 0;
+  margin: 40px 0 30px 0;
   width: 100%;
   max-width: 960px;
   padding: 0 1rem; }
@@ -542,6 +542,8 @@ body::before {
   flex: 1; }
   .logo a {
     text-decoration: none; }
+  .logo img {
+    display: block; }
   .logo span {
     display: inline-block;
     -webkit-transform: translateY(-0.1em);
@@ -623,6 +625,9 @@ ul {
   justify-content: center;
   font-family: "Merriweather"; }
 
+.title.main {
+  display: none; }
+
 .title-border-left, .title-border-right {
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -649,6 +654,10 @@ ul {
   font-size: 1.3125rem; }
 
 @media screen and (max-width: 750px) {
+  .title.main {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
   .title-box.large {
     font-size: 1.4375rem; }
   .title-box.medium {

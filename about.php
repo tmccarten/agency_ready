@@ -20,7 +20,7 @@
 
     <main class="page-wrapper">
 
-    <div class="title">
+    <div class="title main">
       <div class="title-border-left"></div>
         <h2 class="title-box large">About me</h2>
       <div class="title-border-right"></div>

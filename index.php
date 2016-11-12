@@ -19,7 +19,7 @@
     <?php include 'assets/includes/header.php';?>
 
     <main class="page-wrapper">
-    <div class="title">
+    <div class="title main">
       <div class="title-border-left"></div>
         <h2 class="title-box large">Logos</h2>
       <div class="title-border-right"></div>
