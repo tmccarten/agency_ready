@@ -1,6 +1,7 @@
 <div class="main-header-container">
   <header class="main-header">
    <h1 class="logo">
+     <a href="../index.php" class="hide-text">Thomas McCarten</a>
      <a href="../index.php"><img src="assets/img/logo.svg" width="250" height="64"></a>
    </h1>
   <nav>

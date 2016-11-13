@@ -11,7 +11,6 @@
     <link rel="icon" href="favicon.svg">
 
     <?php include 'assets/includes/fonts.php';?>
-
     <link rel="stylesheet" href="assets/css/style.css">
 
 

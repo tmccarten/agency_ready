@@ -8,9 +8,9 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <?php include 'assets/includes/fonts.php';?>
-
     <link rel="icon" href="favicon.svg">
+
+    <?php include 'assets/includes/fonts.php';?>
     <link rel="stylesheet" href="assets/css/style.css">
 
 

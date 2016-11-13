@@ -13,3 +13,12 @@ html {
   color: white;
   opacity: 1;
 }
+
+.hide-text {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
