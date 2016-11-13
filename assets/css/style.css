@@ -671,6 +671,7 @@ ul {
 
 .textblock {
   width: 64.79166666666667%;
+  transition: none;
   font-weight: 300;
   padding: 0 1em 0 0.2em;
   overflow-wrap: break-word;
@@ -711,15 +712,22 @@ ul {
   padding: 0rem 1rem 0 1rem;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+  border: none; }
   .sidebar.about img {
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1);
     box-sizing: content-box;
     max-width: 100%;
     height: auto;
     margin: 0 0 1em 0;
-    border: 1px solid white; }
+    -webkit-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    transform: rotate(-4deg); }
+    .sidebar.about img:nth-child(2) {
+      outline: 1px solid transparent;
+      -webkit-backface-visibility: hidden;
+      -webkit-transform: rotate(4deg) translateY(-40px);
+      -ms-transform: rotate(4deg) translateY(-40px);
+      transform: rotate(4deg) translateY(-40px); }
 
 .socialicons {
   margin: 1em auto 1.7em auto;

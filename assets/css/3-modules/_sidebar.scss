@@ -16,15 +16,24 @@
 .sidebar.about {
   padding: 0rem 1rem 0 1rem;
   justify-content: center;
+  border: none;
+
 
   img {
-      filter: grayscale(1);
+      //filter: grayscale(1);
       //clip-path: polygon(20% 0, 0 20%, 0 100%, 80% 99%, 100% 83%, 100% 0);
       box-sizing: content-box;
       max-width: 100%;
       height: auto;
       margin: 0 0 1em 0;
-      border: 1px solid white;
+      //border: 1px solid white;
+      transform: rotate(-4deg);
+
+      &:nth-child(2) {
+        outline: 1px solid transparent;
+        -webkit-backface-visibility: hidden;
+        transform: rotate(4deg) translateY(-40px);
+      }
     }
   }
 
@@ -99,4 +108,5 @@
     border-left: none;
     border-right: none;
   }
+
 }
