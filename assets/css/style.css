@@ -422,7 +422,10 @@ a {
     color: #fff; }
 
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  transition: color 0.3s ease;
+  transition: background-color 0.5s ease;
+  transition: height 0.5s ease; }
 
 html {
   min-height: 100%;
@@ -508,7 +511,7 @@ body::before {
   -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
-  background-color: #1f425d;
+  background-color: transparent;
   position: fixed;
   height: 200px;
   top: 0;
@@ -526,6 +529,15 @@ body::before {
   width: 100%;
   max-width: 960px;
   padding: 0 1rem; }
+
+.main-header-container.smaller, .main-header-container.even-smaller {
+  background-color: #1f425d; }
+
+.main-header-container.smaller {
+  height: 150px; }
+
+.main-header-container.even-smaller {
+  height: 100px; }
 
 .logo {
   margin: 0;
@@ -650,7 +662,9 @@ ul {
 .textblock {
   width: 64.79166666666667%;
   font-weight: 300;
-  padding: 0 1em 0 0.2em; }
+  padding: 0 1em 0 0.2em;
+  overflow-wrap: break-word;
+  word-wrap: break-word; }
   .textblock img {
     max-width: 100%; }
   .textblock h3 {
