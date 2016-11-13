@@ -17,8 +17,7 @@ body {
   font-size: 1.125rem;
   height: 100%;
   color: $defaultfontcol;
-  font-family: $primaryfontfamily;
-  line-height: 1.4;
+  @include primaryfontfamily($primaryfontfamily);
   @include filter-gradient($primarygradient);
   background-color: $primarybackgroundcol;
   position: relative;
