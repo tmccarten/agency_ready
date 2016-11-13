@@ -28,6 +28,10 @@
 .main-header-container.even-smaller {
   background-color: mix(lighten($primarybackgroundcol, 15), desaturate($primarybackgroundcol, 1));
   height: 100px;
+
+    img {
+      width: 200px;
+    }
 }
 
 .logo {
@@ -41,7 +45,7 @@
 }
 
 nav {
-  font-size: 1.125rem;
+  font-size: 1rem;
   @include secondaryfontfamily($secondaryfontfamily);
   color: #fff;
   margin: 0;
@@ -69,7 +73,7 @@ nav {
     margin: 0 2.575em 0 0;
 
     &:last-child {
-      margin: 0;
+      margin: 0 0.6em 0 0;
     }
   }
 }
@@ -86,30 +90,52 @@ ul {
     height: auto;
   }
 
+  .logo {
+    margin: 0 0 1rem 0;
+    width: auto;
+}
+
+  .main-header-container.smaller, .main-header-container.even-smaller {
+    background-color: mix(lighten($primarybackgroundcol, 15), desaturate($primarybackgroundcol, 1));;
+    height: 130px;
+
+    .main-header {
+      margin: 15px 0 0 0;
+    }
+
+    .logo {
+      flex: 0;
+      height: 64px;
+      margin: 0;
+    }
+
+    img {
+      width: 200px;
+    }
+  }
+
+
   .main-header {
     flex-direction: column;
     padding: 0;
   }
 
-  .logo {
-
-  }
-
   nav {
+    font-size: 1.125rem;
     margin: 1rem 0;
     width: 100%;
     display: flex;
     justify-content: center;
 
-    ul {
-      width: inherit;
-      justify-content: space-around;
-    }
-
     li {
       margin: 0 1.575em 0 0;
+
+      &:last-child {
+        margin: 0;
+      }
     }
   }
+
 }
 
 @media screen and (max-width: $breakpoint2) {

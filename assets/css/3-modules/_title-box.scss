@@ -3,7 +3,7 @@
   //margin: 0 auto;
   width: 100%;
   justify-content: center;
-  font-family: $secondaryfontfamily;
+  @include secondaryfontfamily($secondaryfontfamily);
 }
 
 .title.main {
@@ -40,12 +40,17 @@
 
 @media screen and (max-width: $breakpoint1) {
 
+  .title {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
   .title.main {
     display: flex;
   }
 
   .title-box.large {
-    font-size: 1.4375rem;
+    font-size: 1.3375rem;
   }
 
   .title-box.medium {

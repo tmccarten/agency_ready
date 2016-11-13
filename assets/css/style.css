@@ -403,29 +403,8 @@ template {
   display: none; }
 
 * {
-  line-height: 1.4; }
-
-h1 {
-  font-size: 2.875rem; }
-
-h2 {
-  font-size: 1.875rem; }
-
-* {
-  transition: color 0.3s ease;
-  transition: background-color 0.3s ease; }
-
-a {
-  color: #fff;
-  text-decoration: underline; }
-  a:hover {
-    color: #fff; }
-
-* {
   box-sizing: border-box;
-  transition: color 0.3s ease;
-  transition: background-color 0.5s ease;
-  transition: height 0.5s ease; }
+  transition: color 0.3s ease, height 0.5s ease, width 0.5s ease; }
 
 html {
   min-height: 100%;
@@ -440,6 +419,21 @@ html {
   background-color: #858590;
   color: white;
   opacity: 1; }
+
+* {
+  line-height: 1.4; }
+
+h1 {
+  font-size: 2.875rem; }
+
+h2 {
+  font-size: 1.875rem; }
+
+a {
+  color: #fff;
+  text-decoration: underline; }
+  a:hover {
+    color: #fff; }
 
 body {
   font-size: 1.125rem;
@@ -468,7 +462,9 @@ body::before {
 
 @media screen and (max-width: 26.25rem) {
   body {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+  body::before {
+    content: none; } }
 
 .page-wrapper {
   padding: 0 1rem;
@@ -493,15 +489,11 @@ body::before {
 
 @media screen and (max-width: 750px) {
   .page-wrapper {
-    margin: 209px auto 1rem auto; }
+    margin: 240px auto 1rem auto; }
   .wrapper {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column; } }
-
-@media screen and (max-width: 370px) {
-  .page-wrapper {
-    margin: 204px auto 1rem auto; } }
 
 .main-header-container {
   display: -webkit-flex;
@@ -537,6 +529,8 @@ body::before {
 .main-header-container.even-smaller {
   background-color: #1c3b54;
   height: 100px; }
+  .main-header-container.even-smaller img {
+    width: 200px; }
 
 .logo {
   margin: 0;
@@ -547,7 +541,7 @@ body::before {
     display: block; }
 
 nav {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-family: "Merriweather", "arial", serif;
   color: #fff;
   margin: 0; }
@@ -565,7 +559,7 @@ nav {
     padding: 0;
     margin: 0 2.575em 0 0; }
     nav li:last-child {
-      margin: 0; }
+      margin: 0 0.6em 0 0; }
 
 ul {
   margin: 0;
@@ -578,12 +572,29 @@ ul {
 @media screen and (max-width: 750px) {
   .main-header-container {
     height: auto; }
+  .logo {
+    margin: 0 0 1rem 0;
+    width: auto; }
+  .main-header-container.smaller, .main-header-container.even-smaller {
+    background-color: #1c3b54;
+    height: 130px; }
+    .main-header-container.smaller .main-header, .main-header-container.even-smaller .main-header {
+      margin: 15px 0 0 0; }
+    .main-header-container.smaller .logo, .main-header-container.even-smaller .logo {
+      -webkit-flex: 0;
+      -ms-flex: 0;
+      flex: 0;
+      height: 64px;
+      margin: 0; }
+    .main-header-container.smaller img, .main-header-container.even-smaller img {
+      width: 200px; }
   .main-header {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
     padding: 0; }
   nav {
+    font-size: 1.125rem;
     margin: 1rem 0;
     width: 100%;
     display: -webkit-flex;
@@ -592,13 +603,10 @@ ul {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center; }
-    nav ul {
-      width: inherit;
-      -webkit-justify-content: space-around;
-      -ms-flex-pack: distribute;
-      justify-content: space-around; }
     nav li {
-      margin: 0 1.575em 0 0; } }
+      margin: 0 1.575em 0 0; }
+      nav li:last-child {
+        margin: 0; } }
 
 @media screen and (max-width: 370px) {
   .logo {
@@ -616,7 +624,7 @@ ul {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  font-family: "Merriweather"; }
+  font-family: "Merriweather", "arial", serif; }
 
 .title.main {
   display: none; }
@@ -647,12 +655,15 @@ ul {
   font-size: 1.3125rem; }
 
 @media screen and (max-width: 750px) {
+  .title {
+    max-width: 600px;
+    margin: 0 auto; }
   .title.main {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
   .title-box.large {
-    font-size: 1.4375rem; }
+    font-size: 1.3375rem; }
   .title-box.medium {
     font-size: 1.3125rem; }
   .title-box.small {
@@ -674,7 +685,7 @@ ul {
 @media screen and (max-width: 750px) {
   .textblock {
     margin: 0 auto;
-    padding: 1rem 0;
+    padding: 3rem 0;
     max-width: 37.625rem;
     width: 100%;
     border-bottom: 2px dotted #20425c; } }
@@ -733,7 +744,6 @@ ul {
     justify-content: center;
     border: 1px dashed white;
     font-weight: bold;
-    border-radius: 1em;
     margin: 1em auto 0 auto;
     padding: 0.5em;
     color: white;
