@@ -2,6 +2,10 @@
   width: 64.79166666666667%;
   font-weight: 300;
   padding: 0 1em 0 0;
+
+  img {
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: $breakpoint1) {
