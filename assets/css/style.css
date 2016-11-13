@@ -446,10 +446,10 @@ body {
   height: 100%;
   color: #fff;
   font-family: "Roboto", "arial", sans-serif;
-  background: linear-gradient(#1c3b54, #2a5679);
-  background: -webkit-linear-gradient(#1c3b54, #2a5679);
+  background: linear-gradient(#122737, #20425c);
+  background: -webkit-linear-gradient(#122737, #20425c);
   /* For Safari 5.1 to 6.0 */
-  background-color: #1c3b54;
+  background-color: #122737;
   position: relative;
   padding-bottom: 53px;
   min-width: 320px; }
@@ -530,13 +530,12 @@ body::before {
   max-width: 960px;
   padding: 0 1rem; }
 
-.main-header-container.smaller, .main-header-container.even-smaller {
-  background-color: #1f425d; }
-
 .main-header-container.smaller {
+  background-color: #152e40;
   height: 150px; }
 
 .main-header-container.even-smaller {
+  background-color: #1c3b54;
   height: 100px; }
 
 .logo {
@@ -627,16 +626,16 @@ ul {
   -ms-flex: 1;
   flex: 1;
   width: 100%;
-  border-top: 2px dotted #2a5679;
-  box-shadow: 0.1em 0.1em 0.1em 0 #1c3b54;
+  border-top: 2px dotted #20425c;
+  box-shadow: 0.1em 0.1em 0.1em 0 #122737;
   height: 2px; }
 
 .title-box {
   box-sizing: border-box;
   padding: 0.1875em 0.5em;
   margin: -0.875em 0 0 0;
-  border: 2px dotted #2a5679;
-  box-shadow: 0.1em 0.1em 0.05em 0 #1c3b54; }
+  border: 2px dotted #20425c;
+  box-shadow: 0.1em 0.1em 0.05em 0 #122737; }
 
 .title-box.large {
   font-size: 1.5625rem; }
@@ -678,7 +677,7 @@ ul {
     padding: 1rem 0;
     max-width: 37.625rem;
     width: 100%;
-    border-bottom: 2px dotted #2a5679; } }
+    border-bottom: 2px dotted #20425c; } }
 
 .sidebar {
   display: -webkit-flex;
@@ -692,8 +691,8 @@ ul {
   justify-content: flex-start;
   width: 35.20833333333333%;
   padding: 1.675rem 1rem 0 1rem;
-  border-left: 2px dotted #2a5679;
-  border-right: 2px dotted #2a5679; }
+  border-left: 2px dotted #20425c;
+  border-right: 2px dotted #20425c; }
   .sidebar a {
     margin: 0 auto; }
 
@@ -741,7 +740,7 @@ ul {
     max-width: 13em; }
     .sidebar-links a:hover {
       background-color: white;
-      color: #1c3b54; }
+      color: #122737; }
 
 .sidebar-posts {
   display: block;
@@ -781,7 +780,7 @@ ul {
   justify-content: center;
   width: 100%;
   height: 53px;
-  background-color: #1f425d;
+  background-color: #152e40;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -815,7 +814,7 @@ footer {
   .work-tile:nth-child(4n) {
     margin: 12px 0 0 0; }
   .work-tile:hover {
-    background-color: #2a5679; }
+    background-color: #20425c; }
 
 @media screen and (max-width: 534px) {
   .work-tile {
