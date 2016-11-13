@@ -51,16 +51,6 @@
 
       </div>
 
-    <div class="wrapper work">
-
-      <div class="title">
-        <div class="title-border-left"></div>
-          <h2 class="title-box medium">Other</h2>
-        <div class="title-border-right"></div>
-      </div>
-
-    </div>
-
     </main>
 
 <?php include 'assets/includes/footer.php';?>

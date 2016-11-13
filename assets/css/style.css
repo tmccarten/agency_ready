@@ -404,7 +404,7 @@ template {
 
 * {
   box-sizing: border-box;
-  transition: color 0.3s ease, height 0.5s ease, width 0.5s ease; }
+  transition: color 0.3s ease, height 0.5s ease; }
 
 html {
   min-height: 100%;
@@ -546,6 +546,7 @@ body::before {
   -ms-flex: 1;
   flex: 1; }
   .logo img {
+    transition: width 0.5s ease;
     display: block; }
 
 nav {
@@ -681,7 +682,7 @@ ul {
   width: 64.79166666666667%;
   transition: none;
   font-weight: 300;
-  padding: 0 1em 0 0.2em;
+  padding: 0 2em 0 0.2em;
   overflow-wrap: break-word;
   word-wrap: break-word; }
   .textblock img {
@@ -723,6 +724,8 @@ ul {
   justify-content: center;
   border: none; }
   .sidebar.about img {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
     box-sizing: content-box;
     max-width: 100%;
     height: auto;
