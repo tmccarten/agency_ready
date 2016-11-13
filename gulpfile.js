@@ -26,18 +26,18 @@ gulp.task('connect-sync', function() {
   })
 });
 
-gulp.task('watch', ['connect-sync', 'sass'],  function(){
-  gulp.watch('assets/css/**/*.scss', ['sass']);
+gulp.task('watch', ['connect-sync', 'sass', 'mmq'],  function(){
+  gulp.watch('assets/css/**/*.scss', ['sass'], ['mmq']);
   // Reloads the browser whenever HTML or JS files change
   gulp.watch('./**/*.html', browserSync.reload);
   gulp.watch('./**/*.php', browserSync.reload);
   gulp.watch('assets/js/**/*.js', browserSync.reload);
 })
 
-gulp.task('mmq', function () {
-  gulp.src('assets/css/*.css')
+gulp.task('mmq', ['sass'], function () {
+  return gulp.src('assets/css/*.css')
     .pipe(mmq({
       log: true
     }))
-    .pipe(gulp.dest('assets/css/beautify'));
+    .pipe(gulp.dest('assets/css'));
 });
