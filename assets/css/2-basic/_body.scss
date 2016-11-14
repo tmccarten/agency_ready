@@ -23,7 +23,13 @@ body::before {
   background-size: cover;
 }
 
-@media screen and (max-width: 26.25rem) {
+@media screen and (max-width: $breakpoint1) {
+  body::before {
+    content: none;
+  }
+}
+
+@media screen and (max-width: 420px) {
 
   body {
     font-size: 1rem;

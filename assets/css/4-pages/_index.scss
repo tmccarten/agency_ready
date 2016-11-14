@@ -10,3 +10,10 @@
   }
 
 }
+
+@media screen and (max-width: $breakpoint1) {
+
+  .page-wrapper.work {
+    margin: 200px auto 1rem auto;
+  }
+}
