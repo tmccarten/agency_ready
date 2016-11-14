@@ -29,6 +29,12 @@
       <div class="wrapper">
         <section class="textblock">
 
+          <form action="https://formspree.io/thomasmccarten@hotmail.com" method="POST">
+              <input type="text" name="name">
+              <input type="email" name="_replyto">
+              <input type="submit" value="Send">
+          </form>
+
         </section>
 
         <aside class="sidebar">
