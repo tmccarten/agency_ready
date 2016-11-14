@@ -580,7 +580,7 @@ ul {
 
 @media screen and (max-width: 750px) {
   .main-header-container {
-    height: auto; }
+    min-height: auto; }
   .logo {
     margin: 0 0 1rem 0;
     width: auto; }

@@ -33,7 +33,7 @@
 
         <div class="work-tile intro">
           <div class="work-tile-inner">
-            <p>Hello, I'm Tom.<p>A front-end web developer based in Manchester.</p><p><a href="contact.php">Get in touch.</a></p>
+            <p>Hello!</p><p>I'm a front-end web developer based in Manchester.</p><p><a href="contact.php">Get in touch.</a></p>
           </div>
         </div>
 

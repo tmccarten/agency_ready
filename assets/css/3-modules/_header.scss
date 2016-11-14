@@ -87,7 +87,7 @@ ul {
 
 @media screen and (max-width: $breakpoint1) {
   .main-header-container {
-    height: auto;
+    min-height: auto;
   }
 
   .logo {
