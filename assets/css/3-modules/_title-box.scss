@@ -6,6 +6,10 @@
   @include secondaryfontfamily($secondaryfontfamily);
 }
 
+.title.work-title {
+  position: absolute;
+}
+
 .title.main {
   display: none;
 }

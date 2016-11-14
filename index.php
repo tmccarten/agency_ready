@@ -31,8 +31,19 @@
       <div class="wrapper work">
 
         <div class="work-tile">
-            <a href="#"><img src="assets/img/work/logo_1.png" alt="Telescope Furniture logo" height="288" width="288"></a>
+          <div class="work-tile-inner">
+            <div class="title work-title">
+              <div class="title-border-left"></div>
+                <h2 class="title-box large">Logos</h2>
+              <div class="title-border-right"></div>
+            </div>
+            <a href="#">
+            <img src="assets/img/work/logo_1.png" alt="Telescope Furniture logo" height="288" width="288">
+            </a>
+          </div>
         </div>
+
+
         <div class="work-tile">
             <a href="#"><img src="assets/img/work/logo_2.png" alt="Unifyed logo" height="288" width="288"></a>
         </div>
@@ -42,9 +53,20 @@
         <div class="work-tile">
             <a href="#"><img src="assets/img/work/logo_4.png" alt="Unifyed logo" height="288" width="288"></a>
         </div>
+
         <div class="work-tile">
-            <a href="#"><img src="assets/img/work/logo_5.png" alt="Unifyed logo" height="288" width="288"></a>
+          <div class="work-tile-inner">
+            <div class="title work-title">
+              <div class="title-border-left"></div>
+                <h2 class="title-box large">Logos</h2>
+              <div class="title-border-right"></div>
+            </div>
+            <a href="#">
+            <img src="assets/img/work/logo_5.png" alt="Telescope Furniture logo" height="288" width="288">
+            </a>
+          </div>
         </div>
+
         <div class="work-tile">
             <a href="#"><img src="assets/img/work/logo_6.png" alt="Unifyed logo" height="288" width="288"></a>
         </div>
