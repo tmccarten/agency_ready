@@ -1,10 +1,12 @@
 .work-tile {
   width: 231px;
   height: 231px;
-  margin: 12px 12px 0 0;
-  //border: 2px dotted $border-color;
+  margin: 12px 12px 32px 0;
+  border: 2px dotted $border-color;
+  border-top: none;
 
   img {
+    display: block;
     filter: grayscale(1);
     max-width: 100%;
     height: auto;
@@ -15,14 +17,67 @@
   }
 
   &:nth-child(4n) {
-    margin: 12px 0 0 0;
+    margin: 12px 0 32px 0;
   }
 
   &:hover {
-    background-color: $border-color;
-    //border: 2px solid white;
+    background-color: $primarybackgroundcol;
   }
 
+  .work-tile-inner {
+    position: relative;
+    height: auto;
+
+    p {
+      padding: 0 2rem;
+      font-size: 1rem;
+      text-align: center;
+    }
+  }
+}
+
+.work-tile.intro {
+  display: flex;
+  align-items: center;
+  background-color: $primarybackgroundcol;
+  border: none;
+}
+
+@media screen and (max-width: 1008px) {
+
+  .work-tile {
+    height: auto;
+    width: 30%;
+
+  &:nth-child(4n) {
+    margin: 12px 12px 32px 0;
+   }
+
+   &:nth-child(3n) {
+     margin: 12px 0 32px 0;
+    }
+
+}
+}
+
+@media screen and (max-width: $breakpoint1) {
+
+  .work-tile {
+    width: 42%;
+
+    &:nth-child(4n) {
+      margin: 12px 0 32px 0;
+    }
+
+    &:nth-child(3n) {
+      margin: 12px 12px 32px 0;
+    }
+
+    &:nth-child(2n) {
+      margin: 12px 0 32px 0;
+    }
+
+}
 }
 
 @media screen and (max-width: 534px) {
@@ -31,12 +86,11 @@
     box-sizing: content-box;
     width: 288px;
     height: 288px;
-    margin: 12px 0 0 0;
+    margin: 12px 0 32px 0;
 
-    &:nth-child(4n) {
-      margin: 12px 0 0 0;
+    &:nth-child(4n), &:nth-child(3n), &:nth-child(2n) {
+      margin: 12px 0 32px 0;
      }
-
 }
 }
 

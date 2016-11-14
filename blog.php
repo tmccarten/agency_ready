@@ -9,9 +9,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="icon" href="favicon.svg">
+
+    <?php include 'assets/includes/fonts.php';?>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+
+
+
   </head>
 
 <body>
@@ -19,7 +22,8 @@
     <?php include 'assets/includes/header.php';?>
 
     <main class="page-wrapper">
-    <div class="title blog">
+
+    <div class="title main blog">
       <div class="title-border-left"></div>
         <h2 class="title-box large">Blog</h2>
       <div class="title-border-right"></div>
@@ -28,15 +32,61 @@
       <div class="wrapper blog">
         <article class="textblock">
           <h3>The Digital Industry</h3>
-          <p>The UK’s digital tech industries are expanding and evolving at a rate that shows no sign of slowing. Between 2011 and 2014 UK digital tech industries had a job creation rate 2.8 times faster than the rest of the economy, with 1.56m people employed in digital tech occupations [citation]. Translated into turnover that’s £161bn, a 32% faster growth rate than the rest of the economy and an average salary 36% higher than the national average [citation]. Needless to say, it’s all good news for people, like myself, hoping to forge a career in the digital tech industry.</p>
 
-          <p>As an obvious symptom of such expansion, there are roles within businesses up and down the country waiting and needing to be filled. One of the surprising outcomes of Manchester Digital’s 2016 ‘Skills Summit’ survey was the significance of the ‘developer’ role to those businesses surveyed. Not only do they find it to be the most difficult role to fill, but they believe that the skillsets needed to fulfil the role will grow in importance more than any other. As someone who wishes to become a professional front-end web developer this was both revealing and reassuring to know that the need is very much there.</p>
+          <h4>Inspiration</h4>
 
-          <p>The UK’s digital tech industries are expanding and evolving at a rate that shows no sign of slowing. Between 2011 and 2014 UK digital tech industries had a job creation rate 2.8 times faster than the rest of the economy, with 1.56m people employed in digital tech occupations [citation]. Translated into turnover that’s £161bn, a 32% faster growth rate than the rest of the economy and an average salary 36% higher than the national average [citation]. Needless to say, it’s all good news for people, like myself, hoping to forge a career in the digital tech industry.</p>
+            <p>I already had a vague idea of how I wanted the website to look (more personal, less corporate) after experimenting with different ideas over summer. Nonetheless, I sought and found further inspiration in Creative Bloq’s <a href="http://www.creativebloq.com/portfolios/examples-712368">45 brilliant design portfolios to inspire you</a> rundown. I was especially interested in the layout decisions the designers made in choosing how to best showcase their work. Whilst some solutions were truly unique, the tried and tested method of presenting each case study or category of work as a clickable square or rectangle in a grid layout seemed the most widely used. <a href="http://strange.wales">The homepage of Gareth Strange</a> is an excellent example of this, combining clean minimalism with sensible responsive breakpoints to let the beauty of the artwork speak for itself.</p>
 
-          <p>The UK’s digital tech industries are expanding and evolving at a rate that shows no sign of slowing. Between 2011 and 2014 UK digital tech industries had a job creation rate 2.8 times faster than the rest of the economy, with 1.56m people employed in digital tech occupations [citation]. Translated into turnover that’s £161bn, a 32% faster growth rate than the rest of the economy and an average salary 36% higher than the national average [citation]. Needless to say, it’s all good news for people, like myself, hoping to forge a career in the digital tech industry.</p>
+              <img src="">
 
-          <p>The UK’s digital tech industries are expanding and evolving at a rate that shows no sign of slowing. Between 2011 and 2014 UK digital tech industries had a job creation rate 2.8 times faster than the rest of the economy, with 1.56m people employed in digital tech occupations [citation]. Translated into turnover that’s £161bn, a 32% faster growth rate than the rest of the economy and an average salary 36% higher than the national average [citation]. Needless to say, it’s all good news for people, like myself, hoping to forge a career in the digital tech industry.</p>
+            <p>I don’t have a portfolio of work anything like Gareth’s, but a similar grid layout is something I wanted to use in my own design. I think it’s useful to seek out examples of work that we find particularly attractive. Doing so may subconsciously influence our future work even if we don’t realise the information has been absorbed at the time. Creative Something go over this in more detail in this interesting <a href="http://creativesomething.net/post/66982583259/the-creative-processing-your-brain-wont-tell-you">article on creative processing.</a></p>
+
+          <h4>Designing it</h4>
+
+            <p>For the design, I skipped straight into creating a high fidelity concept in Photoshop. Don’t do this. Not only does it run the risk of wasting hours of development time on a website that may prove to be unfeasible in a user experience sense, it limits your thinking. Fortunately, whilst not evidenced on paper, I had roughly considered the organisation of pages and content, so I think I got away with it in terms of the information architecture. But if I were to do it again I’d follow the correct procedure of brainstorming and <a href="http://www.experienceux.co.uk/faqs/what-is-wireframing">wireframing</a> different options. </p>
+
+              <img src="wireframe">
+              <img src="photoshop">
+
+            <p>Despite this, one thing I was highly conscious of from the beginning and let dictate the design of the layout somewhat was line length. Websites with overly long line lengths give off a conspicuous air of amateurism, so it was important to me to keep it within the ideal range of 45 to 75 characters. This Laura Franz <a href="https://www.smashingmagazine.com/2014/09/balancing-line-length-font-size-responsive-web-design">article on line length and font-size</a> for Smashing Magazine was an excellent resource on the topic, suggesting that it’s the width of the text container that should be altered to preserve line length, not the size of the font. Overly large font sizes have a negative impact on readability.</p>
+
+          <h4>Building it</h4>
+
+            <p>Otherwise known as the technical bit. The first step was to setup a folder structure for development. I tend to use the same setup now for all web projects, and the folder structure was something I learned from Travis Neilson of DevTips. His <a href="https://github.com/DevTips/DevTips-Starter-Kit">DevTips Starter Kit</a> was a perfect introduction to thinking about the organisation of the development process more professionally. In doing so I became an advocate of <a href="http://sass-lang.com">Sass</a>, <a href="http://gulpjs.com">Gulp</a> and <a href="https://git-scm.com">Git</a>. Using Sass in conjunction with Gulp greatly improved the ease and speed of my workflow; the former allowing the use of variables, nesting and partials enabled me to write code in a more organised, modular fashion than vanilla CSS. As well as using Gulp to compile my Sass to CSS, I used <a href="https://www.browsersync.io">Browsersync</a> to allow for instant browser reloading after saving code, <a href="https://autoprefixer.github.io">Autoprefixer</a> to automatically add the vendor prefixes to CSS properties for older browsers and <a href="https://www.npmjs.com/package/gulp-connect-php">gulp-connect-php</a> to run a local PHP server during development.<p>
+
+              <img src="sasscode">
+
+            <p>Using Git for version control meant I could experiment to my heart’s content without fear of breaking something past the point of no return. I found that having such peace of mind whilst developing is valuable to say the least.</p>
+
+            <p>Thanks to flexbox the overall layout was relatively simple to code, major breakpoints usually entailed simply changing the flex-direction to ‘column’ or ‘row’, depending on the context, and then tweaking. One aspect I found rewarding was figuring out how I could create those boxed headers with the dotted border and horizontal lines either side. My first attempt was almost successful but the horizontal line was visible behind the header text. After experimenting for a while I arrived at the answer by breaking up the header into three distinct parts and applying a negative top margin to the box in the middle. I saved the <a href="https://codepen.io/blackmath/pen/qaGEog">technique on CodePen</a> if this interests you, and here’s <a href="https://github.com/tmccarten/agency_ready">my Github repository</a> for the same reason.</p>
+
+          <h4>References</h4>
+
+            <p><small>Staff, C. B. (2016) '45 brilliant design portfolios to inspire you.'. [Online] 13th September. [Accessed on 12th November 2016] <a href="http://www.creativebloq.com/portfolios/examples-712368">http://www.creativebloq.com/portfolios/examples-712368</a></small></p>
+
+            <p><small>Strange, G. (no date) Strangelove. Strangelove. [Online] [Accessed on 13th November 2016] <a href="http://strange.wales">http://strange.wales</a></small></p>
+
+            <p><small>Christensen, T. (2013) The creative processing your brain won’t tell you about. 14th November. Creative Something. [Online] [Accessed on 13th November 2016] <a href="http://creativesomething.net/post/66982583259/the-creative-processing-your-brain-wont-tell-you">http://creativesomething.net/post/66982583259/the-creative-processing-your-brain-wont-tell-you</a></small></p>
+
+            <p><small>Rees, D. (2015) What is wireframing. 1st June. Experience UX. [Online] [Accessed on 13th November 2016] <a href="http://www.experienceux.co.uk/faqs/what-is-wireframing">http://www.experienceux.co.uk/faqs/what-is-wireframing</a></small></p>
+
+            <p><small>Franz, L. (2014) Size matters: Balancing line length and font size in responsive web design – smashing magazine. 29th September. Design. [Online] [Accessed on 13th November 2016] <a href="https://www.smashingmagazine.com/2014/09/balancing-line-length-font-size-responsive-web-design">https://www.smashingmagazine.com/2014/09/balancing-line-length-font-size-responsive-web-design</a></small></p>
+
+            <p><small>DevTips. (2015) DevTips/DevTips-Starter-Kit: Ground zero for your next project. 21st July. Github. [Online] [Accessed on 13th November 2016] <a href="https://github.com/DevTips/DevTips-Starter-Kit">https://github.com/DevTips/DevTips-Starter-Kit</a></small></p>
+
+            <p><small>Catlin, H., Weizenbaum, N. and Eppstein, C. (2015) Sass: Syntactically Awesome Style Sheets. Sass-lang. [Online] [Accessed on 13th November 2016] <a href="http://sass-lang.com">http://sass-lang.com</a></small></p>
+
+            <p><small>Gulpjs. (no date) gulp.js - the streaming build system. [Online] [Accessed on 13th November 2016] <a href="http://gulpjs.com">http://gulpjs.com</a></small></p>
+
+            <p><small>Git. (no date) Git. [Online] [Accessed on 13th November 2016] <a href="https://git-scm.com">https://git-scm.com</a></small></p>
+
+            <p><small>Browsersync. (no date) Browsersync - Time-saving synchronised browser testing. [Online] [Accessed on 13th November 2016] <a href="https://www.browsersync.io">https://www.browsersync.io</a></small></p>
+
+            <p><small>Blu, M. (2016) gulp-connect-php. 31st July. Npmjs. [Online] [Accessed on 13th November 2016] <a href="https://www.npmjs.com/package/gulp-connect-php">https://www.npmjs.com/package/gulp-connect-php</a></small></p>
+
+            <p><small>CodePen. (no date) A Pen by Thomas McCarten. [Online] [Accessed on 13th November 2016] <a href="https://codepen.io/blackmath/pen/qaGEog">https://codepen.io/blackmath/pen/qaGEog</a></small></p>
+
+
 
         </article>
 
@@ -61,8 +111,6 @@
     </main>
 
 <?php include 'assets/includes/footer.php';?>
-
-</div>
 
 </body>
 </html>

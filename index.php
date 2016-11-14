@@ -9,9 +9,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="icon" href="favicon.svg">
+
+    <?php include 'assets/includes/fonts.php';?>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+
+
+
   </head>
 
 <body>
@@ -19,44 +22,87 @@
     <?php include 'assets/includes/header.php';?>
 
     <main class="page-wrapper">
-    <div class="title">
+
+    <div class="title main">
       <div class="title-border-left"></div>
-        <h2 class="title-box large">Logos</h2>
+        <h2 class="title-box large">Work</h2>
       <div class="title-border-right"></div>
     </div>
 
       <div class="wrapper work">
 
-        <div class="work-tile">
-            <a href="#"><img src="assets/img/work/logo_1.png" alt="Telescope Furniture logo" height="288" width="288"></a>
+        <div class="work-tile intro">
+          <div class="work-tile-inner">
+            <p>Hello, I'm Tom.<p>A front-end web developer based in Manchester.</p><p><a href="contact.php">Get in touch.</a></p>
+          </div>
         </div>
+
         <div class="work-tile">
-            <a href="#"><img src="assets/img/work/logo_2.png" alt="Unifyed logo" height="288" width="288"></a>
+          <div class="work-tile-inner">
+            <div class="title work-title">
+              <div class="title-border-left"></div>
+                <h2 class="title-box small">Logos</h2>
+              <div class="title-border-right"></div>
+            </div>
+            <a href="#">
+            <img src="assets/img/work/logo_1.png" alt="Telescope Furniture logo" height="288" width="288">
+            </a>
+          </div>
         </div>
+
         <div class="work-tile">
-            <a href="#"><img src="assets/img/work/logo_3.png" alt="Unifyed logo" height="288" width="288"></a>
+          <div class="work-tile-inner">
+            <div class="title work-title">
+              <div class="title-border-left"></div>
+                <h2 class="title-box small">Illustrations</h2>
+              <div class="title-border-right"></div>
+            </div>
+            <a href="#">
+            <img src="assets/img/work/logo_1.png" alt="Telescope Furniture logo" height="288" width="288">
+            </a>
+          </div>
         </div>
+
         <div class="work-tile">
-            <a href="#"><img src="assets/img/work/logo_4.png" alt="Unifyed logo" height="288" width="288"></a>
+          <div class="work-tile-inner">
+            <div class="title work-title">
+              <div class="title-border-left"></div>
+                <h2 class="title-box small">Photography</h2>
+              <div class="title-border-right"></div>
+            </div>
+            <a href="#">
+            <img src="assets/img/work/logo_1.png" alt="Telescope Furniture logo" height="288" width="288">
+            </a>
+          </div>
         </div>
+
         <div class="work-tile">
-            <a href="#"><img src="assets/img/work/logo_5.png" alt="Unifyed logo" height="288" width="288"></a>
+          <div class="work-tile-inner">
+            <div class="title work-title">
+              <div class="title-border-left"></div>
+                <h2 class="title-box small">Websites</h2>
+              <div class="title-border-right"></div>
+            </div>
+            <a href="#">
+            <img src="assets/img/work/logo_1.png" alt="Telescope Furniture logo" height="288" width="288">
+            </a>
+          </div>
         </div>
+
         <div class="work-tile">
-            <a href="#"><img src="assets/img/work/logo_6.png" alt="Unifyed logo" height="288" width="288"></a>
+          <div class="work-tile-inner">
+            <div class="title work-title">
+              <div class="title-border-left"></div>
+                <h2 class="title-box small">Other</h2>
+              <div class="title-border-right"></div>
+            </div>
+            <a href="#">
+            <img src="assets/img/work/logo_1.png" alt="Telescope Furniture logo" height="288" width="288">
+            </a>
+          </div>
         </div>
 
       </div>
-
-    <div class="wrapper work">
-
-      <div class="title">
-        <div class="title-border-left"></div>
-          <h2 class="title-box medium">Other</h2>
-        <div class="title-border-right"></div>
-      </div>
-
-    </div>
 
     </main>
 

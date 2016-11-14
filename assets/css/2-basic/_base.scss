@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  transition: color 0.3s ease, height 0.5s ease;
+}
+
+html {
+  min-height: 100%;
+  overflow-y: scroll;
+}
+
+::selection {
+  background-color: #858590;
+  color: white;
+  opacity: 1;
+}
+
+.hide-text {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

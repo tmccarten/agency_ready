@@ -16,6 +16,8 @@
 .sidebar.about {
   padding: 0rem 1rem 0 1rem;
   justify-content: center;
+  border: none;
+
 
   img {
       filter: grayscale(1);
@@ -24,7 +26,14 @@
       max-width: 100%;
       height: auto;
       margin: 0 0 1em 0;
-      border: 1px solid white;
+      //border: 1px solid white;
+      transform: rotate(-4deg);
+
+      &:nth-child(2) {
+        outline: 1px solid transparent;
+        -webkit-backface-visibility: hidden;
+        transform: rotate(4deg) translateY(-40px);
+      }
     }
   }
 
@@ -50,7 +59,7 @@
     justify-content: center;
     border: 1px dashed white;
     font-weight: bold;
-    border-radius: 1em;
+    //border-radius: 1em;
     margin: 1em auto 0 auto;
     padding: 0.5em;
     color: white;
@@ -99,4 +108,5 @@
     border-left: none;
     border-right: none;
   }
+
 }
