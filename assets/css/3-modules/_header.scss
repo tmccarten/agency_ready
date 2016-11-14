@@ -95,33 +95,12 @@ ul {
     width: auto;
 }
 
-  .main-header-container.smaller, .main-header-container.even-smaller {
-    background-color: mix(lighten($primarybackgroundcol, 15), desaturate($primarybackgroundcol, 1));;
-    height: 130px;
-
-    .main-header {
-      margin: 15px 0 0 0;
-    }
-
-    .logo {
-      flex: 0;
-      height: 64px;
-      margin: 0;
-    }
-
-    img {
-      width: 200px;
-    }
-  }
-
-
   .main-header {
     flex-direction: column;
     padding: 0;
   }
 
   nav {
-    font-size: 1.125rem;
     margin: 1rem 0;
     width: 100%;
     display: flex;
@@ -136,6 +115,61 @@ ul {
     }
   }
 
+  .main-header-container.smaller, .main-header-container.even-smaller {
+    background-color: mix(lighten($primarybackgroundcol, 15), desaturate($primarybackgroundcol, 1));;
+    height: 100px;
+
+    .main-header {
+      margin: 0;
+    }
+
+    .logo {
+      flex: 0;
+      height: auto;
+      margin: 0;
+    }
+
+    img {
+      width: 120px;
+    }
+
+    nav {
+      margin: 0;
+    }
+  }
+
+  @media screen and (max-height: $breakpoint-height) {
+
+    body::before {
+      content: none;
+    }
+
+    .main-header-container.smaller, .main-header-container.even-smaller {
+      background-color: mix(lighten($primarybackgroundcol, 15), desaturate($primarybackgroundcol, 1));;
+      height: 50px;
+
+      .main-header {
+        flex-direction: row;
+        margin: 0;
+        padding: 0 1rem;
+      }
+
+      .logo {
+        flex: 0;
+        height: auto;
+        margin: 0;
+      }
+
+      img {
+        width: 120px;
+      }
+
+      nav {
+        margin: 0;
+        justify-content: flex-end;
+      }
+    }
+}
 }
 
 @media screen and (max-width: $breakpoint2) {
