@@ -838,6 +838,7 @@ footer {
   border: 2px dotted #20425c;
   border-top: none; }
   .work-tile img {
+    display: block;
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
     max-width: 100%;
@@ -850,7 +851,22 @@ footer {
   .work-tile:hover {
     background-color: #122737; }
   .work-tile .work-tile-inner {
-    position: relative; }
+    position: relative;
+    height: auto; }
+    .work-tile .work-tile-inner p {
+      padding: 0 2rem;
+      font-size: 1rem;
+      text-align: center; }
+
+.work-tile.intro {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #122737;
+  border: none; }
 
 @media screen and (max-width: 1008px) {
   .work-tile {

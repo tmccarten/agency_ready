@@ -6,6 +6,7 @@
   border-top: none;
 
   img {
+    display: block;
     filter: grayscale(1);
     max-width: 100%;
     height: auto;
@@ -21,13 +22,25 @@
 
   &:hover {
     background-color: $primarybackgroundcol;
-    //border: 1px solid white;
   }
 
   .work-tile-inner {
     position: relative;
-  }
+    height: auto;
 
+    p {
+      padding: 0 2rem;
+      font-size: 1rem;
+      text-align: center;
+    }
+  }
+}
+
+.work-tile.intro {
+  display: flex;
+  align-items: center;
+  background-color: $primarybackgroundcol;
+  border: none;
 }
 
 @media screen and (max-width: 1008px) {
