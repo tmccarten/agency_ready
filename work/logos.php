@@ -1,10 +1,10 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <?php $activePage = "About"; ?>
+    <?php $activePage = "Work"; ?>
 
     <meta charset="utf-8">
-    <title>About - Thomas McCarten Portfolio</title>
+    <title>Photography - Work - Thomas McCarten Portfolio</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,32 +19,32 @@
 
     <?php include '../assets/includes/header.php';?>
 
-    <main class="page-wrapper">
+    <main class="page-wrapper work">
+      
+      <div class="wrapper work">
+        <div class="contentblock work">
 
-    <div class="title main">
-      <div class="title-border-left"></div>
-        <h2 class="title-box large">About me</h2>
-      <div class="title-border-right"></div>
-    </div>
+        <figure>
+          <a href="/assets/img/work/logos/logos_1.png">
+              <img src="/assets/img/work/logos/logos_1.png" alt="" height="500" width="575">
+          </a>
+        </figure>
 
-      <div class="wrapper about">
-        <article class="contentblock about">
-          <img src="/assets/img/work/photography/1.png" alt="" height="" width="">
-        </article>
+        </div>
 
         <aside class="sidebar work">
 
           <h3>Overview</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+            <p>I sometimes take part in logo design competitions when I have nothing better to do. None of these are winners but it's the taking part that counts...</p>
+            <p><small>*These logos do not in any way represent any of the brands depicted.</small><p>
+          <h4>Tools</h4>
+            <p>Adobe Illustrator</p>
 
         </aside>
       </div>
     </main>
 
 <?php include '../assets/includes/footer.php';?>
-
-</div>
 
 </body>
 </html>

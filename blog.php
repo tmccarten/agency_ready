@@ -21,15 +21,15 @@
 
     <?php include '/assets/includes/header.php';?>
 
-    <main class="page-wrapper">
+    <main class="page-wrapper blog">
 
-    <div class="title main blog">
-      <div class="title-border-left"></div>
-        <h2 class="title-box large">Blog</h2>
-      <div class="title-border-right"></div>
-    </div>
+      <div class="breadcrumb-container">
+        <div class="breadcrumb">
+          <a href="/index.php">Home</a> / <a href="/blog.php">Blog</a> / Blog Post 1
+        </div>
+      </div>
 
-      <div class="wrapper blog">
+    <div class="wrapper blog">
         <article class="contentblock">
           <h3>The Digital Industry</h3>
 
@@ -92,7 +92,7 @@
 
         <aside class="sidebar">
 
-        <div class="title">
+        <div class="title blog">
           <div class="title-border-left"></div>
             <h2 class="title-box medium">Posts</h2>
           <div class="title-border-right"></div>

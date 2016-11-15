@@ -27,7 +27,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0;
+  padding: 0 2em 0 0;
   border: none;
 }
 
@@ -35,9 +35,14 @@
 
 .contentblock {
   margin: 0 auto;
-  padding: 3rem 0;
+  padding: 1rem;
   max-width: 37.625rem;
   width: 100%;
   border-bottom: 2px dotted $border-color;
+}
+
+.contentblock.work {
+  padding: 0;
+  margin: 0 auto 2rem auto;
 }
 }

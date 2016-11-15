@@ -437,6 +437,23 @@ h1 {
 h2 {
   font-size: 1.875rem; }
 
+.breadcrumb-container {
+  width: 100%; }
+
+.breadcrumb {
+  font-size: 1rem;
+  padding: 1rem 0.2em;
+  max-width: 960px; }
+
+@media screen and (max-width: 750px) {
+  .breadcrumb-container {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; } }
+
 a {
   color: #fff;
   text-decoration: underline; }
@@ -502,7 +519,7 @@ body::before {
 
 @media screen and (max-width: 750px) {
   .page-wrapper {
-    margin: 240px auto 1rem auto; }
+    margin: 200px auto 1rem auto; }
   .wrapper {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
@@ -700,11 +717,7 @@ ul {
   .title {
     max-width: 600px;
     margin: 0 auto; }
-  .title.main {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex; }
-  .title.main.work {
+  .title.blog {
     display: none; }
   .title-box.large {
     font-size: 1.3375rem; }
@@ -744,16 +757,19 @@ ul {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 0;
+  padding: 0 2em 0 0;
   border: none; }
 
 @media screen and (max-width: 750px) {
   .contentblock {
     margin: 0 auto;
-    padding: 3rem 0;
+    padding: 1rem;
     max-width: 37.625rem;
     width: 100%;
-    border-bottom: 2px dotted #384266; } }
+    border-bottom: 2px dotted #384266; }
+  .contentblock.work {
+    padding: 0;
+    margin: 0 auto 2rem auto; } }
 
 .sidebar {
   display: -webkit-flex;
@@ -1017,6 +1033,9 @@ footer {
     .sidebar.about img {
       max-width: 100%; } }
 
+.page-wrapper.blog {
+  margin: 200px auto 1rem auto; }
+
 @media screen and (max-width: 750px) {
   .wrapper.blog {
     -webkit-flex-direction: column-reverse;
@@ -1024,6 +1043,9 @@ footer {
     flex-direction: column-reverse; }
   .title.main.blog {
     display: none; } }
+
+.page-wrapper.index {
+  margin: 200px auto 1rem auto; }
 
 .wrapper.index {
   margin: 0.9375rem 0 2.8125rem 0;
@@ -1037,12 +1059,13 @@ footer {
     -ms-flex-pack: center;
     justify-content: center; } }
 
-@media screen and (max-width: 750px) {
-  .page-wrapper.index, .page-wrapper.work {
-    margin: 200px auto 1rem auto; } }
+.page-wrapper.work {
+  margin: 200px auto 1rem auto; }
 
 @media screen and (max-width: 534px) {
   .wrapper.work {
     -webkit-flex-direction: column-reverse;
     -ms-flex-direction: column-reverse;
-    flex-direction: column-reverse; } }
+    flex-direction: column-reverse; }
+  .contentblock.work {
+    margin-top: 1rem; } }

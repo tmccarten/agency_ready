@@ -1,7 +1,16 @@
+.page-wrapper.work {
+  margin: 200px auto 1rem auto;
+}
+
 @media screen and (max-width: 534px) {
 
 .wrapper.work {
   flex-direction: column-reverse;
 }
+
+.contentblock.work {
+  margin-top: 1rem;
+}
+
 
 }

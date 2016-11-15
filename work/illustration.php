@@ -1,10 +1,10 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <?php $activePage = "About"; ?>
+    <?php $activePage = "Work"; ?>
 
     <meta charset="utf-8">
-    <title>About - Thomas McCarten Portfolio</title>
+    <title>Photography - Work - Thomas McCarten Portfolio</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,38 +19,58 @@
 
     <?php include '../assets/includes/header.php';?>
 
-    <main class="page-wrapper">
+    <main class="page-wrapper work">
+      <div class="breadcrumb-container">
+        <div class="breadcrumb">
+          <a href="/index.php">Home</a> / Illustration
+        </div>
+      </div>
 
-    <div class="title main">
-      <div class="title-border-left"></div>
-        <h2 class="title-box large">About me</h2>
-      <div class="title-border-right"></div>
-    </div>
+      <div class="wrapper work">
+        <div class="contentblock work">
 
-      <div class="wrapper about">
-        <article class="textblock about">
-          <p>Hello, I’m <b>Tom</b>...</p>
-          <p>...a 28 year old front-end web developer based in Manchester, England.</p>
+          <a href="/assets/img/work/photography/1.png">
+            <figure>
+              <img src="/assets/img/work/photography/1.png" alt="" height="320" width="575">
+              <figcaption><small>Mount Snowdon, Wales, 2015</small></figcaption>
+            </figure>
+          </a>
 
-          <p>I love <b>designing</b> things, <b>coding</b> things, and making things look good.</p>
+          <a href="/assets/img/work/photography/4.png">
+            <figure>
+              <img src="/assets/img/work/photography/4.png" alt="" height="379" width="575">
+              <figcaption><small>War Memorial, Gillingham, England, 2016</small></figcaption>
+            </figure>
+          </a>
 
-          <p>I’m always <b>learning</b>. No one wants to be left behind in such a <a href="#">fast-moving industry</a>.</p>
+          <a href="/assets/img/work/photography/2.png">
+            <figure>
+              <img src="/assets/img/work/photography/2.png" alt="" height="259" width="575">
+              <figcaption><small>Scafell Pike, England, 2014</small></figcaption>
+            </figure>
+          </a>
 
-          <p>Currently getting to grips with SASS, Gulp and Github in order to speed up and improve my workflow and design processes.</p>
+          <a href="/assets/img/work/photography/3.png">
+            <figure>
+              <img src="/assets/img/work/photography/3.png" alt="" height="383" width="575">
+              <figcaption><small>Whitstable, Kent, England, 2016</small></figcaption>
+            </figure>
+          </a>
 
-        </article>
+        </div>
 
-        <aside class="sidebar about">
+        <aside class="sidebar work">
 
-          <img src="/assets/img/about/me3.jpg" alt="" height="300" width="300">
-          <img src="/assets/img/about/me.jpg" alt="Tom McCarten next to the sea at a pebbled beach." height="300" width="300">
+          <h3>Overview</h3>
+            <p>I bought my first DSLR recently. Here are some of the better shots. Some of them were taken on my humble Samsung Galaxy S5.</p>
+          <h4>Tools</h4>
+            <p>Canon EOS 1200D 18.0 MP DSLR Camera, Samsung Galaxy S5 Camera</p>
+
         </aside>
       </div>
     </main>
 
 <?php include '../assets/includes/footer.php';?>
-
-</div>
 
 </body>
 </html>
