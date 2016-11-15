@@ -4,13 +4,17 @@
     <?php $activePage = "Work"; ?>
 
     <meta charset="utf-8">
-    <title>Photography - Work - Thomas McCarten Portfolio</title>
-    <meta name="description" content="">
+
+    <title>Logos | Thomas McCarten Portfolio</title>
+
+    <meta name="description" content="Logos by front-end web developer Thomas McCarten.">
+    <meta name="keywords" content="Thomas McCarten,Front-End,Design,Coding,Web Development,Logo Design,Illustrations,Photography">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="icon" href="favicon.svg">
 
     <?php include '../assets/includes/fonts.php';?>
+
     <link rel="stylesheet" href="/assets/css/style.css">
 
   </head>
@@ -20,7 +24,7 @@
     <?php include '../assets/includes/header.php';?>
 
     <main class="page-wrapper work">
-      
+
       <div class="wrapper work">
         <div class="contentblock work">
 

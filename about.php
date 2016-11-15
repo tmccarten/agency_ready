@@ -4,13 +4,17 @@
     <?php $activePage = "About"; ?>
 
     <meta charset="utf-8">
-    <title>About - Thomas McCarten Portfolio</title>
-    <meta name="description" content="">
+
+    <title>About | Thomas McCarten Portfolio</title>
+
+    <meta name="description" content="About Manchester front-end web developer Thomas McCarten, experience and interests.">
+    <meta name="keywords" content="Thomas McCarten,Front-End,Design,Coding,Web Development,Logo Design,Illustrations,Photography">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="icon" href="favicon.svg">
 
     <?php include '/assets/includes/fonts.php';?>
+
     <link rel="stylesheet" href="/assets/css/style.css">
 
   </head>
@@ -29,6 +33,7 @@
 
       <div class="wrapper about">
         <article class="contentblock about">
+          <h3>About me</h3>
           <p>Hello, I’m <b>Tom</b>...</p>
           <p>...a 28 year old front-end web developer based in Manchester, England.</p>
 

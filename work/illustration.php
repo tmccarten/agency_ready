@@ -4,13 +4,17 @@
     <?php $activePage = "Work"; ?>
 
     <meta charset="utf-8">
-    <title>Photography - Work - Thomas McCarten Portfolio</title>
-    <meta name="description" content="">
+
+    <title>Illustration | Thomas McCarten Portfolio</title>
+
+    <meta name="description" content="Illustrations by front-end web developer Thomas McCarten.">
+    <meta name="keywords" content="Thomas McCarten,Front-End,Design,Coding,Web Development,Logo Design,Illustrations,Photography">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="icon" href="favicon.svg">
 
     <?php include '../assets/includes/fonts.php';?>
+
     <link rel="stylesheet" href="/assets/css/style.css">
 
   </head>
@@ -20,42 +24,10 @@
     <?php include '../assets/includes/header.php';?>
 
     <main class="page-wrapper work">
-      <div class="breadcrumb-container">
-        <div class="breadcrumb">
-          <a href="/index.php">Home</a> / Illustration
-        </div>
-      </div>
 
       <div class="wrapper work">
         <div class="contentblock work">
 
-          <a href="/assets/img/work/photography/1.png">
-            <figure>
-              <img src="/assets/img/work/photography/1.png" alt="" height="320" width="575">
-              <figcaption><small>Mount Snowdon, Wales, 2015</small></figcaption>
-            </figure>
-          </a>
-
-          <a href="/assets/img/work/photography/4.png">
-            <figure>
-              <img src="/assets/img/work/photography/4.png" alt="" height="379" width="575">
-              <figcaption><small>War Memorial, Gillingham, England, 2016</small></figcaption>
-            </figure>
-          </a>
-
-          <a href="/assets/img/work/photography/2.png">
-            <figure>
-              <img src="/assets/img/work/photography/2.png" alt="" height="259" width="575">
-              <figcaption><small>Scafell Pike, England, 2014</small></figcaption>
-            </figure>
-          </a>
-
-          <a href="/assets/img/work/photography/3.png">
-            <figure>
-              <img src="/assets/img/work/photography/3.png" alt="" height="383" width="575">
-              <figcaption><small>Whitstable, Kent, England, 2016</small></figcaption>
-            </figure>
-          </a>
 
         </div>
 

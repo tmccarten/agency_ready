@@ -4,16 +4,18 @@
     <?php $activePage = "Blog"; ?>
 
     <meta charset="utf-8">
-    <title>Blog - Thomas McCarten Portfolio</title>
-    <meta name="description" content="">
+
+    <title>Blog | Thomas McCarten Portfolio</title>
+
+    <meta name="description" content="Blog posts by front-end web developer Thomas McCarten, including digital industry and design.">
+    <meta name="keywords" content="Thomas McCarten,Front-End,Design,Coding,Web Development,Logo Design,Illustrations,Photography">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="icon" href="favicon.svg">
 
     <?php include '/assets/includes/fonts.php';?>
-    <link rel="stylesheet" href="assets/css/style.css">
 
-
+    <link rel="stylesheet" href="/assets/css/style.css">
 
   </head>
 
@@ -25,7 +27,7 @@
 
       <div class="breadcrumb-container">
         <div class="breadcrumb">
-          <a href="/index.php">Home</a> / <a href="/blog.php">Blog</a> / Blog Post 1
+          <a href="/index.php">Home</a> / <a href="/blog.php">Blog</a> / Post 1
         </div>
       </div>
 

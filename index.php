@@ -4,16 +4,18 @@
     <?php $activePage = "Work"; ?>
 
     <meta charset="utf-8">
-    <title>Home - Thomas McCarten Portfolio</title>
-    <meta name="description" content="">
+
+    <title>Home | Thomas McCarten Portfolio</title>
+
+    <meta name="description" content="Homepage of Manchester front-end web developer Thomas McCarten, with examples of work and blog posts.">
+    <meta name="keywords" content="Thomas McCarten,Front-End,Design,Web Development,Logo Design,Illustrations,Photography">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="icon" href="favicon.svg">
 
     <?php include '/assets/includes/fonts.php';?>
+
     <link rel="stylesheet" href="/assets/css/style.css">
-
-
 
   </head>
 
