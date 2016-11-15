@@ -1,8 +1,8 @@
 .work-tile {
   width: 231px;
   height: 231px;
-  margin: 12px 12px 32px 0;
-  border: 2px dotted $border-color;
+  margin: 12px 12px 0 0;
+  //border: 2px dotted $border-color;
   //border-top: none;
   background-color: $primarybackgroundcol;
 
@@ -11,18 +11,19 @@
     filter: grayscale(1);
     max-width: 100%;
     height: auto;
+    opacity: 0.1;
 
     &:hover {
-      filter: grayscale(0);
+      //filter: grayscale(0);
     }
   }
 
   &:nth-child(4n) {
-    margin: 12px 0 32px 0;
+    margin: 12px 0 0 0;
   }
 
   &:hover {
-    //background-color: $primarybackgroundcol;
+    background-color: darken($primarybackgroundcol, 2);
   }
 
   .work-tile-inner {
@@ -32,7 +33,7 @@
     p {
       padding: 0 2rem;
       font-size: 1rem;
-      text-align: center;
+      text-align: left;
     }
   }
 }
@@ -40,8 +41,8 @@
 .work-tile.intro {
   display: flex;
   align-items: center;
-  background-color: $primarybackgroundcol;
-  border: none;
+  background-color: darken($primarybackgroundcol, 2);
+  clip-path: polygon(20% 0, 0 20%, 0 100%, 100% 100%, 100% 0);
 }
 
 @media screen and (max-width: 1008px) {
@@ -51,11 +52,11 @@
     width: 30%;
 
   &:nth-child(4n) {
-    margin: 12px 12px 32px 0;
+    margin: 12px 12px 0 0;
    }
 
    &:nth-child(3n) {
-     margin: 12px 0 32px 0;
+     margin: 12px 0 0 0;
     }
 
 }
@@ -64,18 +65,18 @@
 @media screen and (max-width: $breakpoint1) {
 
   .work-tile {
-    width: 42%;
+    width: 41%;
 
     &:nth-child(4n) {
-      margin: 12px 0 32px 0;
+      margin: 12px 0 0 0;
     }
 
     &:nth-child(3n) {
-      margin: 12px 12px 32px 0;
+      margin: 12px 12px 0 0;
     }
 
     &:nth-child(2n) {
-      margin: 12px 0 32px 0;
+      margin: 12px 0 0 0;
     }
 
 }
@@ -84,15 +85,33 @@
 @media screen and (max-width: 534px) {
 
   .work-tile {
-    box-sizing: content-box;
+    //box-sizing: content-box;
     width: 288px;
-    height: 288px;
-    margin: 12px 0 32px 0;
+    height: 200px;
+    margin: 12px 0 0 0;
+
+    img {
+      margin: 0 auto;
+      height: 200px;
+      width: 200px;
+    }
 
     &:nth-child(4n), &:nth-child(3n), &:nth-child(2n) {
-      margin: 12px 0 32px 0;
+      margin: 12px 0 0 0;
      }
 }
+
+  .work-tile.intro {
+    height: 288px;
+    clip-path: polygon(50% 100%, 0 80%, 0 0, 100% 0, 100% 80%);
+
+    p {
+      margin-top: 0;
+      text-align: center;
+    }
+  }
+
+
 }
 
 @media screen and (max-width: $breakpoint2) {

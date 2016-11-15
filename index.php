@@ -23,13 +23,7 @@
 
     <main class="page-wrapper work">
 
-    <div class="title main work">
-      <div class="title-border-left"></div>
-        <h2 class="title-box large">Work</h2>
-      <div class="title-border-right"></div>
-    </div>
-
-      <div class="wrapper work">
+    <div class="wrapper work">
 
         <div class="work-tile intro">
           <div class="work-tile-inner">
@@ -40,9 +34,9 @@
         <div class="work-tile">
           <div class="work-tile-inner">
             <div class="title work-title">
-              <div class="title-border-left"></div>
+
                 <h2 class="title-box small">Logos</h2>
-              <div class="title-border-right"></div>
+
             </div>
             <a href="#">
             <img src="assets/img/work/logos.png" alt="Telescope Furniture logo" height="288" width="288">
@@ -53,9 +47,9 @@
         <div class="work-tile">
           <div class="work-tile-inner">
             <div class="title work-title">
-              <div class="title-border-left"></div>
-                <h2 class="title-box small">Illustrations</h2>
-              <div class="title-border-right"></div>
+
+                <h2 class="title-box small">Illustration</h2>
+
             </div>
             <a href="#">
             <img src="assets/img/work/illustrations.png" alt="Illustration of the top half of a boy's head." height="288" width="288">
@@ -66,9 +60,9 @@
         <div class="work-tile">
           <div class="work-tile-inner">
             <div class="title work-title">
-              <div class="title-border-left"></div>
+
                 <h2 class="title-box small">Photography</h2>
-              <div class="title-border-right"></div>
+
             </div>
             <a href="#">
             <img src="assets/img/work/photography.png" alt="Near-focus " height="288" width="288">
@@ -79,9 +73,9 @@
         <div class="work-tile">
           <div class="work-tile-inner">
             <div class="title work-title">
-              <div class="title-border-left"></div>
-                <h2 class="title-box small">Websites</h2>
-              <div class="title-border-right"></div>
+
+                <h2 class="title-box small">Website</h2>
+
             </div>
             <a href="#">
             <img src="assets/img/work/websites.png" alt="Telescope Furniture logo" height="288" width="288">
@@ -92,12 +86,12 @@
         <div class="work-tile">
           <div class="work-tile-inner">
             <div class="title work-title">
-              <div class="title-border-left"></div>
+
                 <h2 class="title-box small">Other</h2>
-              <div class="title-border-right"></div>
+
             </div>
             <a href="#">
-            <img src="assets/img/work/logo_1.png" alt="Telescope Furniture logo" height="288" width="288">
+            <img src="assets/img/work/other.png" alt="Telescope Furniture logo" height="288" width="288">
             </a>
           </div>
         </div>
