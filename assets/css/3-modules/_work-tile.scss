@@ -8,7 +8,15 @@
   transition: none;
   //border: 2px dotted $border-color;
   //border-top: none;
-  background-color: $primarybackgroundcol;
+  background: $primarybackgroundcol;
+  background: radial-gradient(ellipse at center, #3f486d 0%,#252c46 100%);
+
+  a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   h2 {
     @include secondaryfontfamily($secondaryfontfamily);
@@ -46,8 +54,12 @@
 .work-tile.intro {
   display: flex;
   align-items: center;
-  background-color: darken($primarybackgroundcol, 2);
+  background: darken($primarybackgroundcol, 2);
   clip-path: polygon(20% 0, 0 20%, 0 100%, 100% 100%, 100% 0);
+
+  a {
+    display: inline;
+  }
 }
 
 @media screen and (max-width: 1008px) {
@@ -92,13 +104,15 @@
   .work-tile {
     //box-sizing: content-box;
     width: 288px;
-    height: 200px;
+    height: 70px;
     margin: 12px 0 0 0;
+    background: $primarybackgroundcol;
 
     img {
       margin: 0 auto;
-      height: 200px;
-      width: 200px;
+      visibility: hidden;
+      height: 70px;
+      width: 288px;
     }
 
     &:nth-child(4n), &:nth-child(3n), &:nth-child(2n) {

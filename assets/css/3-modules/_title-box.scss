@@ -27,7 +27,7 @@
 }
 
 .title-box.work {
-  border: 2px dotted white;
+  border: 2px dotted #9299b9;
 }
 
 .title-box.large {
@@ -67,5 +67,11 @@
 
   .title-box.small {
     font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 534px) {
+  .title-box.work {
+    border: none;
   }
 }

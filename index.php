@@ -32,38 +32,38 @@
         </div>
 
         <div class="work-tile">
-            <h2 class="title-box work small">Logos</h2>
-              <a href="#">
+          <a href="#">
+              <h2 class="title-box work small">Logos</h2>
                 <img src="assets/img/work/logos.png" alt="Telescope Furniture logo" height="288" width="288">
-              </a>
+          </a>
         </div>
 
         <div class="work-tile">
-            <h2 class="title-box work small">Illustration</h2>
-              <a href="#">
-                <img src="assets/img/work/illustrations.png" alt="Illustration of the top half of a boy's head." height="288" width="288">
-            </a>
+          <a href="#">
+              <h2 class="title-box work small">Illustration</h2>
+                <img src="assets/img/work/illustrations.png" alt="Telescope Furniture logo" height="288" width="288">
+          </a>
         </div>
 
         <div class="work-tile">
-            <h2 class="title-box work small">Photography</h2>
-              <a href="#">
+          <a href="#">
+              <h2 class="title-box work small">Photography</h2>
                 <img src="assets/img/work/photography.png" alt="Telescope Furniture logo" height="288" width="288">
-              </a>
+          </a>
         </div>
 
         <div class="work-tile">
-            <h2 class="title-box work small">Websites</h2>
-              <a href="#">
+          <a href="#">
+              <h2 class="title-box work small">Websites</h2>
                 <img src="assets/img/work/websites.png" alt="Telescope Furniture logo" height="288" width="288">
-              </a>
+          </a>
         </div>
 
         <div class="work-tile">
-            <h2 class="title-box work small">Other</h2>
-              <a href="#">
+          <a href="#">
+              <h2 class="title-box work small">Other</h2>
                 <img src="assets/img/work/other.png" alt="Telescope Furniture logo" height="288" width="288">
-              </a>
+          </a>
         </div>
 
       </div>
