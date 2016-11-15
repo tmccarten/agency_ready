@@ -6,16 +6,6 @@
   @include secondaryfontfamily($secondaryfontfamily);
 }
 
-.title.work-title {
-  position: absolute;
-  z-index: 2;
-  top: 50%;
-
-  .title-border-left, .title-border-right, .title-box {
-    border-color: white;
-  }
-}
-
 .title.main {
   display: none;
 }
@@ -34,6 +24,10 @@
   margin: -0.875em 0 0 0;
   border: 2px dotted $border-color;
   //box-shadow: 0.1em 0.1em 0.05em 0 $primarybackgroundcol;
+}
+
+.title-box.work {
+  border: 2px dotted white;
 }
 
 .title-box.large {

@@ -2,9 +2,19 @@
   width: 231px;
   height: 231px;
   margin: 12px 12px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: none;
   //border: 2px dotted $border-color;
   //border-top: none;
   background-color: $primarybackgroundcol;
+
+  h2 {
+    @include secondaryfontfamily($secondaryfontfamily);
+    position: absolute;
+    margin: 0;
+  }
 
   img {
     display: block;
@@ -26,16 +36,11 @@
     background-color: darken($primarybackgroundcol, 2);
   }
 
-  .work-tile-inner {
-    position: relative;
-    height: auto;
-
-    p {
-      padding: 0 2rem;
-      font-size: 1rem;
-      text-align: left;
+  p {
+    padding: 0 2rem;
+    font-size: 1rem;
+    text-align: left;
     }
-  }
 }
 
 .work-tile.intro {
