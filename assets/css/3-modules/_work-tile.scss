@@ -3,7 +3,8 @@
   height: 231px;
   margin: 12px 12px 32px 0;
   border: 2px dotted $border-color;
-  border-top: none;
+  //border-top: none;
+  background-color: $primarybackgroundcol;
 
   img {
     display: block;
@@ -21,7 +22,7 @@
   }
 
   &:hover {
-    background-color: $primarybackgroundcol;
+    //background-color: $primarybackgroundcol;
   }
 
   .work-tile-inner {
