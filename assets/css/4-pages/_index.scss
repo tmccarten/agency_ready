@@ -1,11 +1,11 @@
-.wrapper.work {
+.wrapper.index {
   margin: 0.9375rem 0 2.8125rem 0;
   flex-direction: row;
 }
 
 @media screen and (max-width: 1008px) {
 
-  .wrapper.work {
+  .wrapper.index {
     justify-content: center;
   }
 
@@ -13,7 +13,7 @@
 
 @media screen and (max-width: $breakpoint1) {
 
-  .page-wrapper.work {
+  .page-wrapper.index, .page-wrapper.work {
     margin: 200px auto 1rem auto;
   }
 }

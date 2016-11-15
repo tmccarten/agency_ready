@@ -1,5 +1,6 @@
 body {
   font-size: 1.125rem;
+  font-weight: 300;
   height: 100%;
   color: $defaultfontcol;
   @include primaryfontfamily($primaryfontfamily);

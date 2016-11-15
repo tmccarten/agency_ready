@@ -10,7 +10,7 @@
 
     <link rel="icon" href="favicon.svg">
 
-    <?php include 'assets/includes/fonts.php';?>
+    <?php include '/assets/includes/fonts.php';?>
     <link rel="stylesheet" href="assets/css/style.css">
 
 
@@ -19,7 +19,7 @@
 
 <body>
 
-    <?php include 'assets/includes/header.php';?>
+    <?php include '/assets/includes/header.php';?>
 
     <main class="page-wrapper">
 
@@ -30,7 +30,7 @@
     </div>
 
       <div class="wrapper blog">
-        <article class="textblock">
+        <article class="contentblock">
           <h3>The Digital Industry</h3>
 
           <h4>Inspiration</h4>
@@ -110,7 +110,7 @@
       </div>
     </main>
 
-<?php include 'assets/includes/footer.php';?>
+<?php include '/assets/includes/footer.php';?>
 
 </body>
 </html>

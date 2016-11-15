@@ -1,7 +1,6 @@
-.textblock {
+.contentblock {
   width: 64.79166666666667%;
   transition: none;
-  font-weight: 300;
   padding: 0 2em 0 0.2em;
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -9,6 +8,7 @@
 
   img {
     max-width: 100%;
+    height: auto;
   }
 
   h3 {
@@ -22,14 +22,22 @@
   }
 }
 
+.contentblock.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: none;
+}
+
 @media screen and (max-width: $breakpoint1) {
 
-.textblock {
+.contentblock {
   margin: 0 auto;
   padding: 3rem 0;
   max-width: 37.625rem;
   width: 100%;
   border-bottom: 2px dotted $border-color;
 }
-
 }

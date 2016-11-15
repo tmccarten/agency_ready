@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <?php $activePage = "Home"; ?>
+    <?php $activePage = "Work"; ?>
 
     <meta charset="utf-8">
     <title>Home - Thomas McCarten Portfolio</title>
@@ -10,8 +10,8 @@
 
     <link rel="icon" href="favicon.svg">
 
-    <?php include 'assets/includes/fonts.php';?>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <?php include '/assets/includes/fonts.php';?>
+    <link rel="stylesheet" href="/assets/css/style.css">
 
 
 
@@ -19,11 +19,11 @@
 
 <body>
 
-    <?php include 'assets/includes/header.php';?>
+    <?php include '/assets/includes/header.php';?>
 
-    <main class="page-wrapper work">
+    <main class="page-wrapper index">
 
-    <div class="wrapper work">
+    <div class="wrapper index">
 
         <div class="work-tile intro">
           <div class="work-tile-inner">
@@ -32,37 +32,37 @@
         </div>
 
         <div class="work-tile">
-          <a href="#">
+          <a href="/work/logos.php">
               <h2 class="title-box work small">Logos</h2>
-                <img src="assets/img/work/logos.png" alt="Telescope Furniture logo" height="288" width="288">
+                <img src="/assets/img/work/logos.png" alt="Telescope Furniture logo" height="288" width="288">
           </a>
         </div>
 
         <div class="work-tile">
-          <a href="#">
+          <a href="/work/illustration.php">
               <h2 class="title-box work small">Illustration</h2>
-                <img src="assets/img/work/illustrations.png" alt="Telescope Furniture logo" height="288" width="288">
+                <img src="/assets/img/work/illustrations.png" alt="Telescope Furniture logo" height="288" width="288">
           </a>
         </div>
 
         <div class="work-tile">
-          <a href="#">
+          <a href="/work/photography.php">
               <h2 class="title-box work small">Photography</h2>
-                <img src="assets/img/work/photography.png" alt="Telescope Furniture logo" height="288" width="288">
+                <img src="/assets/img/work/photography.png" alt="Telescope Furniture logo" height="288" width="288">
           </a>
         </div>
 
         <div class="work-tile">
-          <a href="#">
+          <a href="/work/websites.php">
               <h2 class="title-box work small">Websites</h2>
-                <img src="assets/img/work/websites.png" alt="Telescope Furniture logo" height="288" width="288">
+                <img src="/assets/img/work/websites.png" alt="Telescope Furniture logo" height="288" width="288">
           </a>
         </div>
 
         <div class="work-tile">
-          <a href="#">
+          <a href="/work/other.php">
               <h2 class="title-box work small">Other</h2>
-                <img src="assets/img/work/other.png" alt="Telescope Furniture logo" height="288" width="288">
+                <img src="/assets/img/work/other.png" alt="Telescope Furniture logo" height="288" width="288">
           </a>
         </div>
 
@@ -70,7 +70,7 @@
 
     </main>
 
-<?php include 'assets/includes/footer.php';?>
+<?php include '/assets/includes/footer.php';?>
 
 
 </body>

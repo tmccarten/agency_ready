@@ -13,6 +13,19 @@
 
 }
 
+.sidebar.work {
+  padding: 0 1rem;
+
+    h3 {
+      margin-top: 0;
+    }
+
+    p {
+      margin-top: 0;
+      font-size: 1rem;
+    }
+}
+
 .sidebar.about {
   padding: 0rem 1rem 0 1rem;
   justify-content: center;

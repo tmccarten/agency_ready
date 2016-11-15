@@ -60,7 +60,7 @@ main {
  * Add the correct margin in IE 8.
  */
 figure {
-  margin: 1em 40px; }
+  margin: 0 1rem 1rem 1rem; }
 
 /**
  * 1. Add the correct box sizing in Firefox.
@@ -445,6 +445,7 @@ a {
 
 body {
   font-size: 1.125rem;
+  font-weight: 300;
   height: 100%;
   color: #fff;
   font-family: "Roboto", "arial", sans-serif;
@@ -716,22 +717,38 @@ ul {
   .title-box.work {
     border: none; } }
 
-.textblock {
+.contentblock {
   width: 64.79166666666667%;
   transition: none;
-  font-weight: 300;
   padding: 0 2em 0 0.2em;
   overflow-wrap: break-word;
   word-wrap: break-word; }
-  .textblock img {
-    max-width: 100%; }
-  .textblock h3 {
+  .contentblock img {
+    max-width: 100%;
+    height: auto; }
+  .contentblock h3 {
     margin-top: 0; }
-  .textblock p:first-child {
+  .contentblock p:first-child {
     margin-top: 0; }
 
+.contentblock.work {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0;
+  border: none; }
+
 @media screen and (max-width: 750px) {
-  .textblock {
+  .contentblock {
     margin: 0 auto;
     padding: 3rem 0;
     max-width: 37.625rem;
@@ -754,6 +771,14 @@ ul {
   border-right: 2px dotted #384266; }
   .sidebar a {
     margin: 0 auto; }
+
+.sidebar.work {
+  padding: 0 1rem; }
+  .sidebar.work h3 {
+    margin-top: 0; }
+  .sidebar.work p {
+    margin-top: 0;
+    font-size: 1rem; }
 
 .sidebar.about {
   padding: 0rem 1rem 0 1rem;
@@ -907,6 +932,7 @@ footer {
   .work-tile:nth-child(4n) {
     margin: 12px 0 0 0; }
   .work-tile:hover {
+    background: none;
     background-color: #21283f; }
   .work-tile p {
     padding: 0 2rem;
@@ -999,18 +1025,24 @@ footer {
   .title.main.blog {
     display: none; } }
 
-.wrapper.work {
+.wrapper.index {
   margin: 0.9375rem 0 2.8125rem 0;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row; }
 
 @media screen and (max-width: 1008px) {
-  .wrapper.work {
+  .wrapper.index {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center; } }
 
 @media screen and (max-width: 750px) {
-  .page-wrapper.work {
+  .page-wrapper.index, .page-wrapper.work {
     margin: 200px auto 1rem auto; } }
+
+@media screen and (max-width: 534px) {
+  .wrapper.work {
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse; } }

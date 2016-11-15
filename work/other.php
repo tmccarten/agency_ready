@@ -10,14 +10,14 @@
 
     <link rel="icon" href="favicon.svg">
 
-    <?php include '/assets/includes/fonts.php';?>
+    <?php include '../assets/includes/fonts.php';?>
     <link rel="stylesheet" href="/assets/css/style.css">
 
   </head>
 
 <body>
 
-    <?php include '/assets/includes/header.php';?>
+    <?php include '../assets/includes/header.php';?>
 
     <main class="page-wrapper">
 
@@ -28,7 +28,7 @@
     </div>
 
       <div class="wrapper about">
-        <article class="contentblock about">
+        <article class="textblock about">
           <p>Hello, I’m <b>Tom</b>...</p>
           <p>...a 28 year old front-end web developer based in Manchester, England.</p>
 
@@ -48,7 +48,7 @@
       </div>
     </main>
 
-<?php include '/assets/includes/footer.php';?>
+<?php include '../assets/includes/footer.php';?>
 
 </div>
 

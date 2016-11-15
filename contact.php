@@ -10,14 +10,14 @@
 
     <link rel="icon" href="favicon.svg">
 
-    <?php include 'assets/includes/fonts.php';?>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <?php include '/assets/includes/fonts.php';?>
+    <link rel="stylesheet" href="/assets/css/style.css">
 
   </head>
 
 <body>
 
-    <?php include 'assets/includes/header.php';?>
+    <?php include '/assets/includes/header.php';?>
 
     <main class="page-wrapper">
     <div class="title main">
@@ -27,7 +27,7 @@
     </div>
 
       <div class="wrapper">
-        <section class="textblock">
+        <section class="contentblock">
 
           <form action="https://formspree.io/thomasmccarten@hotmail.com" method="POST">
               <input type="text" name="name">
@@ -67,7 +67,7 @@
       </div>
     </main>
 
-<?php include 'assets/includes/footer.php';?>
+<?php include '/assets/includes/footer.php';?>
 
 </div>
 
