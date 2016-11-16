@@ -61,10 +61,10 @@
           </div>
 
         <ul class="socialicons">
-              <li><a href="#"><img src="assets/img/icons/twitter-logo.svg" height="25" width="25" alt="Twitter logo."></a></li>
-              <li><a href="#"><img src="assets/img/icons/facebook-logo.svg" height="25" width="25" alt="Facebook logo."></a></li>
-              <li><a href="#"><img src="assets/img/icons/github-logo.svg" height="25" width="25" alt="Github logo."></a></li>
-              <li><a href="#"><img src="assets/img/icons/linkedin-logo.svg" height="25" width="25" alt="LinkedIn logo."></a></li>
+              <li><a href="http://twitter.com/thomasmccarten" title="Thomas McCarten's Twitter page."><img src="assets/img/icons/twitter-logo.svg" height="25" width="25" alt="Twitter logo."></a></li>
+              <li><a href="https://www.facebook.com/thomasmccarten" title="Thomas McCarten's Facebook page."><img src="assets/img/icons/facebook-logo.svg" height="25" width="25" alt="Facebook logo."></a></li>
+              <li><a href="https://github.com/tmccarten" title="Thomas McCarten's Github profile."><img src="assets/img/icons/github-logo.svg" height="25" width="25" alt="Github logo."></a></li>
+              <li><a href="https://www.linkedin.com/thomasmccarten" title="Thomas McCarten's LinkedIn profile."><img src="assets/img/icons/linkedin-logo.svg" height="25" width="25" alt="LinkedIn logo."></a></li>
           </ul>
 
         <div class="title">
@@ -74,8 +74,8 @@
         </div>
 
         <div class="sidebar-links">
-              <a href="mailto:thomasmccarten@hotmail.com">Email me</a>
-              <a href="">View CV</a>
+              <a href="mailto:thomasmccarten@hotmail.com" title="Send email to Thomas McCarten">Email me</a>
+              <a href="/contact/CV.pdf" title="Thomas McCarten's CV as a PDF">View CV</a>
         </div>
 
         </aside>

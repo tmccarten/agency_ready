@@ -68,6 +68,13 @@
           </a>
         </div>
 
+        <div class="work-tile intro outro">
+          <div class="work-tile-inner">
+            <a href="http://twitter.com/thomasmccarten" title="Thomas McCarten's Twitter page.">twitter</a> |
+            <a href="https://github.com/tmccarten" title="Thomas McCarten's Github page.">github</a>
+          </div>
+        </div>
+
       </div>
 
     </main>

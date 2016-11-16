@@ -35,14 +35,14 @@
         <div class="contentblock work">
 
         <figure>
-          <a href="/assets/img/work/other/other_docposter.png" title="Full-size version of poster by Thomas McCarten">
-              <img src="/assets/img/work/other/other_docposter.png" alt="Documentary poster for Manchester IRA Bomb with a postbox broken up into pieces." height="813" width="575">
+          <a href="/assets/img/work/other/other_docposter.jpg" title="Full-size version of poster by Thomas McCarten">
+              <img src="/assets/img/work/other/other_docposter.jpg" alt="Documentary poster for Manchester IRA Bomb with a postbox broken up into pieces." height="813" width="575">
           </a>
         </figure>
 
         <figure>
-          <a href="/assets/img/work/other/other_2.png" title="Full-size version of poster by Thomas McCarten">
-              <img src="/assets/img/work/other/other_productposter.png" alt="Poster advertising a tour of Manchester IRA Bomb location with postbox and shattered glass appearance." height="407" width="575">
+          <a href="/assets/img/work/other/other_2.jpg" title="Full-size version of poster by Thomas McCarten">
+              <img src="/assets/img/work/other/other_productposter.jpg" alt="Poster advertising a tour of Manchester IRA Bomb location with postbox and shattered glass appearance." height="407" width="575">
           </a>
         </figure>
 
