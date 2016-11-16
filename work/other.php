@@ -35,8 +35,14 @@
         <div class="contentblock work">
 
         <figure>
-          <a href="/assets/img/work/logos/logos_1.png">
-              <img src="/assets/img/work/logos/logos_1.png" alt="" height="500" width="575">
+          <a href="/assets/img/work/other/other_1.png">
+              <img src="/assets/img/work/other/other_1.png" alt="" height="813" width="575">
+          </a>
+        </figure>
+
+        <figure>
+          <a href="/assets/img/work/other/other_2.png">
+              <img src="/assets/img/work/other/other_2.png" alt="" height="407" width="575">
           </a>
         </figure>
 
@@ -45,10 +51,9 @@
         <aside class="sidebar work">
 
           <h3>Overview</h3>
-            <p>I sometimes take part in logo design competitions when I have nothing better to do. None of these are winners but it's the taking part that counts...</p>
-            <p><small>*These logos do not in any way represent any of the brands depicted.</small><p>
+            <p>Here are some posters I made for the Creative Digital Media Production unit of BSc Web Development. And probably various other stuff that doesn't fit elsewhere.</p>
           <h4>Tools</h4>
-            <p>Adobe Illustrator</p>
+            <p><small>Adobe Photoshop</small></p>
 
         </aside>
       </div>

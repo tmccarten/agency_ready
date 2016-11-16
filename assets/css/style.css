@@ -428,6 +428,20 @@ html {
   height: 1px;
   overflow: hidden; }
 
+figure a {
+  width: auto; }
+
+figcaption {
+  font-size: 1rem;
+  font-family: "Roboto", "arial", sans-serif;
+  background-color: white;
+  color: #252c46;
+  font-weight: bold;
+  padding: 0 1em; }
+
+img {
+  display: block; }
+
 * {
   line-height: 1.4; }
 
@@ -784,6 +798,9 @@ ul {
   .contentblock p:first-child {
     margin-top: 0; }
 
+.contentblock.photo img {
+  border: 1px solid white; }
+
 .contentblock.work {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -847,15 +864,15 @@ ul {
     max-width: 100%;
     height: auto;
     margin: 0 0 1em 0;
-    -webkit-transform: rotate(-4deg);
-    -ms-transform: rotate(-4deg);
-    transform: rotate(-4deg); }
+    -webkit-transform: rotate(-4deg) translateY(-40px);
+    -ms-transform: rotate(-4deg) translateY(-40px);
+    transform: rotate(-4deg) translateY(-40px); }
     .sidebar.about img:nth-child(2) {
       outline: 1px solid transparent;
       -webkit-backface-visibility: hidden;
-      -webkit-transform: rotate(4deg) translateY(-40px);
-      -ms-transform: rotate(4deg) translateY(-40px);
-      transform: rotate(4deg) translateY(-40px); }
+      -webkit-transform: rotate(4deg) translateY(-80px);
+      -ms-transform: rotate(4deg) translateY(-80px);
+      transform: rotate(4deg) translateY(-80px); }
 
 .socialicons {
   margin: 1em auto 1.7em auto;
@@ -912,7 +929,15 @@ ul {
     padding: 0;
     width: 100%;
     border-left: none;
-    border-right: none; } }
+    border-right: none; }
+  .sidebar.about img {
+    -webkit-transform: rotate(-4deg) translateY(0);
+    -ms-transform: rotate(-4deg) translateY(0);
+    transform: rotate(-4deg) translateY(0); }
+    .sidebar.about img:nth-child(2) {
+      -webkit-transform: rotate(4deg) translateY(-40px);
+      -ms-transform: rotate(4deg) translateY(-40px);
+      transform: rotate(4deg) translateY(-40px); } }
 
 .footer-container {
   display: -webkit-flex;
@@ -959,6 +984,7 @@ footer {
   -ms-flex-align: center;
   align-items: center;
   transition: none;
+  border: 2px dotted #384266;
   background: #252c46;
   background: radial-gradient(ellipse at center, #3f486d 0%, #252c46 100%); }
   .work-tile a {
@@ -1000,6 +1026,7 @@ footer {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  border: none;
   background: #21283f;
   -webkit-clip-path: polygon(20% 0, 0 20%, 0 100%, 100% 100%, 100% 0);
   clip-path: polygon(20% 0, 0 20%, 0 100%, 100% 100%, 100% 0); }
@@ -1030,7 +1057,8 @@ footer {
     width: 288px;
     height: 70px;
     margin: 12px 0 0 0;
-    background: #252c46; }
+    background: #252c46;
+    border: none; }
     .work-tile img {
       margin: 0 auto;
       visibility: hidden;

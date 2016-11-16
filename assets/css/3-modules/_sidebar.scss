@@ -40,12 +40,12 @@
       height: auto;
       margin: 0 0 1em 0;
       //border: 1px solid white;
-      transform: rotate(-4deg);
+      transform: rotate(-4deg) translateY(-40px);
 
       &:nth-child(2) {
         outline: 1px solid transparent;
         -webkit-backface-visibility: hidden;
-        transform: rotate(4deg) translateY(-40px);
+        transform: rotate(4deg) translateY(-80px);
       }
     }
   }
@@ -120,6 +120,14 @@
     width: 100%;
     border-left: none;
     border-right: none;
+  }
+
+  .sidebar.about img {
+    transform: rotate(-4deg) translateY(0);
+
+    &:nth-child(2) {
+      transform: rotate(4deg) translateY(-40px);
+    }
   }
 
 }

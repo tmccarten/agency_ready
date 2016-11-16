@@ -32,49 +32,54 @@
     <main class="page-wrapper work">
 
       <div class="wrapper work">
-        <div class="contentblock work">
+        <div class="contentblock work photo">
 
-          <a href="/assets/img/work/photography/photography_5.png">
             <figure>
-              <img src="/assets/img/work/photography/photography_5.png" alt="" height="383" width="575">
+              <a href="/assets/img/work/photography/photography_5.png">
+                <img src="/assets/img/work/photography/photography_5.png" alt="" height="383" width="575">
+              </a>
               <figcaption><small>Whitstable, Kent, England, 2016</small></figcaption>
             </figure>
-          </a>
 
-          <a href="/assets/img/work/photography/photography_6.png">
-            <figure>
-              <img src="/assets/img/work/photography/photography_6.png" alt="" height="383" width="575">
+
+           <figure>
+             <a href="/assets/img/work/photography/photography_6.png">
+               <img src="/assets/img/work/photography/photography_6.png" alt="" height="383" width="575">
+             </a>
               <figcaption><small>Chatham, Kent, England, 2016</small></figcaption>
             </figure>
-          </a>
 
-          <a href="/assets/img/work/photography/photography_1.png">
+
             <figure>
-              <img src="/assets/img/work/photography/photography_1.png" alt="" height="320" width="575">
+              <a href="/assets/img/work/photography/photography_1.png">
+                <img src="/assets/img/work/photography/photography_1.png" alt="" height="320" width="575">
+              </a>
               <figcaption><small>Mount Snowdon, Wales, 2015</small></figcaption>
             </figure>
-          </a>
 
-          <a href="/assets/img/work/photography/photography_4.png">
+
             <figure>
-              <img src="/assets/img/work/photography/photography_4.png" alt="" height="379" width="575">
+              <a href="/assets/img/work/photography/photography_4.png">
+                <img src="/assets/img/work/photography/photography_4.png" alt="" height="379" width="575">
+              </a>
               <figcaption><small>War Memorial, Gillingham, England, 2016</small></figcaption>
             </figure>
-          </a>
 
-          <a href="/assets/img/work/photography/photography_2.png">
-            <figure>
-              <img src="/assets/img/work/photography/photography_2.png" alt="" height="259" width="575">
-              <figcaption><small>Scafell Pike, England, 2014</small></figcaption>
-            </figure>
-          </a>
 
-          <a href="/assets/img/work/photography/photography_3.png">
             <figure>
-              <img src="/assets/img/work/photography/photography_3.png" alt="" height="383" width="575">
+              <a href="/assets/img/work/photography/photography_3.png">
+                <img src="/assets/img/work/photography/photography_3.png" alt="" height="383" width="575">
+              </a>
               <figcaption><small>Whitstable, Kent, England, 2016</small></figcaption>
             </figure>
-          </a>
+
+
+            <figure>
+              <a href="/assets/img/work/photography/photography_2.png">
+                <img src="/assets/img/work/photography/photography_2.png" alt="" height="259" width="575">
+              </a>
+              <figcaption><small>Scafell Pike, England, 2014</small></figcaption>
+            </figure>
 
         </div>
 

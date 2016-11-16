@@ -35,8 +35,14 @@
         <div class="contentblock work">
 
         <figure>
-          <a href="/assets/img/work/logos/logos_1.png">
-              <img src="/assets/img/work/logos/logos_1.png" alt="" height="500" width="575">
+          <a href="http://06167055.webdevmmu.uk/DPM/index.html">
+              <img src="/assets/img/work/websites/websites_1.png" alt="" height="334" width="575">
+          </a>
+        </figure>
+
+        <figure>
+          <a href="http://06167055.webdevmmu.uk/">
+              <img src="/assets/img/work/websites/websites_2.png" alt="" height="334" width="575">
           </a>
         </figure>
 
@@ -45,10 +51,9 @@
         <aside class="sidebar work">
 
           <h3>Overview</h3>
-            <p>I sometimes take part in logo design competitions when I have nothing better to do. None of these are winners but it's the taking part that counts...</p>
-            <p><small>*These logos do not in any way represent any of the brands depicted.</small><p>
+            <p>For the Digital Project Management unit in the second year of BSc Web Development I took on the web developer role for my team. I was tasked with creating a fully responsive and accessible website to showcase cheap and easy student recipes.<p>In the first year I made a very simple portfolio website. Click the images to have a look.</p>
           <h4>Tools</h4>
-            <p>Adobe Illustrator</p>
+            <p>HTML5, CSS, JavaScript</p>
 
         </aside>
       </div>

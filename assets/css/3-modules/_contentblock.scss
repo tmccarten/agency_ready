@@ -23,6 +23,10 @@
   }
 }
 
+.contentblock.photo img {
+  border: 1px solid white;  
+}
+
 .contentblock.work {
   display: flex;
   flex-direction: column;
