@@ -34,15 +34,21 @@
       <div class="wrapper work">
         <div class="contentblock work">
 
+          <figure>
+            <a href="/assets/img/work/illustrations/illustration_1.png">
+                <img src="/assets/img/work/illustrations/illustration_1.png" alt="" height="404" width="575">
+            </a>
+          </figure>
+
 
         </div>
 
         <aside class="sidebar work">
 
           <h3>Overview</h3>
-            <p>I bought my first DSLR recently. Here are some of the better shots. Some of them were taken on my humble Samsung Galaxy S5.</p>
+            <p>Most web projects necessitate the creation of user personas to keep in mind the needs of certain types of user during the development phase. I made these last year. I think I can still get some use out of them yet.</p>
           <h4>Tools</h4>
-            <p>Canon EOS 1200D 18.0 MP DSLR Camera, Samsung Galaxy S5 Camera</p>
+            <p>Adobe Illustrator</p>
 
         </aside>
       </div>
