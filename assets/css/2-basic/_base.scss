@@ -9,8 +9,8 @@ html {
 }
 
 ::selection {
-  background-color: #858590;
-  color: white;
+  background-color: white;
+  color: black;
   opacity: 1;
 }
 
@@ -23,19 +23,31 @@ html {
   overflow: hidden;
 }
 
+.hide-skip a {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
+}
+
+figure.blog {
+  margin: 1rem 1rem 0 0;
+}
+
 figure a {
   width: auto;
 }
 
 figcaption {
-  font-size: 1rem;
-  @include primaryfontfamily($primaryfontfamily);
-  background-color: white;
-  color: $primarybackgroundcol;
-  font-weight: bold;
-  padding: 0 1em;
+  font-size: 0.875rem;
+  @include secondaryfontfamily();
+  font-weight: normal;
+  background-color: transparent;
+  color: white;
+  padding: 0.25rem 0;
 }
 
-img {
-  display: block;
+blockquote {
+  width: 100%;
 }

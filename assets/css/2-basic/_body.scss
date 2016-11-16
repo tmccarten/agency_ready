@@ -3,7 +3,7 @@ body {
   font-weight: 300;
   height: 100%;
   color: $defaultfontcol;
-  @include primaryfontfamily($primaryfontfamily);
+  @include primaryfontfamily();
   @include filter-gradient($primarygradient);
   background-color: $primarybackgroundcol;
   position: relative;

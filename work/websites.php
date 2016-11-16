@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
   <head>
     <?php $activePage = "Work"; ?>
 
@@ -29,20 +29,20 @@
       </div>
     </div>
 
-    <main class="page-wrapper work">
+    <main class="page-wrapper work" role="main">
 
       <div class="wrapper work">
         <div class="contentblock work">
 
         <figure>
-          <a href="http://06167055.webdevmmu.uk/DPM/index.html">
-              <img src="/assets/img/work/websites/websites_1.png" alt="" height="334" width="575">
+          <a href="http://06167055.webdevmmu.uk/DPM/index.html" title="The Munchies homepage">
+              <img src="/assets/img/work/websites/websites_munchies.png" alt="Laptop and iPad vectors displaying websites on the screens." height="334" width="575">
           </a>
         </figure>
 
         <figure>
-          <a href="http://06167055.webdevmmu.uk/">
-              <img src="/assets/img/work/websites/websites_2.png" alt="" height="334" width="575">
+          <a href="http://06167055.webdevmmu.uk/" title="Homepage of old portfolio website by Thomas McCarten.">
+              <img src="/assets/img/work/websites/websites_portfolio.png" alt="Laptop and iPad vectors displaying websites on the screens" height="334" width="575">
           </a>
         </figure>
 
@@ -53,7 +53,7 @@
           <h3>Overview</h3>
             <p>For the Digital Project Management unit in the second year of BSc Web Development I took on the web developer role for my team. I was tasked with creating a fully responsive and accessible website to showcase cheap and easy student recipes.<p>In the first year I made a very simple portfolio website. Click the images to have a look.</p>
           <h4>Tools</h4>
-            <p>HTML5, CSS, JavaScript</p>
+            <p><small>HTML5, CSS, JavaScript</small></p>
 
         </aside>
       </div>

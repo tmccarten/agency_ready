@@ -16,7 +16,7 @@ footer {
   width: 100%;
   text-align: center;
   max-width: $maxwidth;
-  font-family: $secondaryfontfamily;
+  @include secondaryfontfamily();
   font-size: 0.875rem;
   //border-top: 2px dotted white;
   box-sizing: content-box;

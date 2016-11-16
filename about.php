@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
   <head>
     <?php $activePage = "About"; ?>
 
@@ -25,29 +25,25 @@
 
     <div class="breadcrumb-container">
       <div class="breadcrumb">
-        <a href="/index.php">Home</a> / About
+        <a href="/index.php" title="Thomas McCarten's portfolio homepage.">Home</a> / About
       </div>
     </div>
 
-    <main class="page-wrapper">
-
-    <div class="title main">
-      <div class="title-border-left"></div>
-        <h2 class="title-box large">About me</h2>
-      <div class="title-border-right"></div>
-    </div>
+    <main class="page-wrapper" role="main" id="skipnav">
 
       <div class="wrapper about">
         <article class="contentblock about">
           <h3>About me</h3>
-          <p>Hello, I’m <b>Tom</b>...</p>
-          <p>...a 28 year old front-end web developer based in Manchester, England.</p>
 
-          <p>I love <b>designing</b> things, <b>coding</b> things, and making things look good.</p>
+          <p>I moved to Manchester in 2014 to begin a BSc Web Development degree at Manchester Metropolitan University. As a mature student I often wonder why I didn't do this sooner. My work experience was totally at odds with my interests so I decided it was time to change that.</p>
 
-          <p>I’m always <b>learning</b>. No one wants to be left behind in such a <a href="#">fast-moving industry</a>.</p>
+          <p>I developed an interest in CSS around ten or so years ago when MySpace (I'm old) was king. The profiles allowed for customisation with CSS so I ended up spending far too long trialing, erroring and eventually getting somewhere. I suppose it was a more rudimentary version of what people do with WordPress templates today.
 
-          <p>Currently getting to grips with SASS, Gulp and Github in order to speed up and improve my workflow and design processes.</p>
+          <p>I’m always <b>learning</b>. No one wants to be left behind in such a <a href="blog/blog1.php">fast-moving industry</a>.</p>
+
+          <p>Currently getting to grips with SASS, Gulp and Github in order to speed up and improve my workflow and design process. </p>
+
+
 
         </article>
 
@@ -60,8 +56,6 @@
     </main>
 
 <?php include '/assets/includes/footer.php';?>
-
-</div>
 
 </body>
 </html>

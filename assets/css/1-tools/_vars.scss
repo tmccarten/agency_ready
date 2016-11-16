@@ -15,10 +15,10 @@ background: linear-gradient($primarygradient);
 background: -webkit-linear-gradient($primarygradient); /* For Safari 5.1 to 6.0 */
 }
 
-@mixin primaryfontfamily($primaryfontfamily) {
+@mixin primaryfontfamily() {
   font-family: $primaryfontfamily, 'arial', sans-serif;
 }
 
-@mixin secondaryfontfamily($primaryfontfamily) {
+@mixin secondaryfontfamily() {
   font-family: $secondaryfontfamily, 'arial', serif;
 }

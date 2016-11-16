@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
   <head>
     <?php $activePage = "Work"; ?>
 
@@ -23,48 +23,48 @@
 
     <?php include '/assets/includes/header.php';?>
 
-    <main class="page-wrapper">
+    <main class="page-wrapper" role="main" id="skipnav">
 
     <div class="wrapper index">
 
         <div class="work-tile intro">
           <div class="work-tile-inner">
-            <p>Hello!</p><p>I'm a front-end web developer based in Manchester.</p><p><a href="contact.php">Get in touch.</a></p>
+            <p>Hello!</p><p>I'm a front-end web developer based in Manchester.</p><p><a href="contact.php" title="Thomas McCarten's contact page.">Get in touch.</a></p>
           </div>
         </div>
 
         <div class="work-tile">
           <a href="/work/logos.php">
               <h2 class="title-box work small">Logos</h2>
-                <img src="/assets/img/work/logos.png" alt="Telescope Furniture logo" height="288" width="288">
+                <img src="/assets/img/work/logos.png" alt="Low opacity logo with goat." height="288" width="288">
           </a>
         </div>
 
         <div class="work-tile">
           <a href="/work/illustration.php">
               <h2 class="title-box work small">Illustration</h2>
-                <img src="/assets/img/work/illustrations.png" alt="Telescope Furniture logo" height="288" width="288">
+                <img src="/assets/img/work/illustrations.png" alt="Low opacity illustration of boy with spiky hair." height="288" width="288">
           </a>
         </div>
 
         <div class="work-tile">
           <a href="/work/photography.php">
               <h2 class="title-box work small">Photography</h2>
-                <img src="/assets/img/work/photography.png" alt="Telescope Furniture logo" height="288" width="288">
+                <img src="/assets/img/work/photography.png" alt="Low opacity mountainous region." height="288" width="288">
           </a>
         </div>
 
         <div class="work-tile">
           <a href="/work/websites.php">
               <h2 class="title-box work small">Websites</h2>
-                <img src="/assets/img/work/websites.png" alt="Telescope Furniture logo" height="288" width="288">
+                <img src="/assets/img/work/websites.png" alt="Low opacity vector of laptop. " height="288" width="288">
           </a>
         </div>
 
         <div class="work-tile">
           <a href="/work/other.php">
               <h2 class="title-box work small">Other</h2>
-                <img src="/assets/img/work/other.png" alt="Telescope Furniture logo" height="288" width="288">
+                <img src="/assets/img/work/other.png" alt="Low opacity broken up post-box." height="288" width="288">
           </a>
         </div>
 

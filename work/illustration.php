@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
   <head>
     <?php $activePage = "Work"; ?>
 
@@ -25,18 +25,18 @@
 
     <div class="breadcrumb-container">
       <div class="breadcrumb work">
-        <a href="/index.php">Home</a> / Illustration
+        <a href="/index.php" title="Thomas McCarten's portfolio homepage.">Home</a> / Illustration
       </div>
     </div>
 
-    <main class="page-wrapper work">
+    <main class="page-wrapper work" role="main">
 
       <div class="wrapper work">
         <div class="contentblock work">
 
           <figure>
-            <a href="/assets/img/work/illustrations/illustration_1.png">
-                <img src="/assets/img/work/illustrations/illustration_1.png" alt="" height="404" width="575">
+            <a href="/assets/img/work/illustrations/illustration_personas.png" title="Full-size version of illustration by Thomas McCarten">
+                <img src="/assets/img/work/illustrations/illustration_personas.png" alt="Colourful vector illustrations of young boy and girl." height="404" width="575">
             </a>
           </figure>
 
@@ -48,7 +48,7 @@
           <h3>Overview</h3>
             <p>Most web projects necessitate the creation of user personas to keep in mind the needs of certain types of user during the development phase. I made these last year. I think I can still get some use out of them yet.</p>
           <h4>Tools</h4>
-            <p>Adobe Illustrator</p>
+            <p><small>Adobe Illustrator</small></p>
 
         </aside>
       </div>

@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
   <head>
     <?php $activePage = "Contact"; ?>
 
@@ -25,11 +25,11 @@
 
     <div class="breadcrumb-container">
       <div class="breadcrumb">
-        <a href="/index.php">Home</a> / Contact
+        <a href="/index.php" title="Thomas McCarten's portfolio homepage.">Home</a> / Contact
       </div>
     </div>
 
-    <main class="page-wrapper">
+    <main class="page-wrapper" role="main" id="skipnav">
     <div class="title main">
       <div class="title-border-left"></div>
         <h2 class="title-box large">Contact</h2>
@@ -42,11 +42,11 @@
           <form method="POST" action="http://formspree.io/thomasmccarten@hotmail.com" class="contactform">
 
             <label for="name">Name:</label>
-              <input type="text" name="name" placeholder="Enter your name...">
+              <input type="text" name="name" id="name">
             <label for="email">Email:</label>
-              <input type="email" name="email" placeholder="Enter your email...">
-            <label for="messsage">Message:</label>
-                <textarea name="message" placeholder="Say hello!"></textarea>
+              <input type="email" name="email" id="email">
+            <label for="message">Message:</label>
+                <textarea name="message" id="message"></textarea>
                   <button type="submit">Send</button>
           </form>
 
@@ -83,9 +83,6 @@
     </main>
 
 <?php include '/assets/includes/footer.php';?>
-
-</div>
-
 
 </body>
 </html>

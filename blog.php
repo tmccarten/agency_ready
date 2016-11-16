@@ -1,11 +1,11 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
   <head>
     <?php $activePage = "Blog"; ?>
 
     <meta charset="utf-8">
 
-    <title>Blog | Thomas McCarten Portfolio</title>
+    <title>Front-end in a booming digital industry | Blog | Thomas McCarten Portfolio</title>
 
     <meta name="description" content="Blog posts by front-end web developer Thomas McCarten, including digital industry and design.">
     <meta name="keywords" content="Thomas McCarten,Front-End,Design,Coding,Web Development,Logo Design,Illustrations,Photography">
@@ -25,69 +25,53 @@
 
     <div class="breadcrumb-container">
       <div class="breadcrumb">
-        <a href="/index.php">Home</a> / <a href="/blog.php">Blog</a> / Post 1
+        <a href="/index.php">Home</a> / <a href="/blog.php" title="Thomas McCarten's blog page.">Blog</a> / Front-end in a booming digital industry
       </div>
     </div>
 
-    <main class="page-wrapper">
+    <main class="page-wrapper" role="main" id="skipnav">
 
     <div class="wrapper blog">
         <article class="contentblock">
-          <h3>The Digital Industry</h3>
+          <h3>Front-end in a booming digital industry</h3>
 
-          <h4>Inspiration</h4>
+            <h4>The industry</h4>
 
-            <p>I already had a vague idea of how I wanted the website to look (more personal, less corporate) after experimenting with different ideas over summer. Nonetheless, I sought and found further inspiration in Creative Bloq’s <a href="http://www.creativebloq.com/portfolios/examples-712368">45 brilliant design portfolios to inspire you</a> rundown. I was especially interested in the layout decisions the designers made in choosing how to best showcase their work. Whilst some solutions were truly unique, the tried and tested method of presenting each case study or category of work as a clickable square or rectangle in a grid layout seemed the most widely used. <a href="http://strange.wales">The homepage of Gareth Strange</a> is an excellent example of this, combining clean minimalism with sensible responsive breakpoints to let the beauty of the artwork speak for itself.</p>
+              <p>The UK’s digital tech industries are expanding and evolving at a rate that shows no sign of slowing. Between 2011 and 2014 UK digital tech industries had a job creation rate 2.8 times faster than the rest of the economy, with 1.56m people employed in digital tech occupations. Translated into turnover that’s £161bn, a 32% faster growth rate than the rest of the economy and an average salary 36% higher than the national average. These figures are taken from the <a href="http://www.techcityuk.com/wp-content/uploads/2016/02/Tech-Nation-2016_FINAL-ONLINE-1.pdf" title="Tech Nation 2016 report PDF.">Tech Nation 2016 Report</a>.It’s all good news for people like myself, hoping to forge a career in the digital tech industry.
 
-              <img src="">
+              <p>Yet with this expansion comes the emergence of roles within businesses up and down the country waiting and needing to be filled. A surprising outcome of the <a href="http://www.slideshare.net/ManchesterDigital/manchester-digital-skills-audit-2016-results" title="Digital Skills Audit 2016 slide deck">Manchester Digital Skills Audit 2016</a> (MDSA) was the significance of the ‘developer’ role to those businesses surveyed. Not only do they find it to be the most difficult role to fill, they believe that the skillsets needed to fulfil the role will grow in importance more than any other. As someone who wishes to become a professional front-end web developer this was both revealing and reassuring to know that the need is very much there.</p>
 
-            <p>I don’t have a portfolio of work anything like Gareth’s, but a similar grid layout is something I wanted to use in my own design. I think it’s useful to seek out examples of work that we find particularly attractive. Doing so may subconsciously influence our future work even if we don’t realise the information has been absorbed at the time. Creative Something go over this in more detail in this interesting <a href="http://creativesomething.net/post/66982583259/the-creative-processing-your-brain-wont-tell-you">article on creative processing.</a></p>
+              <figure class="blog">
+              <img src="/assets/img/blog/mdsaroles.png" alt="Pie chart showing the developer role the most difficult role to fill at 65% compared to 13% project management and 22% sales and business development." height="432" width="575">
+              <figcaption><small>The developer role is difficult to fill.</small></figcaption>
+              </figure>
 
-          <h4>Designing it</h4>
+            <h4>What trends or expected practices do I need to be aware of as an aspiring professional front end web developer in 2016?</h4>
 
-            <p>For the design, I skipped straight into creating a high fidelity concept in Photoshop. Don’t do this. Not only does it run the risk of wasting hours of development time on a website that may prove to be unfeasible in a user experience sense, it limits your thinking. Fortunately, whilst not evidenced on paper, I had roughly considered the organisation of pages and content, so I think I got away with it in terms of the information architecture. But if I were to do it again I’d follow the correct procedure of brainstorming and <a href="http://www.experienceux.co.uk/faqs/what-is-wireframing">wireframing</a> different options. </p>
+              <p>Much like the industry in which it resides, front-end web development is constantly evolving. And with this comes the pressure to keep abreast of new techniques and technologies. At 57%, PHP was the most widely used programming language by the businesses surveyed in the MDSA. I found this mildly surprising. As someone with only limited PHP programming experience I hope to use this information as a motive to use it more.</p>
 
-              <img src="wireframe">
-              <img src="photoshop">
+              <p>In this article digital designer Jamie Leeson predicts <a href="https://www.zazzlemedia.co.uk/blog/digital-design-trends/" title="Zazzle Media post on digital design trends">further adoption of the mobile-first approach to web design</a>. After all, the <a href="https://www.theguardian.com/technology/2015/aug/06/smartphones-most-popular-way-to-browse-internet-ofcom" title="Guardian article on smartphone internet use.">smartphone became the most popular method</a> of browsing the internet for the first time last year. Rapid prototyping software like Webflow, Marvel and Invision appear to be increasing in popularity alongside the continued growth of <a href="https://www.usertesting.com/blog/2015/09/16/what-is-ux-design-15-user-experience-experts-weigh-in" title="Blog post defining UX Design.">user experience design</a>, and on that note the JavaScript library <a href="https://facebook.github.io/react/" title="Official github page for JavaScript React">React</a> deserves a mention. Formed out of a collaboration between Facebook and Instagram, React “makes it painless to create interactive UIs” (React, 2016). I hope to experiment with React in due course and perhaps write about my experiences in a future blog post, so watch this space. What else have I noticed? The increasing prevalence of WordPress. As by far the most widely used content management system with 58.7% of the market share, <a href="https://w3techs.com/technologies/overview/content_management/all" title="W3Techs WordPress usage statistics.">WordPress makes up 27% of the web </a>itself. This represents, in WordPress development, a further skillset I need to acquire and at the very least have some basic knowledge of in order to enhance my employability.</p>
 
-            <p>Despite this, one thing I was highly conscious of from the beginning and let dictate the design of the layout somewhat was line length. Websites with overly long line lengths give off a conspicuous air of amateurism, so it was important to me to keep it within the ideal range of 45 to 75 characters. This Laura Franz <a href="https://www.smashingmagazine.com/2014/09/balancing-line-length-font-size-responsive-web-design">article on line length and font-size</a> for Smashing Magazine was an excellent resource on the topic, suggesting that it’s the width of the text container that should be altered to preserve line length, not the size of the font. Overly large font sizes have a negative impact on readability.</p>
+            <h4>The community</h4>
+              <p>One of the great things about the web development industry is its community. Web developers like to help other web developers. Ideas, work methods and solutions to problems are shared and discussed both online (websites like Chris Coyier’s <a href="https://css-tricks.com/" title="CSS-Tricks homepage.">CSS-Tricks</a> and <a href="http://alistapart.com" title="A List Apart homepage.">A List Apart</a> are fantastic, generous resources for all things CSS and general web development respectively) and at the many events and conferences that take place across the country. As well as Front End North, more recently I attended NUX5 and WordCamp Manchester 2016:</p>
 
-          <h4>Building it</h4>
+              <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">In my seat for <a href="https://twitter.com/hashtag/NUX5?src=hash">#NUX5</a> <a href="https://t.co/MQV2GMT5lQ">pic.twitter.com/MQV2GMT5lQ</a></p>&mdash; Tom McCarten (@thomasmccarten) <a href="https://twitter.com/thomasmccarten/status/784314817884545025">October 7, 2016</a></blockquote>
 
-            <p>Otherwise known as the technical bit. The first step was to setup a folder structure for development. I tend to use the same setup now for all web projects, and the folder structure was something I learned from Travis Neilson of DevTips. His <a href="https://github.com/DevTips/DevTips-Starter-Kit">DevTips Starter Kit</a> was a perfect introduction to thinking about the organisation of the development process more professionally. In doing so I became an advocate of <a href="http://sass-lang.com">Sass</a>, <a href="http://gulpjs.com">Gulp</a> and <a href="https://git-scm.com">Git</a>. Using Sass in conjunction with Gulp greatly improved the ease and speed of my workflow; the former allowing the use of variables, nesting and partials enabled me to write code in a more organised, modular fashion than vanilla CSS. As well as using Gulp to compile my Sass to CSS, I used <a href="https://www.browsersync.io">Browsersync</a> to allow for instant browser reloading after saving code, <a href="https://autoprefixer.github.io">Autoprefixer</a> to automatically add the vendor prefixes to CSS properties for older browsers and <a href="https://www.npmjs.com/package/gulp-connect-php">gulp-connect-php</a> to run a local PHP server during development.<p>
+              <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Fantastic crew of <a href="https://twitter.com/hashtag/AR_MMU?src=hash">#AR_MMU</a> students at <a href="https://twitter.com/hashtag/wcmcr?src=hash">#wcmcr</a> today 👏 <a href="https://t.co/HwSezGECyA">pic.twitter.com/HwSezGECyA</a></p>&mdash; Richard Eskins (@eskins) <a href="https://twitter.com/eskins/status/789857770782720002">October 22, 2016</a></blockquote>
+              <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-              <img src="sasscode">
+              <p>Whilst educational, events like these are equally about the networking opportunities they provide. The MDSA showed how, of the businesses surveyed, the majority sourced new talent through peer recommendation. Although a good portfolio and academic achievements are useful, enthusiasm, passion and involvement in the industry are essential – exemplified here by Senior Developer at Make Do, Dave Green, who earned his current position on the back of an appearance at a web conference:</p>
 
-            <p>Using Git for version control meant I could experiment to my heart’s content without fear of breaking something past the point of no return. I found that having such peace of mind whilst developing is valuable to say the least.</p>
+              <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">As I&#39;ve found out first hand in the last 18 months, web conferences can and do change your life. Make the most of them! <a href="https://twitter.com/hashtag/wcmcr?src=hash">#wcmcr</a></p>&mdash; Dave Green (@davetgreen) <a href="https://twitter.com/davetgreen/status/789760413181280256">October 22, 2016</a></blockquote>
+              <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-            <p>Thanks to flexbox the overall layout was relatively simple to code, major breakpoints usually entailed simply changing the flex-direction to ‘column’ or ‘row’, depending on the context, and then tweaking. One aspect I found rewarding was figuring out how I could create those boxed headers with the dotted border and horizontal lines either side. My first attempt was almost successful but the horizontal line was visible behind the header text. After experimenting for a while I arrived at the answer by breaking up the header into three distinct parts and applying a negative top margin to the box in the middle. I saved the <a href="https://codepen.io/blackmath/pen/qaGEog">technique on CodePen</a> if this interests you, and here’s <a href="https://github.com/tmccarten/agency_ready">my Github repository</a> for the same reason.</p>
+              <p>And with that comes an important, if unsurprising conclusion. That to succeed in the digital industries one must not only stay dedicated to learning and expanding ones knowledge, but exhibit passion and enthusiasm for doing so.</p>
 
-          <h4>References</h4>
+           <h4>References</h4>
 
-            <p><small>Staff, C. B. (2016) '45 brilliant design portfolios to inspire you.'. [Online] 13th September. [Accessed on 12th November 2016] <a href="http://www.creativebloq.com/portfolios/examples-712368">http://www.creativebloq.com/portfolios/examples-712368</a></small></p>
-
-            <p><small>Strange, G. (no date) Strangelove. Strangelove. [Online] [Accessed on 13th November 2016] <a href="http://strange.wales">http://strange.wales</a></small></p>
-
-            <p><small>Christensen, T. (2013) The creative processing your brain won’t tell you about. 14th November. Creative Something. [Online] [Accessed on 13th November 2016] <a href="http://creativesomething.net/post/66982583259/the-creative-processing-your-brain-wont-tell-you">http://creativesomething.net/post/66982583259/the-creative-processing-your-brain-wont-tell-you</a></small></p>
-
-            <p><small>Rees, D. (2015) What is wireframing. 1st June. Experience UX. [Online] [Accessed on 13th November 2016] <a href="http://www.experienceux.co.uk/faqs/what-is-wireframing">http://www.experienceux.co.uk/faqs/what-is-wireframing</a></small></p>
-
-            <p><small>Franz, L. (2014) Size matters: Balancing line length and font size in responsive web design – smashing magazine. 29th September. Design. [Online] [Accessed on 13th November 2016] <a href="https://www.smashingmagazine.com/2014/09/balancing-line-length-font-size-responsive-web-design">https://www.smashingmagazine.com/2014/09/balancing-line-length-font-size-responsive-web-design</a></small></p>
-
-            <p><small>DevTips. (2015) DevTips/DevTips-Starter-Kit: Ground zero for your next project. 21st July. Github. [Online] [Accessed on 13th November 2016] <a href="https://github.com/DevTips/DevTips-Starter-Kit">https://github.com/DevTips/DevTips-Starter-Kit</a></small></p>
-
-            <p><small>Catlin, H., Weizenbaum, N. and Eppstein, C. (2015) Sass: Syntactically Awesome Style Sheets. Sass-lang. [Online] [Accessed on 13th November 2016] <a href="http://sass-lang.com">http://sass-lang.com</a></small></p>
-
-            <p><small>Gulpjs. (no date) gulp.js - the streaming build system. [Online] [Accessed on 13th November 2016] <a href="http://gulpjs.com">http://gulpjs.com</a></small></p>
-
-            <p><small>Git. (no date) Git. [Online] [Accessed on 13th November 2016] <a href="https://git-scm.com">https://git-scm.com</a></small></p>
-
-            <p><small>Browsersync. (no date) Browsersync - Time-saving synchronised browser testing. [Online] [Accessed on 13th November 2016] <a href="https://www.browsersync.io">https://www.browsersync.io</a></small></p>
-
-            <p><small>Blu, M. (2016) gulp-connect-php. 31st July. Npmjs. [Online] [Accessed on 13th November 2016] <a href="https://www.npmjs.com/package/gulp-connect-php">https://www.npmjs.com/package/gulp-connect-php</a></small></p>
-
-            <p><small>CodePen. (no date) A Pen by Thomas McCarten. [Online] [Accessed on 13th November 2016] <a href="https://codepen.io/blackmath/pen/qaGEog">https://codepen.io/blackmath/pen/qaGEog</a></small></p>
-
+              <p><small>React. (2016) A JavaScript library for building user interfaces - react. 2016. [Online] [Accessed on 1st November 2016] https://facebook.github.io/react/</small></p>
+              <p><small>Tech Nation. (2016) Transforming UK Industries. [Online] [Accessed on 1st November 2016] http://www.techcityuk.com/wp-content/uploads/2016/02/Tech-Nation-2016_FINAL-ONLINE-1.pdf</small></p>
+              <p><small>W3Techs Web Technology Surveys. (2016) Usage statistics and market share of content management systems for Websites, November 2016. 1st November. [Online] [Accessed on 1st November 2016] https://w3techs.com/technologies/overview/content_management/all</small></p>
 
 
         </article>
@@ -102,9 +86,9 @@
 
         <div class="sidebar-posts">
           <ol>
-            <li><a href="#" class="current">The Digital Industry</a>
-            <li><a href="#">Building my portfolio</a>
-            <li><a href="#">Optimisation</a>
+            <li><a href="/blog/blog1.php" class="current" title="Blog post about the digital industry and front-end by Thomas McCarten">Front-end in a booming digital industry</a>
+            <li><a href="/blog/blog2.php" title="Blog post about how he built his portfolio website by Thomas McCarten">Building my portfolio</a>
+            <li><a href="/blog/blog3.php" title="Blog post about how he optimised his portfolio website by Thomas McCarten">Optimising for increased speed</a>
           </ol>
         </div>
 

@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
   <head>
     <?php $activePage = "Work"; ?>
 
@@ -29,14 +29,14 @@
       </div>
     </div>
 
-    <main class="page-wrapper work">
+    <main class="page-wrapper work" role="main">
 
       <div class="wrapper work">
         <div class="contentblock work">
 
         <figure>
-          <a href="/assets/img/work/logos/logos_1.png">
-              <img src="/assets/img/work/logos/logos_1.png" alt="" height="500" width="575">
+          <a href="/assets/img/work/logos/logos.png" title="Full-size version of logos by Thomas McCarten">
+              <img src="/assets/img/work/logos/logos.png" alt="6 logos arranged into two columns and three rows." height="500" width="575">
           </a>
         </figure>
 
@@ -48,7 +48,7 @@
             <p>I sometimes take part in logo design contests when I have nothing better to do. None of these are winners but it's the taking part that counts...</p>
             <p><small>*These logos do not in any way represent any of the brands depicted.</small><p>
           <h4>Tools</h4>
-            <p>Adobe Illustrator</p>
+            <p><small>Adobe Illustrator</small></p>
 
         </aside>
       </div>

@@ -1,10 +1,10 @@
+form {
+  font-size: 1rem;
+}
+
 .contactform {
   display: flex;
   flex-direction: column;
-
-  input-placeholder {
-    color: blue;
-  }
 
   input, textarea, button {
     font-size: 1rem;
