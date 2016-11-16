@@ -23,13 +23,13 @@
 
     <?php include '/assets/includes/header.php';?>
 
-    <main class="page-wrapper blog">
-
-      <div class="breadcrumb-container">
-        <div class="breadcrumb">
-          <a href="/index.php">Home</a> / <a href="/blog.php">Blog</a> / Post 1
-        </div>
+    <div class="breadcrumb-container">
+      <div class="breadcrumb">
+        <a href="/index.php">Home</a> / <a href="/blog.php">Blog</a> / Post 1
       </div>
+    </div>
+
+    <main class="page-wrapper">
 
     <div class="wrapper blog">
         <article class="contentblock">

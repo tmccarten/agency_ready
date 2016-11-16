@@ -1,0 +1,36 @@
+.contactform {
+  display: flex;
+  flex-direction: column;
+
+  input-placeholder {
+    color: blue;
+  }
+
+  input, textarea, button {
+    font-size: 1rem;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    margin: 0 0 1rem 0;
+    background-color: $primarybackgroundcol;
+    border: none;
+  }
+
+  button {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;       
+
+    &:hover {
+      background-color: white;
+      color: $primarybackgroundcol;
+    }
+
+  }
+
+  textarea {
+    min-height: 15rem;
+  }
+
+
+}

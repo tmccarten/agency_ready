@@ -4,6 +4,7 @@
   padding: 0 2em 0 0.2em;
   overflow-wrap: break-word;
   word-wrap: break-word;
+  margin: 0 auto 2rem auto;
 
 
   img {
@@ -34,11 +35,9 @@
 @media screen and (max-width: $breakpoint1) {
 
 .contentblock {
-  margin: 0 auto;
   padding: 1rem;
   max-width: 37.625rem;
   width: 100%;
-  border-bottom: 2px dotted $border-color;
 }
 
 .contentblock.work {

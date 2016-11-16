@@ -23,6 +23,12 @@
 
     <?php include '/assets/includes/header.php';?>
 
+    <div class="breadcrumb-container">
+      <div class="breadcrumb">
+        <a href="/index.php">Home</a> / Contact
+      </div>
+    </div>
+
     <main class="page-wrapper">
     <div class="title main">
       <div class="title-border-left"></div>
@@ -33,10 +39,15 @@
       <div class="wrapper">
         <section class="contentblock">
 
-          <form action="https://formspree.io/thomasmccarten@hotmail.com" method="POST">
-              <input type="text" name="name">
-              <input type="email" name="_replyto">
-              <input type="submit" value="Send">
+          <form method="POST" action="http://formspree.io/thomasmccarten@hotmail.com" class="contactform">
+
+            <label for="name">Name:</label>
+              <input type="text" name="name" placeholder="Enter your name...">
+            <label for="email">Email:</label>
+              <input type="email" name="email" placeholder="Enter your email...">
+            <label for="messsage">Message:</label>
+                <textarea name="message" placeholder="Say hello!"></textarea>
+                  <button type="submit">Send</button>
           </form>
 
         </section>

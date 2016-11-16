@@ -1,16 +1,9 @@
-.page-wrapper.index {
-  margin: 200px auto 1rem auto;
-}
-
-.wrapper.index {
-  margin: 0.9375rem 0 2.8125rem 0;
-  flex-direction: row;
-}
 
 @media screen and (max-width: 1008px) {
 
   .wrapper.index {
     justify-content: center;
+    flex-direction: row;
   }
 
 }

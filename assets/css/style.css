@@ -437,13 +437,21 @@ h1 {
 h2 {
   font-size: 1.875rem; }
 
+h4 {
+  margin-bottom: 0.875rem; }
+
 .breadcrumb-container {
+  padding: 0 1rem;
   width: 100%; }
 
 .breadcrumb {
   font-size: 1rem;
-  padding: 1rem 0.2em;
+  margin: 0 auto;
+  padding: 1rem 0 1rem 0.2em;
   max-width: 960px; }
+
+.breadcrumb.work {
+  padding: 1rem 0 1rem 1rem; }
 
 @media screen and (max-width: 750px) {
   .breadcrumb-container {
@@ -452,7 +460,36 @@ h2 {
     display: flex;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
-    justify-content: center; } }
+    justify-content: center; }
+  .breadcrumb, .breadcrumb.work {
+    padding: 1rem 0; } }
+
+.contactform {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .contactform input-placeholder {
+    color: blue; }
+  .contactform input, .contactform textarea, .contactform button {
+    font-size: 1rem;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    margin: 0 0 1rem 0;
+    background-color: #252c46;
+    border: none; }
+  .contactform button {
+    cursor: pointer;
+    color: white;
+    font-weight: bold; }
+    .contactform button:hover {
+      background-color: white;
+      color: #252c46; }
+  .contactform textarea {
+    min-height: 15rem; }
 
 a {
   color: #fff;
@@ -500,7 +537,7 @@ body::before {
   padding: 0 1rem;
   min-height: 100%;
   max-width: 960px;
-  margin: 225px auto 1rem auto;
+  margin: 1rem auto;
   box-sizing: content-box;
   min-height: 75vh; }
 
@@ -518,8 +555,6 @@ body::before {
   width: 100%; }
 
 @media screen and (max-width: 750px) {
-  .page-wrapper {
-    margin: 200px auto 1rem auto; }
   .wrapper {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
@@ -538,6 +573,10 @@ body::before {
   height: 200px;
   top: 0;
   z-index: 3; }
+
+.main-header-container.hidden {
+  position: static;
+  visibility: hidden; }
 
 .main-header {
   display: -webkit-flex;
@@ -735,7 +774,8 @@ ul {
   transition: none;
   padding: 0 2em 0 0.2em;
   overflow-wrap: break-word;
-  word-wrap: break-word; }
+  word-wrap: break-word;
+  margin: 0 auto 2rem auto; }
   .contentblock img {
     max-width: 100%;
     height: auto; }
@@ -762,11 +802,9 @@ ul {
 
 @media screen and (max-width: 750px) {
   .contentblock {
-    margin: 0 auto;
     padding: 1rem;
     max-width: 37.625rem;
-    width: 100%;
-    border-bottom: 2px dotted #384266; }
+    width: 100%; }
   .contentblock.work {
     padding: 0;
     margin: 0 auto 2rem auto; } }
@@ -1033,9 +1071,6 @@ footer {
     .sidebar.about img {
       max-width: 100%; } }
 
-.page-wrapper.blog {
-  margin: 200px auto 1rem auto; }
-
 @media screen and (max-width: 750px) {
   .wrapper.blog {
     -webkit-flex-direction: column-reverse;
@@ -1044,23 +1079,14 @@ footer {
   .title.main.blog {
     display: none; } }
 
-.page-wrapper.index {
-  margin: 200px auto 1rem auto; }
-
-.wrapper.index {
-  margin: 0.9375rem 0 2.8125rem 0;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row; }
-
 @media screen and (max-width: 1008px) {
   .wrapper.index {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
-    justify-content: center; } }
-
-.page-wrapper.work {
-  margin: 200px auto 1rem auto; }
+    justify-content: center;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row; } }
 
 @media screen and (max-width: 534px) {
   .wrapper.work {

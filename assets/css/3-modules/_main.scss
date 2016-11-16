@@ -2,7 +2,7 @@
   padding: 0 1rem;
   min-height: 100%;
   max-width: $maxwidth;
-  margin: 225px auto 1rem auto;
+  margin: 1rem auto;
   box-sizing: content-box;
   //margin-bottom: -1rem;
   min-height: 75vh;
@@ -17,9 +17,6 @@
 }
 
 @media screen and (max-width: $breakpoint1) {
-  .page-wrapper {
-    margin: 200px auto 1rem auto;
-  }
 
   .wrapper {
     flex-direction: column;

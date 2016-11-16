@@ -23,6 +23,12 @@
 
     <?php include '/assets/includes/header.php';?>
 
+    <div class="breadcrumb-container">
+      <div class="breadcrumb">
+        <a href="/index.php">Home</a> / About
+      </div>
+    </div>
+
     <main class="page-wrapper">
 
     <div class="title main">

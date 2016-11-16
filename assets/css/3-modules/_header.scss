@@ -9,6 +9,11 @@
   z-index: 3;
 }
 
+.main-header-container.hidden {
+  position: static;
+  visibility: hidden;
+}
+
 .main-header {
   display: flex;
   box-sizing: content-box;

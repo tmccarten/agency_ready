@@ -23,7 +23,7 @@
 
     <?php include '/assets/includes/header.php';?>
 
-    <main class="page-wrapper index">
+    <main class="page-wrapper">
 
     <div class="wrapper index">
 

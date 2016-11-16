@@ -1,17 +1,26 @@
 .breadcrumb-container {
+  padding: 0 1rem;
   width: 100%;
 }
 
 .breadcrumb {
   font-size: 1rem;
-  padding: 1rem 0.2em;
+  margin: 0 auto;
+  padding: 1rem 0 1rem 0.2em;
   max-width: $maxwidth;
+}
+
+.breadcrumb.work {
+  padding: 1rem 0 1rem 1rem;
 }
 
 @media screen and (max-width: $breakpoint1) {
   .breadcrumb-container {
     display: flex;
     justify-content: center;
-    //margin: 0 auto;    
+  }
+
+  .breadcrumb, .breadcrumb.work {
+    padding: 1rem 0;
   }
 }
