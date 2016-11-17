@@ -39,7 +39,7 @@
 
           <p>I developed an interest in CSS around ten or so years ago when MySpace (I'm old) was king. The profiles allowed for customisation with CSS so I ended up spending far too long trialing, erroring and eventually getting somewhere. I suppose it was a more rudimentary version of what people do with WordPress templates today.
 
-          <p>I’m always learning. No one wants to be left behind in such a <a href="blog/blog1.php">fast-moving industry</a>.</p>
+          <p>I’m always learning. No one wants to be left behind in such a <a href="blog/blog1_digitalindustry.php" title="Blog post by Thomas McCarten about digital industry">fast-moving industry</a>.</p>
 
           <p>Currently getting to grips with SASS, Gulp and Github in order to speed up and improve my workflow and design process. </p>
 

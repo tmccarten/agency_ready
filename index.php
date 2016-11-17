@@ -13,7 +13,7 @@
 
     <link rel="icon" href="favicon.svg">
 
-    <?php include '/assets/includes/fonts.php';?>
+    <?php include 'assets/includes/fonts.php';?>
 
     <link rel="stylesheet" href="/assets/css/style.css">
 
@@ -21,7 +21,7 @@
 
 <body>
 
-    <?php include '/assets/includes/header.php';?>
+    <?php include 'assets/includes/header.php';?>
 
     <main class="page-wrapper" role="main" id="skipnav">
 
@@ -34,35 +34,35 @@
         </div>
 
         <div class="work-tile">
-          <a href="/work/logos.php">
+          <a href="/work/logos.php" title="Logos by Thomas McCarten">
               <h2 class="title-box work small">Logos</h2>
                 <img src="/assets/img/work/logos.png" alt="Low opacity logo with goat." height="288" width="288">
           </a>
         </div>
 
         <div class="work-tile">
-          <a href="/work/illustration.php">
+          <a href="/work/illustration.php" title="Illustrations by Thomas McCarten">
               <h2 class="title-box work small">Illustration</h2>
                 <img src="/assets/img/work/illustrations.png" alt="Low opacity illustration of boy with spiky hair." height="288" width="288">
           </a>
         </div>
 
         <div class="work-tile">
-          <a href="/work/photography.php">
+          <a href="/work/photography.php" title="Photography by Thomas McCarten">
               <h2 class="title-box work small">Photography</h2>
                 <img src="/assets/img/work/photography.png" alt="Low opacity mountainous region." height="288" width="288">
           </a>
         </div>
 
         <div class="work-tile">
-          <a href="/work/websites.php">
+          <a href="/work/websites.php" title="Websites by Thomas McCarten">
               <h2 class="title-box work small">Websites</h2>
                 <img src="/assets/img/work/websites.png" alt="Low opacity vector of laptop. " height="288" width="288">
           </a>
         </div>
 
         <div class="work-tile">
-          <a href="/work/other.php">
+          <a href="/work/other.php" title="Various work by Thomas McCarten">
               <h2 class="title-box work small">Other</h2>
                 <img src="/assets/img/work/other.png" alt="Low opacity broken up post-box." height="288" width="288">
           </a>
@@ -79,7 +79,7 @@
 
     </main>
 
-<?php include '/assets/includes/footer.php';?>
+<?php include 'assets/includes/footer.php';?>
 
 
 </body>

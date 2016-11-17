@@ -86,9 +86,9 @@
 
         <div class="sidebar-posts">
           <ol>
-            <li><a href="/blog/blog1.php" class="current" title="Blog post about the digital industry and front-end by Thomas McCarten">Front-end in a booming digital industry</a>
-            <li><a href="/blog/blog2.php" title="Blog post about how he built his portfolio website by Thomas McCarten">Building my portfolio</a>
-            <li><a href="/blog/blog3.php" title="Blog post about how he optimised his portfolio website by Thomas McCarten">Optimising for increased speed and integrity</a>
+            <li><a href="/blog/blog1_digitalindustry.php" class="current" title="Blog post about the digital industry and front-end by Thomas McCarten">Front-end in a booming digital industry</a>
+            <li><a href="/blog/blog2_designing.php" title="Blog post about how he built his portfolio website by Thomas McCarten">Building my portfolio</a>
+            <li><a href="/blog/blog3_optimisation.php" title="Blog post about how he optimised his portfolio website by Thomas McCarten">Optimising for increased speed and integrity</a>
           </ol>
         </div>
 
