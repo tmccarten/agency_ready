@@ -66,6 +66,7 @@
             <li><a href="/blog/blog1_digitalindustry.php" title="Blog post about the digital industry and front-end by Thomas McCarten">Front-end in a booming digital industry</a>
             <li><a href="/blog/blog2_designing.php" title="Blog post about how he built his portfolio website by Thomas McCarten">Building my portfolio</a>
             <li><a href="/blog/blog3_optimisation.php" class="current" title="Blog post about how he optimised his portfolio website by Thomas McCarten">Optimising for increased speed</a>
+            <li><a href="/blog/blog4_archived.php" title="Blog post about the changes made to Thomas McCarten's portfolio website">Archived website</a>
           </ol>
         </div>
 
