@@ -20,7 +20,7 @@
   </head>
 
 <body>
-
+    <?php include_once("../assets/includes/analyticstracking.php") ?>
     <?php include '../assets/includes/header.php';?>
 
     <div class="breadcrumb-container">

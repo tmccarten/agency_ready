@@ -13,15 +13,15 @@
 
     <link rel="icon" href="favicon.svg">
 
-    <?php include '/assets/includes/fonts.php';?>
+    <?php include 'assets/includes/fonts.php';?>
 
     <link rel="stylesheet" href="/assets/css/style.css">
 
   </head>
 
 <body>
-
-    <?php include '/assets/includes/header.php';?>
+    <?php include_once("assets/includes/analyticstracking.php") ?>
+    <?php include 'assets/includes/header.php';?>
 
     <div class="breadcrumb-container">
       <div class="breadcrumb">
@@ -82,7 +82,7 @@
       </div>
     </main>
 
-<?php include '/assets/includes/footer.php';?>
+<?php include 'assets/includes/footer.php';?>
 
 </body>
 </html>
