@@ -15,7 +15,7 @@ gulp.task('sass', function() {
     .pipe(gulp.dest('assets/css'))
     .pipe(browserSync.reload({
       stream: true
-    }))
+    }));
 });
 
 gulp.task('connect-sync', function() {
@@ -23,16 +23,17 @@ gulp.task('connect-sync', function() {
     browserSync({
       proxy: '127.0.0.1:8000'
     });
-  })
+  });
 });
 
 gulp.task('watch', ['connect-sync', 'sass', 'mmq'],  function(){
   gulp.watch('assets/css/**/*.scss', ['sass'], ['mmq']);
   // Reloads the browser whenever HTML or JS files change
   gulp.watch('./**/*.html', browserSync.reload);
-  gulp.watch('./**/*.php', browserSync.reload);
+  gulp.watch('*.php', browserSync.reload);
+  gulp.watch('/assets/includes/*.php', browserSync.reload);
   gulp.watch('assets/js/**/*.js', browserSync.reload);
-})
+});
 
 gulp.task('mmq', ['sass'], function () {
   return gulp.src('assets/css/*.css')

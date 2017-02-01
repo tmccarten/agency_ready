@@ -2,6 +2,6 @@
 
 <div class="footer-container">
     <footer role="contentinfo">
-      &copy; Thomas McCarten | <?php echo date("Y"); ?> | All rights reserved.
+      All rights reserved. <span><span>&copy;</span> Thomas McCarten | <?php echo date("Y"); ?> </span>
     </footer>
 </div>
