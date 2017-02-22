@@ -1,5 +1,5 @@
 .title {
-  display: flex;  
+  display: flex;
   width: 100%;
   justify-content: center;
   @include secondaryfontfamily();
@@ -26,7 +26,7 @@
 }
 
 .title-box.work {
-  border: 2px dotted #9299b9;
+  border: 2px dotted #555d82;
 }
 
 .title-box.large {
