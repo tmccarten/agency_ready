@@ -1,14 +1,21 @@
 @media screen and (max-width: 1229px) {
   .wrapper.index {
   max-width: 968px;
+  justify-content: center;
 }
 }
 
-@media screen and (max-width: 1008px) {
+@media screen and (max-width: $breakpoint1) {
+  .wrapper.index {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 1009px) {
 
   .wrapper.index {
-    justify-content: center;
-    flex-direction: row;
+    //;
+    //flex-direction: row;
   }
 
 }

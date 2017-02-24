@@ -685,9 +685,6 @@ footer {
   footer {
     font-size: 0.6875rem; } }
 
-.work-header {
-  height: 470px; }
-
 .work-tile {
   width: 230px;
   height: 230px;
@@ -701,25 +698,20 @@ footer {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  transition: none;
+  transition: -webkit-transform 300ms ease;
+  transition: transform 300ms ease;
+  transition: transform 300ms ease, -webkit-transform 300ms ease;
   border: 1px dotted #1b2133;
   background: #252c46;
+  text-decoration: none;
   background: radial-gradient(ellipse at center, #3f486d 0%, #252c46 100%); }
-  .work-tile a {
-    width: 100%;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center; }
+  .work-tile:hover {
+    background: radial-gradient(ellipse at center, #505c8b 0%, #252c46 100%); }
   .work-tile h2 {
     font-family: "Merriweather", "arial", serif;
-    position: absolute;
-    margin: 0; }
+    margin: 0;
+    display: inline;
+    font-weight: bold; }
   .work-tile img {
     display: block;
     -webkit-filter: grayscale(1);
@@ -729,9 +721,6 @@ footer {
     opacity: 0.1; }
   .work-tile:nth-child(5n) {
     margin: 12px 0 0 0; }
-  .work-tile:hover {
-    background: none;
-    background-color: #21283f; }
   .work-tile p {
     padding: 0 2rem;
     font-size: 1rem;
@@ -760,21 +749,16 @@ footer {
     margin: 12px 12px 0 0; } }
 
 @media screen and (max-width: 1229px) and (max-width: 1008px) {
-  .work-tile {
-    height: auto;
-    width: 30%; }
-    .work-tile:nth-child(4n) {
-      margin: 12px 12px 0 0; } }
+  .work-tile:nth-child(4n) {
+    margin: 12px 12px 0 0; } }
 
 @media screen and (max-width: 1229px) and (max-width: 750px) {
-  .work-tile {
-    width: 41%; }
-    .work-tile:nth-child(4n) {
-      margin: 12px 0 0 0; }
-    .work-tile:nth-child(3n) {
-      margin: 12px 12px 0 0; }
-    .work-tile:nth-child(2n) {
-      margin: 12px 0 0 0; } }
+  .work-tile:nth-child(4n) {
+    margin: 12px 0 0 0; }
+  .work-tile:nth-child(3n) {
+    margin: 12px 12px 0 0; }
+  .work-tile:nth-child(2n) {
+    margin: 12px 0 0 0; } }
 
 @media screen and (max-width: 1229px) and (max-width: 534px) {
   .work-tile {
@@ -833,13 +817,13 @@ footer {
 
 @media screen and (max-width: 1229px) {
   .wrapper.index {
-    max-width: 968px; } }
-
-@media screen and (max-width: 1008px) {
-  .wrapper.index {
+    max-width: 968px;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
-    justify-content: center;
+    justify-content: center; } }
+
+@media screen and (max-width: 750px) {
+  .wrapper.index {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row; } }

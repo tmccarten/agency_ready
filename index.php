@@ -33,40 +33,32 @@
           </div>
         </div>
 
-        <div class="work-tile">
-          <a href="/work/logos.php" title="Logos by Thomas McCarten">
+
+        <a href="/work/logos.php" class="work-tile" title="Logos by Thomas McCarten">
               <h2 class="title-box work small">Logos</h2>
-                <img src="/assets/img/work/logos.png" alt="Low opacity logo with goat." height="288" width="288">
-          </a>
-        </div>
+        </a>
 
-        <div class="work-tile">
-          <a href="/work/illustration.php" title="Illustrations by Thomas McCarten">
+
+          <a href="/work/illustration.php" class="work-tile" title="Illustrations by Thomas McCarten">
               <h2 class="title-box work small">Illustration</h2>
-                <img src="/assets/img/work/illustrations.png" alt="Low opacity illustration of boy with spiky hair." height="288" width="288">
           </a>
-        </div>
 
-        <div class="work-tile">
-          <a href="/work/photography.php" title="Photography by Thomas McCarten">
+
+          <a href="/work/photography.php" class="work-tile" title="Photography by Thomas McCarten">
               <h2 class="title-box work small">Photography</h2>
-                <img src="/assets/img/work/photography.png" alt="Low opacity mountainous region." height="288" width="288">
           </a>
-        </div>
 
-        <div class="work-tile">
-          <a href="/work/websites.php" title="Websites by Thomas McCarten">
+
+
+          <a href="/work/websites.php" class="work-tile" title="Websites by Thomas McCarten">
               <h2 class="title-box work small">Websites</h2>
-                <img src="/assets/img/work/websites.png" alt="Low opacity vector of laptop. " height="288" width="288">
           </a>
-        </div>
 
-        <div class="work-tile">
-          <a href="/work/other.php" title="Various work by Thomas McCarten">
+
+          <a href="/work/other.php" class="work-tile" title="Various work by Thomas McCarten">
               <h2 class="title-box work small">Other</h2>
-                <img src="/assets/img/work/other.png" alt="Low opacity broken up post-box." height="288" width="288">
           </a>
-        </div>
+
 
         <div class="work-tile intro outro">
           <div class="work-tile-inner">
@@ -74,7 +66,7 @@
             <a href="https://github.com/tmccarten" title="Thomas McCarten's Github page.">github</a>
           </div>
         </div>
-
+        
       </div>
 
     </main>
