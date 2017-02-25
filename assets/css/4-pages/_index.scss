@@ -1,5 +1,23 @@
+.wrapper.index {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.work-wrapper {
+  display: flex;
+  flex-wrap: wrap;  
+  flex: 2;
+}
+
+.side-wrapper {
+  flex: 1;
+}
+
+
 @media screen and (max-width: 1229px) {
   .wrapper.index {
+  flex: 2;
   max-width: 968px;
   justify-content: center;
 }
@@ -9,13 +27,4 @@
   .wrapper.index {
     flex-direction: row;
   }
-}
-
-@media screen and (max-width: 1009px) {
-
-  .wrapper.index {
-    //;
-    //flex-direction: row;
-  }
-
 }
