@@ -50,10 +50,6 @@
               <h2 class="title-box work small">Illustration</h2>
           </a>
 
-          <a href="/work/photography.php" class="work-tile" title="Photography by Thomas McCarten">
-              <h2 class="title-box work small">Photography</h2>
-          </a>
-
           <a href="/work/websites.php" class="work-tile" title="Websites by Thomas McCarten">
               <h2 class="title-box work small">Websites</h2>
           </a>
