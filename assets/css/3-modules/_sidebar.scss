@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 35.20833333333333%;
+  max-width: 35.20833333333333%;
   padding: 1.675rem 1rem 0 1rem;
   border-left: 2px dotted $border-color;
   border-right: 2px dotted $border-color;
@@ -13,19 +13,6 @@
 
 }
 
-.sidebar.work {
-  padding: 0 1rem;
-
-    h3 {
-      margin-top: 0;
-    }
-
-    p {
-      margin-top: 0;
-      font-size: 1rem;
-    }
-}
-
 .sidebar.about {
   padding: 0rem 1rem 0 1rem;
   justify-content: center;
@@ -34,12 +21,10 @@
 
   img {
       filter: grayscale(1);
-      //clip-path: polygon(20% 0, 0 20%, 0 100%, 80% 99%, 100% 83%, 100% 0);
       box-sizing: content-box;
       max-width: 100%;
       height: auto;
       margin: 0 0 1em 0;
-      //border: 1px solid white;
       transform: rotate(-4deg) translateY(-40px);
 
       &:nth-child(2) {
@@ -72,7 +57,6 @@
     justify-content: center;
     border: 1px dashed white;
     font-weight: bold;
-    //border-radius: 1em;
     margin: 1em auto 0 auto;
     padding: 0.5em;
     color: white;
@@ -93,21 +77,43 @@
   font-size: 1rem;
   margin: 1em 0 0 0;
 
-  ol {
-    padding: 0 0 0 1em;
+  ul {
+    display: block;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
   }
 
   a {
-    display: block;
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 500;
     text-decoration: none;
-    margin: 1em 0 0 0;
-    padding: 0.5em 0;
-    border-bottom: 1px dashed white;
-
-    &.current, &:hover {
-      border-bottom: 1px solid white;
-
+    &:hover {
+      text-decoration: underline;
     }
+  }
+}
+
+@media screen and (max-width: 1229px) {
+  .sidebar.work {
+    max-width: none;
+    width: 956px;
+    border: none;
+    background-color: darken($primarybackgroundcol, 2);
+    padding: 0 1rem;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 987px) {
+  .sidebar.work {
+    width: 714px;
+    margin: 2rem auto 0 auto;
+    transform: translateX(-6px);
   }
 }
 
@@ -122,6 +128,11 @@
     border-right: none;
   }
 
+  .sidebar.work {
+    width: 472px;
+    transform: translateX(0px);
+  }
+
   .sidebar.about img {
     transform: rotate(-4deg) translateY(0);
 
@@ -130,4 +141,10 @@
     }
   }
 
+}
+
+@media screen and (max-width: 534px) {
+  .sidebar.work {
+    width: 288px;
+  }
 }

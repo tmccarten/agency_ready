@@ -1,3 +1,7 @@
+.wrapper.blog {
+  justify-content: space-between;
+}
+
 @media screen and (max-width: $breakpoint1) {
   .wrapper.blog {
     flex-direction: column-reverse;
