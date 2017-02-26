@@ -194,6 +194,10 @@ h4 {
 	margin: 0 auto;
 	padding: 1rem 0 1rem 0.2em;
 	max-width: 1200px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	word-wrap: break-word;
+	white-space: nowrap;
 }
 
 .breadcrumb.work {
@@ -451,6 +455,12 @@ ul {
 
 .contentblock h3 {
 	margin-top: 0;
+	font-size: 2.5rem;
+	font-family: "Merriweather", "arial", serif;
+}
+
+.contentblock h4 {
+	font-size: 1.8125rem;
 }
 
 .contentblock p:first-child {
@@ -883,6 +893,7 @@ body::before {
 
 .main-header-container {
 	min-height: auto;
+	background-color: #212740;
 }
 
 .logo {
@@ -974,6 +985,14 @@ nav li:last-child {
 .contentblock.work {
 	padding: 0;
 	margin: 0 auto 2rem auto;
+}
+
+.contentblock h3 {
+	font-size: 2rem;
+}
+
+.contentblock h4 {
+	font-size: 1.25rem;
 }
 
 .sidebar {
