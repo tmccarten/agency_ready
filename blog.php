@@ -78,22 +78,17 @@
 
         <aside class="sidebar">
 
-        <div class="title blog">
-          <div class="title-border-left"></div>
-            <h2 class="title-box medium">Posts</h2>
-          <div class="title-border-right"></div>
-        </div>
-
         <div class="sidebar-posts">
-          <ol>
-            <li><a href="/blog/blog1_digitalindustry.php" class="current" title="Blog post about the digital industry and front-end by Thomas McCarten">Front-end in a booming digital industry</a>
-            <li><a href="/blog/blog2_designing.php" title="Blog post about how he built his portfolio website by Thomas McCarten">Building my portfolio</a>
-            <li><a href="/blog/blog3_optimisation.php" title="Blog post about how he optimised his portfolio website by Thomas McCarten">Optimising for increased speed and integrity</a>
-            <li><a href="/blog/blog4_archived.php" title="Blog post about the changes made to Thomas McCarten's portfolio website">Archived website</a>
-          </ol>
+          <ul>
+            <li><span class="blog-date">13<span>Nov</span></span><a href="/blog/blog1_digitalindustry.php" class="current" title="Blog post about the digital industry and front-end by Thomas McCarten">Front-end in a booming digital industry</a></li>
+            <li><span class="blog-date">13<span>Nov</span></span><a href="/blog/blog2_designing.php" title="Blog post about how he built his portfolio website by Thomas McCarten">Building my portfolio</a></li>
+            <li><span class="blog-date">13<span>Nov</span></span><a href="/blog/blog3_optimisation.php" title="Blog post about how he optimised his portfolio website by Thomas McCarten">Optimising for increased speed and integrity</a></li>
+            <li><span class="blog-date">13<span>Nov</span></span><a href="/blog/blog4_archived.php" title="Blog post about the changes made to Thomas McCarten's portfolio website">Archived website</a></li>
+          </ul>
         </div>
 
         </aside>
+
       </div>
     </main>
 

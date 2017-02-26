@@ -869,7 +869,7 @@ footer span span {
 
 .breadcrumb,
 .breadcrumb.work {
-	padding: 1rem 0;
+	padding: 1rem;
 }
 
 body::before {
@@ -894,6 +894,8 @@ body::before {
 	-ms-flex-direction: column;
 	flex-direction: column;
 	padding: 0;
+	-ms-flex-pack: center;
+	justify-content: center;
 }
 
 nav {
@@ -977,7 +979,7 @@ nav li:last-child {
 .sidebar {
 	max-width: 37.625rem;
 	margin: 0 auto;
-	padding: 0;
+	padding: 0 1rem;
 	width: 100%;
 	border-left: none;
 	border-right: none;
@@ -1024,8 +1026,8 @@ footer {
 }
 
 .wrapper.blog {
-	-ms-flex-direction: column-reverse;
-	flex-direction: column-reverse;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
 .title.main.blog {
