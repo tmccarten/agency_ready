@@ -45,7 +45,7 @@
 
         <aside class="sidebar work">
 
-          <h3>Overview</h3>
+          <h3>Personas</h3>
             <p>Most web projects necessitate the creation of user personas to keep in mind the needs of certain types of user during the development phase. I made these last year. I think I can still get some use out of them yet.</p>
           <h4>Tools</h4>
             <p><small>Adobe Illustrator</small></p>

@@ -50,7 +50,7 @@
 
         <aside class="sidebar work">
 
-          <h3>Overview</h3>
+          <h3>Poster Design</h3>
             <p>Here are some posters I made for the Creative Digital Media Production unit of BSc Web Development. And probably various other stuff that doesn't fit elsewhere.</p>
           <h4>Tools</h4>
             <p><small>Adobe Photoshop</small></p>

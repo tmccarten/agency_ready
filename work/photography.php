@@ -85,7 +85,7 @@
 
         <aside class="sidebar work">
 
-          <h3>Overview</h3>
+          <h3>Photography</h3>
             <p>I bought my first DSLR recently. Here are some of the better shots I've taken whilst out and about. </p>
           <h4>Tools</h4>
             <p><small>Canon EOS 1200D 18.0 MP DSLR Camera, Samsung Galaxy S5 Camera</small></p>

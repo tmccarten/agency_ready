@@ -35,8 +35,30 @@
         <div class="contentblock work">
 
           <figure>
+            <a href="http://06167055.webdevmmu.uk/LPS/" title="LPS working prototype">
+                <img src="/assets/img/work/websites/websites_LPS.png" alt="Laptop and iPhone vectors displaying websites on the screens." height="334" width="575">
+            </a>
+          </figure>
+
+        </div>
+
+          <aside class="sidebar work">
+
+          <h3>Liverpool, Pembroke & Sefton Athletics</h3>
+            <p>Liverpool, Pembroke and Sefton Harriers and Athletics Club is based at Edge Hill University in the North West of England. Their official website whilst fully functional was lacking any sort of responsiveness, ensuring a poor user experience for all mobile users. I identified this as an opportunity for which to base my final year university project on, and, working with the website editor as my client gave the website a contemporary and responsive overhaul.</p>
+            <p><a href="http://06167055.webdevmmu.uk/LPS/" title="LPS working prototype">View live site</a></p>
+          <h4>Tools</h4>
+            <p><small>HTML5, CSS, PHP, JavaScript</small></p>
+
+          </aside>
+      </div>
+
+      <div class="wrapper work">
+        <div class="contentblock work">
+
+          <figure>
             <a href="http://06167055.webdevmmu.uk/DPM/index.html" title="The Munchies homepage">
-                <img src="/assets/img/work/websites/websites_munchies.png" alt="Laptop and iPad vectors displaying websites on the screens." height="334" width="575">
+                <img src="/assets/img/work/websites/websites_munchies.png" alt="Laptop and iPhone vectors displaying websites on the screens." height="334" width="575">
             </a>
           </figure>
 
@@ -44,35 +66,15 @@
 
         <aside class="sidebar work">
 
-          <h3>Overview</h3>
-            <p>For the Digital Project Management unit in the second year of BSc Web Development I took on the web developer role for my team. I was tasked with creating a fully responsive and accessible website to showcase cheap and easy student recipes.<p>In the first year I made a very simple portfolio website. Click the images to have a look.</p>
+          <h3>The Munchies</h3>
+            <p>For the Digital Project Management unit in the second year of BSc Web Development I took on the web developer role for my team. I was tasked with creating a fully responsive and accessible website to showcase cheap and easy student recipes.</p>
+            <p><a href="http://06167055.webdevmmu.uk/DPM/index.html" title="The Munchies homepage">View live site</a></p>
           <h4>Tools</h4>
             <p><small>HTML5, CSS, JavaScript</small></p>
 
         </aside>
       </div>
 
-    <div class="wrapper work">
-      <div class="contentblock work">
-
-        <figure>
-          <a href="http://06167055.webdevmmu.uk/DPM/index.html" title="The Munchies homepage">
-              <img src="/assets/img/work/websites/websites_munchies.png" alt="Laptop and iPad vectors displaying websites on the screens." height="334" width="575">
-          </a>
-        </figure>
-
-      </div>
-
-        <aside class="sidebar work">
-
-        <h3>Overview</h3>
-          <p>For the Digital Project Management unit in the second year of BSc Web Development I took on the web developer role for my team. I was tasked with creating a fully responsive and accessible website to showcase cheap and easy student recipes.<p>In the first year I made a very simple portfolio website. Click the images to have a look.</p>
-        <h4>Tools</h4>
-          <p><small>HTML5, CSS, JavaScript</small></p>
-
-        </aside>
-      </div>
-      
   </main>
 
 <?php include '../assets/includes/footer.php';?>
