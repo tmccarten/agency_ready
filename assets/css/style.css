@@ -180,6 +180,11 @@ h2 {
 	font-size: 1.875rem;
 }
 
+h3 {
+	font-family: "Merriweather", "arial", serif;
+	font-size: 1.5rem;
+}
+
 h4 {
 	margin-bottom: 0.875rem;
 }
@@ -790,6 +795,10 @@ footer span span {
 .wrapper.work {
 	-ms-flex-pack: justify;
 	justify-content: space-between;
+}
+
+.wrapper.work + * {
+	margin-top: 2rem;
 }
 
 @media screen and (max-width: 1229px) {
