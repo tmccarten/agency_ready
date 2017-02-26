@@ -4,6 +4,10 @@
 
 @media screen and (max-width: $breakpoint1) {
 
+  .wrapper.about {
+    justify-content: center;
+  }
+
   .sidebar.about {
     margin: 0 auto;
     width: auto;

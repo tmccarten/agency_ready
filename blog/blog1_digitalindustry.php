@@ -35,6 +35,8 @@
         <article class="contentblock">
           <h3>Front-end in a booming digital industry</h3>
 
+          <p class="blog-date-context">October 26th, 2016</p>
+
             <h4>The industry</h4>
 
               <p>The UK’s digital tech industries are expanding and evolving at a rate that shows no sign of slowing. Between 2011 and 2014 UK digital tech industries had a job creation rate 2.8 times faster than the rest of the economy, with 1.56m people employed in digital tech occupations. Translated into turnover that’s £161bn, a 32% faster growth rate than the rest of the economy and an average salary 36% higher than the national average. These figures are taken from the <a href="http://www.techcityuk.com/wp-content/uploads/2016/02/Tech-Nation-2016_FINAL-ONLINE-1.pdf" title="Tech Nation 2016 report PDF.">Tech Nation 2016 Report</a>.It’s all good news for people like myself, hoping to forge a career in the digital tech industry.
@@ -77,23 +79,9 @@
         </article>
 
         <aside class="sidebar">
-
-        <div class="title blog">
-          <div class="title-border-left"></div>
-            <h2 class="title-box medium">Posts</h2>
-          <div class="title-border-right"></div>
-        </div>
-
-        <div class="sidebar-posts">
-          <ol>
-            <li><a href="/blog/blog1_digitalindustry.php" class="current" title="Blog post about the digital industry and front-end by Thomas McCarten">Front-end in a booming digital industry</a>
-            <li><a href="/blog/blog2_designing.php" title="Blog post about how he built his portfolio website by Thomas McCarten">Building my portfolio</a>
-            <li><a href="/blog/blog3_optimisation.php" title="Blog post about how he optimised his portfolio website by Thomas McCarten">Optimising for increased speed and integrity</a>
-            <li><a href="/blog/blog4_archived.php" title="Blog post about the changes made to Thomas McCarten's portfolio website">Archived website</a>
-          </ol>
-        </div>
-
+        <?php include '../assets/includes/sidebar.php';?>
         </aside>
+
       </div>
     </main>
 

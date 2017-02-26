@@ -11,7 +11,7 @@
   text-overflow: ellipsis;
   overflow: hidden;
   word-wrap: break-word;
-  white-space: nowrap; 
+  white-space: nowrap;
 }
 
 .breadcrumb.work {
@@ -19,12 +19,18 @@
 }
 
 @media screen and (max-width: $breakpoint1) {
+
   .breadcrumb-container {
-    display: flex;
+    padding: 0 1rem;
+    width: 100%;
     justify-content: center;
+    margin: 0 auto;
+    display: flex;
   }
 
   .breadcrumb, .breadcrumb.work {
     padding: 1rem;
+    width: 100%;
+    max-width: 37.625rem;
   }
 }

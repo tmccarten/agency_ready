@@ -36,9 +36,10 @@
 
 .contentblock.work {
   display: flex;
+  width: 64.79166666666667%;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   padding: 0 2em 0 0;
   border: none;
 }
@@ -54,16 +55,14 @@
 .contentblock.work {
   padding: 0;
   margin: 0 auto 2rem auto;
+  width: 100%;
 }
+
+.contentblock h3 {
+  font-size: 2rem;
 }
 
-@media screen and (max-width: $breakpoint1) {
-  .contentblock h3 {
-    font-size: 2rem;
-  }
-
-  .contentblock h4 {
-    font-size: 1.25rem;
-  }
-
+.contentblock h4 {
+  font-size: 1.25rem;
+}
 }

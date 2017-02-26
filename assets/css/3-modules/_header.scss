@@ -104,7 +104,7 @@ ul {
   .main-header {
     flex-direction: column;
     padding: 0;
-    justify-content: center;
+    justify-content: flex-start;    
   }
 
   nav {
@@ -144,39 +144,6 @@ ul {
       margin: 0;
     }
   }
-
-  @media screen and (max-height: $breakpoint-height) {
-
-    body::before {
-      content: none;
-    }
-
-    .main-header-container.smaller, .main-header-container.even-smaller {
-      background-color: mix(lighten($primarybackgroundcol, 15), desaturate($primarybackgroundcol, 1));;
-      height: 50px;
-
-      .main-header {
-        flex-direction: row;
-        margin: 0;
-        padding: 0 1rem;
-      }
-
-      .logo {
-        flex: 0;
-        height: auto;
-        margin: 0;
-      }
-
-      img {
-        width: 120px;
-      }
-
-      nav {
-        margin: 0;
-        justify-content: flex-end;
-      }
-    }
-}
 }
 
 @media screen and (max-width: $breakpoint2) {

@@ -25,7 +25,7 @@
 
     <div class="breadcrumb-container">
       <div class="breadcrumb">
-        <a href="/index.php">Home</a> / <a href="/blog.php">Blog</a> / Archived website
+        <a href="/index.php">Home</a> / <a href="/blog.php">Blog</a> / Portfolio updates and improvements
       </div>
     </div>
 
@@ -33,7 +33,9 @@
 
     <div class="wrapper blog">
         <article class="contentblock">
-          <h3>Archived website</h3>
+          <h3>Portfolio updates and improvements</h3>
+
+          <p class="blog-date-context">February 26th, 2017</p>
 
             <h4>The old version of this website</h4>
 
@@ -42,23 +44,9 @@
         </article>
 
         <aside class="sidebar">
-
-        <div class="title blog">
-          <div class="title-border-left"></div>
-            <h2 class="title-box medium">Posts</h2>
-          <div class="title-border-right"></div>
-        </div>
-
-        <div class="sidebar-posts">
-          <ol>
-            <li><a href="/blog/blog1_digitalindustry.php" title="Blog post about the digital industry and front-end by Thomas McCarten">Front-end in a booming digital industry</a>
-            <li><a href="/blog/blog2_designing.php" title="Blog post about how he built his portfolio website by Thomas McCarten">Building my portfolio</a>
-            <li><a href="/blog/blog3_optimisation.php" title="Blog post about how he optimised his portfolio website by Thomas McCarten">Optimising for increased speed</a>
-            <li><a href="/blog/blog4_archived.php" class="current" title="Blog post about the changes made to Thomas McCarten's portfolio website">Archived website</a>
-          </ol>
-        </div>
-
+        <?php include '../assets/includes/sidebar.php';?>
         </aside>
+
       </div>
     </main>
 

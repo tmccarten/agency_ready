@@ -35,6 +35,8 @@
         <article class="contentblock">
           <h3>Building my portfolio</h3>
 
+          <p class="blog-date-context">November 6th, 2016</p>
+
           <h4>Inspiration</h4>
 
             <p>I had a vague idea of how I wanted the website to look (more personal than corporate) after experimenting with different ideas over summer. Nonetheless, I sought and found further inspiration in Creative Bloq’s <a href="http://www.creativebloq.com/portfolios/examples-712368" title="45 design portfolio examples curated by Creative Bloq">45 brilliant design portfolios to inspire you</a> rundown. I was especially interested in the layout decisions the designers made in choosing how to best showcase their work. Whilst some solutions were truly unique, the tried and tested method of presenting each case study or category of work as a clickable square or rectangle in a grid layout seemed the most widely used. <a href="http://strange.wales" title="Gareth Strange homepage">The homepage of Gareth Strange</a> is an excellent example of this, combining clean minimalism with sensible responsive breakpoints to let the beauty of the artwork speak for itself.</p>
@@ -104,23 +106,9 @@
         </article>
 
         <aside class="sidebar">
-
-        <div class="title blog">
-          <div class="title-border-left"></div>
-            <h2 class="title-box medium">Posts</h2>
-          <div class="title-border-right"></div>
-        </div>
-
-        <div class="sidebar-posts">
-          <ol>
-            <li><a href="/blog/blog1_digitalindustry.php" title="Blog post about the digital industry and front-end by Thomas McCarten">Front-end in a booming digital industry</a>
-            <li><a href="/blog/blog2_designing.php" class="current" title="Blog post about how he built his portfolio website by Thomas McCarten">Building my portfolio</a>
-            <li><a href="/blog/blog3_optimisation.php" title="Blog post about how he optimised his portfolio website by Thomas McCarten">Optimising for increased speed and integrity</a>
-            <li><a href="/blog/blog4_archived.php" title="Blog post about the changes made to Thomas McCarten's portfolio website">Archived website</a>
-          </ol>
-        </div>
-
+        <?php include '../assets/includes/sidebar.php';?>
         </aside>
+
       </div>
     </main>
 

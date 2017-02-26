@@ -46,10 +46,9 @@
 
           <h3>Overview</h3>
             <p>I sometimes take part in logo design contests when I have nothing better to do. None of these are winners but it's the taking part that counts...</p>
-            <p><small>*These logos do not in any way represent any of the brands depicted.</small><p>
+            <p><small>*These logos do not in any way represent any of the brands depicted.</small></p>
           <h4>Tools</h4>
             <p><small>Adobe Illustrator</small></p>
-
         </aside>
       </div>
     </main>

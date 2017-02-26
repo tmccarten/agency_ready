@@ -3,13 +3,13 @@
   min-height: 100%;
   max-width: $maxwidth;
   margin: 1rem auto 2rem auto;
-  box-sizing: content-box;  
+  box-sizing: content-box;
 }
 
 .wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-between;;
   margin: 0 auto;
   width: 100%;
 }
@@ -17,6 +17,6 @@
 @media screen and (max-width: $breakpoint1) {
 
   .wrapper {
-    flex-direction: column;
+    justify-content: center;    
   }
 }
