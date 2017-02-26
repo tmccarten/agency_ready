@@ -148,7 +148,7 @@ html {
 }
 
 figure.blog {
-	margin: 1rem 1rem 0 0;
+	margin: 1rem 0;
 }
 
 figure a {
@@ -449,6 +449,7 @@ ul {
 
 .contentblock img {
 	max-width: 100%;
+	width: 100%;
 	height: auto;
 	display: block;
 }
@@ -800,6 +801,13 @@ footer span span {
 	text-decoration: underline;
 }
 
+a.MediaCard-borderOverlay,
+.EmbeddedTweet {
+	border-radius: 0;
+	width: 100%;
+	max-width: 100%;
+}
+
 .wrapper.index {
 	display: -ms-flexbox;
 	display: flex;
@@ -826,6 +834,13 @@ footer span span {
 .wrapper.work {
 	-ms-flex-pack: justify;
 	justify-content: space-between;
+}
+
+a.MediaCard-borderOverlay,
+.EmbeddedTweet {
+	border-radius: 0;
+	width: 100%;
+	max-width: 100%;
 }
 
 @media screen and (max-width: 1229px) {
