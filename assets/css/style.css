@@ -522,6 +522,10 @@ ul {
 	font-size: 1rem;
 }
 
+.sidebar.blog {
+	padding: 0 1rem;
+}
+
 .sidebar.about {
 	padding: 0rem 1rem 0 1rem;
 	-ms-flex-pack: center;
@@ -718,49 +722,8 @@ footer span span {
 	clip-path: polygon(20% 0, 0 20%, 0 100%, 100% 100%, 100% 0);
 }
 
-.work-tile.alternate.blog {
-	width: auto;
-	border: 1px dotted #1b2133;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	-ms-flex-align: start;
-	align-items: flex-start;
-	-ms-flex-pack: start;
-	justify-content: flex-start;
-	height: auto;
-}
-
-.work-tile.alternate.blog h2 {
-	font-size: 1.3125rem;
-	margin: 0 0 1rem 0;
-	padding: 1rem 2rem;
-	width: 100%;
-	background-color: #252c46;
-}
-
 .work-tile-inner {
 	padding: 0 2rem;
-}
-
-.work-tile-inner.blog {
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-align: center;
-	align-items: center;
-	max-width: 100%;
-}
-
-.work-tile-inner.blog:last-child {
-	margin-bottom: 1rem;
-}
-
-.work-tile-inner.blog h3 {
-	margin: 0;
-	font-weight: normal;
-}
-
-.work-tile-inner.blog a {
-	text-decoration: none;
 }
 
 .blog-date {
@@ -801,13 +764,6 @@ footer span span {
 	text-decoration: underline;
 }
 
-a.MediaCard-borderOverlay,
-.EmbeddedTweet {
-	border-radius: 0;
-	width: 100%;
-	max-width: 100%;
-}
-
 .wrapper.index {
 	display: -ms-flexbox;
 	display: flex;
@@ -836,13 +792,6 @@ a.MediaCard-borderOverlay,
 	justify-content: space-between;
 }
 
-a.MediaCard-borderOverlay,
-.EmbeddedTweet {
-	border-radius: 0;
-	width: 100%;
-	max-width: 100%;
-}
-
 @media screen and (max-width: 1229px) {
 
 .sidebar.index {
@@ -852,10 +801,6 @@ a.MediaCard-borderOverlay,
 	background-color: #21283f;
 	padding: 0 1rem;
 	margin-top: 2rem;
-}
-
-.work-tile.alternate.blog {
-	width: 956px;
 }
 
 .work-tile:nth-child(4n),
@@ -888,10 +833,6 @@ a.MediaCard-borderOverlay,
 	width: 714px;
 	margin: 2rem auto 0 auto;
 	transform: translateX(-6px);
-}
-
-.work-tile.alternate.blog {
-	width: 714px;
 }
 
 .work-tile:nth-child(4),
@@ -951,7 +892,6 @@ body::before {
 
 .main-header-container {
 	min-height: auto;
-	background-color: #212740;
 }
 
 .logo {
@@ -1080,10 +1020,6 @@ footer {
 	font-size: 0.6875rem;
 }
 
-.work-tile.alternate.blog {
-	width: 472px;
-}
-
 .work-tile:nth-child(3),
 .work-tile:nth-child(4) {
 	margin-right: 12px;
@@ -1157,10 +1093,6 @@ footer {
 .work-tile:nth-child(4),
 .work-tile:nth-child(6) {
 	margin-right: 0;
-}
-
-.work-tile.alternate.blog {
-	width: 288px;
 }
 
 .work-tile.alternate.intro {

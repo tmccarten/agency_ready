@@ -105,7 +105,7 @@
 
         </article>
 
-        <aside class="sidebar">
+        <aside class="sidebar blog">
         <?php include '../assets/includes/sidebar.php';?>
         </aside>
 

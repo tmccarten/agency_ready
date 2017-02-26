@@ -92,8 +92,7 @@ ul {
 
 @media screen and (max-width: $breakpoint1) {
   .main-header-container {
-    min-height: auto;
-    background-color: #212740;
+    min-height: auto;    
   }
 
   .logo {
@@ -104,7 +103,7 @@ ul {
   .main-header {
     flex-direction: column;
     padding: 0;
-    justify-content: flex-start;    
+    justify-content: flex-start;
   }
 
   nav {

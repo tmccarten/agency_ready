@@ -77,7 +77,7 @@
 
     </div> -->
 
-    <aside class="sidebar index">
+    <aside class="sidebar index blog">
 
       <?php include 'assets/includes/sidebar.php';?>
 
