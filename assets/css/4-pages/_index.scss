@@ -7,11 +7,11 @@
 .work-wrapper {
   display: flex;
   flex-wrap: wrap;
-  flex: 2;
+  flex-basis: 75%;
 }
 
 .side-wrapper {
-  flex: 1;
+  flex-basis: 1;
 }
 
 
@@ -21,6 +21,11 @@
   flex-direction: column;
   justify-content: center;
 }
+
+  .work-wrapper {
+    flex: none;
+  }
+
 }
 
 @media screen and (max-width: 987px) {
