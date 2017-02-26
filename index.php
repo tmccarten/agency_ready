@@ -42,16 +42,16 @@
             </div>
           </div>
 
+          <a href="/work/websites.php" class="work-tile" title="Websites by Thomas McCarten">
+              <h2 class="title-box work small">Case Studies</h2>
+          </a>
+
           <a href="/work/logos.php" class="work-tile" title="Logos by Thomas McCarten">
-                <h2 class="title-box work small">Logos</h2>
+                <h2 class="title-box work small">Logo Design</h2>
           </a>
 
           <a href="/work/illustration.php" class="work-tile" title="Illustrations by Thomas McCarten">
               <h2 class="title-box work small">Illustration</h2>
-          </a>
-
-          <a href="/work/websites.php" class="work-tile" title="Websites by Thomas McCarten">
-              <h2 class="title-box work small">Websites</h2>
           </a>
 
           <a href="/work/other.php" class="work-tile" title="Various work by Thomas McCarten">
@@ -59,23 +59,6 @@
           </a>
 
       </div>
-
-    <!-- <div class="side-wrapper">
-
-        <div class="work-tile alternate blog">
-          <h2>Latest posts</h2>
-          <div class="work-tile-inner blog">
-            <span class="blog-date">13 <span>Nov</span></span><h3><a href="#">Optimising for increased speed and integrity</a></h3>
-          </div>
-          <div class="work-tile-inner blog">
-            <span class="blog-date">28 <span>Nov</span></span><h3><a href="#">Building my portfolio</a></h3>
-          </div>
-          <div class="work-tile-inner blog">
-            <span class="blog-date">28 <span>Nov</span></span><h3><a href="#">Building my portfolio</a></h3>
-          </div>
-        </div>
-
-    </div> -->
 
     <aside class="sidebar index blog">
 

@@ -36,7 +36,7 @@
 
           <figure>
             <a href="http://06167055.webdevmmu.uk/LPS/" title="LPS working prototype">
-                <img src="/assets/img/work/websites/websites_LPS.png" alt="Laptop and iPhone vectors displaying websites on the screens." height="334" width="575">
+                <img src="/assets/img/work/websites/websites_lps.png" alt="Laptop and iPhone vectors displaying websites on the screens." height="334" width="575">
             </a>
           </figure>
 
