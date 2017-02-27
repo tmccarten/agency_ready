@@ -31,7 +31,7 @@
 
           <div class="work-tile alternate intro">
             <div class="work-tile-inner">
-              <p>Hello!</p><p>I'm a front-end web developer based in Manchester.</p><p><a href="contact.php" title="Thomas McCarten's contact page.">Get in touch.</a></p>
+              <p>Hello!</p><p>I'm a creative front-end web developer based in Manchester.</p><p><a href="contact.php" title="Thomas McCarten's contact page.">Get in touch.</a></p>
             </div>
           </div>
 
@@ -42,7 +42,7 @@
             </div>
           </div>
 
-          <a href="/work/websites.php" class="work-tile" title="Websites by Thomas McCarten">
+          <a href="/work/case_studies.php" class="work-tile" title="Websites by Thomas McCarten">
               <h2 class="title-box work small">Case Studies</h2>
           </a>
 
